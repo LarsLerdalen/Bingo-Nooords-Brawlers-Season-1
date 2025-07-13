@@ -2570,25 +2570,34 @@ input, select, textarea {
 /* Nav */
 
 	.nav-multiline-link {
-	  display: inline-block; /* so width fits content nicely */
-	  text-align: center; /* or left, depending on your design */
-	  color: #545454; /* base link color */
-	  text-decoration: none;
+  	  display: flex;
+  	  flex-direction: column;
+  	  align-items: center;
+  	  justify-content: center;
+  	  text-align: center;
+  	  height: 100%; /* Ensures consistent alignment */
+  	  min-height: 5em; /* Adjust based on design */
+  	  padding: 1em 0.5em;
+  	  color: #545454;
+  	  text-decoration: none;
+  	  white-space: normal; /* allows wrapping */
+  	  width: 8em; /* consistent width for alignment */
 	}
 
-	.nav-multiline-link .nav-title {
+	.nav-title {
 	  font-weight: bold;
 	  font-size: 1.1em; /* bigger */
-	  display: block;
+	  /*display: block;*/
 	  line-height: 1.2;
 	}
 
-	.nav-multiline-link .nav-subtitle {
+	.nav-subtitle {
 	  font-weight: normal;
-	  font-size: 0.8em; /* smaller */
+	  font-size: 0.6em; /* smaller */
 	  display: block;
-	  line-height: 1.1;
+	  line-height: 1.2;
 	  color: #1a1b1d; /* lighter or different color */
+  	  word-break: break-word; /* allows breaking long words */
 	}
 
 	#nav {
