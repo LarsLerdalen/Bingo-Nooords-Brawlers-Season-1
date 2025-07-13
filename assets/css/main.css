@@ -2567,6 +2567,30 @@ input, select, textarea {
 				border: 0;
 			}
 
+/* Nav */
+
+	.nav-multiline-link {
+	  display: inline-block; /* so width fits content nicely */
+	  text-align: center; /* or left, depending on your design */
+	  color: #545454; /* base link color */
+	  text-decoration: none;
+	}
+
+	.nav-multiline-link .nav-title {
+	  font-weight: bold;
+	  font-size: 1.1em; /* bigger */
+	  display: block;
+	  line-height: 1.2;
+	}
+
+	.nav-multiline-link .nav-subtitle {
+	  font-weight: normal;
+	  font-size: 0.8em; /* smaller */
+	  display: block;
+	  line-height: 1.1;
+	  color: #999; /* lighter or different color */
+	}
+
 	#nav {
 		cursor: default;
 		background-color: #b4c2d0;
