@@ -2581,19 +2581,19 @@ input, select, textarea {
   	  color: #545454;
   	  text-decoration: none;
   	  white-space: normal; /* allows wrapping */
-  	  width: 8em; /* consistent width for alignment */
+  	  width: 10em; /* consistent width for alignment */
 	}
 
 	.nav-title {
 	  font-weight: bold;
-	  font-size: 1.1em; /* bigger */
+	  font-size: 1.4em; /* bigger */
 	  /*display: block;*/
 	  line-height: 1.2;
 	}
 
 	.nav-subtitle {
 	  font-weight: normal;
-	  font-size: 0.6em; /* smaller */
+	  font-size: 0.4em; /* smaller */
 	  display: block;
 	  line-height: 1.2;
 	  color: #1a1b1d; /* lighter or different color */
