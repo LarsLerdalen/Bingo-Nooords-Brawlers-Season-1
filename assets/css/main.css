@@ -81,12 +81,14 @@ input, select, textarea {
 
 	.loser {
   		color: #f44336;
-  		font-weight: bold;
+	}
+
+	.tied {
+  		color: #545454;
 	}
 
 	.notplayed {
   		color: #545454;
-  		font-weight: bold;
 	}
 
 	html {
