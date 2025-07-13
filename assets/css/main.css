@@ -74,6 +74,21 @@ input, select, textarea {
 
 /* Basic */
 
+	.winner {
+		color: #4CAF50;
+  		font-weight: bold;
+	}
+
+	.loser {
+  		color: #f44336;
+  		font-weight: bold;
+	}
+
+	.notplayed {
+  		color: #545454;
+  		font-weight: bold;
+	}
+
 	html {
 		box-sizing: border-box;
 	}
