@@ -2572,9 +2572,9 @@ input, select, textarea {
 	.nav-multiline-link {
   	  display: flex;
   	  flex-direction: column;
-  	  align-items: center;
-  	  justify-content: center;
-  	  text-align: center;
+  	  align-items: flex-start;       /* Align horizontally left */
+  	  justify-content: flex-start;   /* Align vertically top */
+  	  text-align: center;              /* Align text center for consistency */
   	  height: 100%; /* Ensures consistent alignment */
   	  min-height: 5em; /* Adjust based on design */
   	  padding: 1em 0.5em;
@@ -2586,9 +2586,9 @@ input, select, textarea {
 
 	.nav-title {
 	  font-weight: bold;
-	  font-size: 1.2em; /* bigger */
-	  /*display: block;*/
+	  font-size: 1.2em;
 	  line-height: 1.2;
+	  margin-bottom: 0.2em; /* small spacing between title and subtitle */
 	}
 
 	.nav-subtitle {
@@ -2630,7 +2630,7 @@ input, select, textarea {
 				display: inline-block;
 				margin-left: 1em;
 			}
-
+				
 				#nav > ul > li a {
 					color: #545454;
 					text-decoration: none;
@@ -2682,6 +2682,18 @@ input, select, textarea {
 
 				#nav > ul > li > ul {
 					display: none;
+				}
+
+				/* Right-align all dropdown (first-level submenu) text */
+				#nav > ul > li > ul li a {
+				  text-align: right;
+				  padding-right: 1em;  /* Add some padding on right */
+				}
+
+				/* Left-align sub-dropdown (second-level submenu) text */
+				#nav > ul > li > ul > li > ul li a {
+				  text-align: left;
+				  padding-left: 1em;  /* Add some padding on left */
 				}
 
 /* Dropotron */
