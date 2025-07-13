@@ -27,13 +27,29 @@
 
 			<!-- Nav -->
 				<div id="navbar-placeholder"></div>
-				<script>
-				  fetch('assets/html/navbar.html')
-				    .then(response => response.text())
-				    .then(data => {
-				      document.getElementById('navbar-placeholder').innerHTML = data;
-				    });
-				</script>
+					<script>
+					  fetch('assets/html/navbar.html')
+					    .then(response => response.text())
+					    .then(data => {
+					      document.getElementById('navbar-placeholder').innerHTML = data;
+						
+					      // 🔁 Re-run any necessary initialization after navbar is inserted
+					      if (typeof jQuery !== 'undefined') {
+					        // If jQuery is present, re-run Dropotron and other initializers
+					        $(function () {
+					          // Re-initialize nav dropdowns
+					          $('#nav > ul').dropotron({
+					            offsetY: -22,
+					            mode: 'fade',
+					            noOpenerFade: true,
+					            speed: 300,
+					          });
+					        });
+					      }
+					  
+					      // You may also need to re-run main.js setup if it attaches event listeners
+					    });
+					</script>
 
 			<!-- Results Table -->
 				<section id="results-section" style="padding: 2rem;">
