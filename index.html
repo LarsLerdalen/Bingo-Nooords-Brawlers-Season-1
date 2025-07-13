@@ -12,34 +12,28 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
-		<section id="banner" style="overflow: hidden; width: 100%;">
-	    	<img 
-	        	src="images/bingobanner.png" 
-	        	alt="Banner Image" 
-	        	style="width: 100vw; height: 400px; object-fit: cover; object-position: center;" />
-		</section>
+	
+		<div id="banner-placeholder"></div>
+		<script>
+		  fetch('assets/html/banner.html')
+		    .then(res => res.text())
+		    .then(html => {
+		      document.getElementById('banner-placeholder').innerHTML = html;
+		    });
+		</script>
 		
 		<!-- Page content -->
 		<div id="page-wrapper">
 
-			<!-- Header -->
-				<!--<div id="header">-->
-
-					<!-- Logo -->
-						<!--<h1><a href="index.html" id="logo">Bingo Nøøørds Brawlers <em>- Season 1</em></a></h1>-->
-
-
-					<!-- Nav -->
-						<div id="navbar-placeholder"></div>
-
-						<script>
-						  fetch('assets/html/navbar.html')
-						    .then(response => response.text())
-						    .then(data => {
-						      document.getElementById('navbar-placeholder').innerHTML = data;
-						    });
-						</script>
-
+			<!-- Nav -->
+				<div id="navbar-placeholder"></div>
+				<script>
+				  fetch('assets/html/navbar.html')
+				    .then(response => response.text())
+				    .then(data => {
+				      document.getElementById('navbar-placeholder').innerHTML = data;
+				    });
+				</script>
 				</div>
 
 			<!-- Results Table -->
