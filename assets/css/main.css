@@ -2581,12 +2581,12 @@ input, select, textarea {
   	  color: #545454;
   	  text-decoration: none;
   	  white-space: normal; /* allows wrapping */
-  	  width: 12em; /* consistent width for alignment */
+  	  width: 10em; /* consistent width for alignment */
 	}
 
 	.nav-title {
 	  font-weight: bold;
-	  font-size: 1.4em; /* bigger */
+	  font-size: 1.2em; /* bigger */
 	  /*display: block;*/
 	  line-height: 1.2;
 	}
