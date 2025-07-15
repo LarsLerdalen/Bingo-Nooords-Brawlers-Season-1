@@ -3037,6 +3037,20 @@ input, select, textarea {
 				width: 20%;
 			}
 
+		/* Vertikal lines */
+
+		/* Add vertical divider to the right of the left sidebar */
+			#sidebar1 {
+			  border-right: 1px solid #545454; /* Light gray vertical line */
+			  padding-right: 1em;
+			}
+
+			/* Add vertical divider to the left of the right sidebar */
+			#sidebar2 {
+			  border-left: 1px solid #545454;
+			  padding-left: 1em;
+			}
+
 		/* Header */
 
 			#header {
