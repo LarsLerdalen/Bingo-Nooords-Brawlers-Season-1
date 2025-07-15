@@ -2203,6 +2203,10 @@ input, select, textarea {
 			padding-left: 0.5em;
 		}
 
+		ul ul {
+			list-style: circle;
+		}
+
 /* Links */
 
 	ul.links {
