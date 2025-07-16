@@ -3132,6 +3132,11 @@ input, select, textarea {
 			#sidebar1 section + section {
 			  margin-top: 1em !important;
 			}
+			
+			/* Reduce spacing footer and section */
+			#sidebar1 footer {
+			  margin-bottom: 1em;
+			}
 
 		/* Header */
 
