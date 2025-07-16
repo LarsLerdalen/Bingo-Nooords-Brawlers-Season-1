@@ -3078,16 +3078,27 @@ input, select, textarea {
 
 		/* Vertikal lines */
 
-		/* Add vertical divider to the right of the left sidebar */
+			/* Force the row to use Flexbox */
+			.row.gtr-200 {
+			  display: flex;
+			  align-items: stretch; /* Ensure all columns are the same height */
+			}
+			
+			/* Add vertical line to the right of the left sidebar */
 			#sidebar1 {
-			  border-right: 1px solid #545454; /* Light gray vertical line */
+			  border-right: 1px solid #545454;
 			  padding-right: 1em;
 			}
-
-			/* Add vertical divider to the left of the right sidebar */
+			
+			/* Add vertical line to the left of the right sidebar */
 			#sidebar2 {
 			  border-left: 1px solid #545454;
 			  padding-left: 1em;
+			}
+			
+			/* Optional: add some background color to test spacing if needed */
+			#sidebar1, #sidebar2 {
+			  background-color: #1c1c1c; /* Slightly darker than page background */
 			}
 
 		/* Header */
