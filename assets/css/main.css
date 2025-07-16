@@ -1971,6 +1971,30 @@ input, select, textarea {
 
 /* Section/Article */
 
+	/* Reset default margins for lists inside article */
+	article ul {
+	  margin-top: 0;
+	  margin-bottom: 0;
+	  padding-left: 1.2em; /* or adjust as needed */
+	}
+	
+	/* Remove margin on nested ul */
+	article ul ul {
+	  margin-top: 0;
+	  margin-bottom: 0;
+	  padding-left: 1em;
+	}
+	
+	/* Adjust list item spacing */
+	article ul li {
+	  margin-bottom: 0.5em; /* or reduce */
+	}
+	
+	/* Optionally remove margin on headers */
+	article h3 {
+	  margin-bottom: 0.5em;
+	}
+
 	section.special, article.special {
 		text-align: center;
 	}
