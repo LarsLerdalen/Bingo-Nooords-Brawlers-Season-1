@@ -2518,6 +2518,41 @@ input, select, textarea {
 			font-size: 0.8em;
 		}
 
+	.button.external-link {
+	  background-color: #545454; /* Custom background color */
+	  color: white;              /* Text color */
+	  margin-bottom: 0.5em;      /* Adds spacing below each button */
+	  display: block;            /* Makes buttons stack vertically */
+	  text-align: center;
+	  padding: 0.75em 1em;
+	  border-radius: 6px;
+	  text-decoration: none;
+	}
+
+	.button.external-link:hover {
+	  background-color: #7a7a7a; /* Slightly lighter on hover */
+	}
+
+	.uniform-button {
+	  display: block;
+	  width: 100%;
+	  min-height: 50px;
+	  margin-bottom: 10px;           /* space between the buttons */
+	  background-color: #545454;     /* slightly lighter than #545454 */
+	  color: #ffffff;
+	  text-align: center;
+	  padding: 1em;
+	  border-radius: 5px;
+	  box-sizing: border-box;
+	  text-decoration: none;
+	  font-weight: bold;
+	  transition: background-color 0.2s;
+	}
+
+	.uniform-button:hover {
+	  background-color: #7a7a7a;     /* optional hover effect */
+	}
+
 /* Box */
 
 	.box.highlight {
