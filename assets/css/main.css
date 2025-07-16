@@ -3142,6 +3142,15 @@ input, select, textarea {
   			  margin-bottom: 1em; 
 			}
 
+			#sidebar2 h3 {
+  			  margin-bottom: 0.5em;
+			}
+
+			#sidebar2 .image.featured {
+			  margin-top: 0.5em;
+			  margin-bottom: 1.5em; /* Optional */
+			}
+
 		/* Header */
 
 			#header {
