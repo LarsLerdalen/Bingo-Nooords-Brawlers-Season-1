@@ -3138,6 +3138,10 @@ input, select, textarea {
 			  margin-bottom: 1em;
 			}
 
+			#sidebar1 .button-group {
+  			  margin-bottom: 1em; 
+			}
+
 		/* Header */
 
 			#header {
