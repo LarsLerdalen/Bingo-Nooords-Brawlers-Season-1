@@ -2541,6 +2541,23 @@ input, select, textarea {
 			#comparison-table th {
 			  background-color: #f0f0f0;
 			  font-weight: bold;
+			  writing-mode: vertical-rl;
+  			  transform: rotate(180deg);
+  			  text-align: left;
+  			  white-space: nowrap;
+  			  padding: 10px 5px;
+			  word-break: break-word;
+  			  max-width: 20px;
+			}
+
+			#comparison-table th.row-header {
+			  writing-mode: horizontal-tb;
+			  white-space: normal;
+			  text-align: left;
+			  word-break: break-word;
+			  min-width: 200px; /* Adjust as needed */
+			  padding: 8px;
+			  vertical-align: top;
 			}
 
 			td.cell-1 {
