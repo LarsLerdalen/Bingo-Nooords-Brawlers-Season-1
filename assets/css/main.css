@@ -2456,7 +2456,7 @@ input, select, textarea {
     		  border-left: 2px solid #ccc;
   			}
 
-  			#results-table tbody tr:last-child {
+  			#results-table tbody tr:last-child td {
   			  border-bottom: 2px solid #ccc; /* You can adjust color and thickness */
   			}
 
