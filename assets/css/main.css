@@ -2542,22 +2542,23 @@ input, select, textarea {
 			  background-color: #f0f0f0;
 			  font-weight: bold;
 			  writing-mode: vertical-rl;
-  			  transform: rotate(180deg);
+  			  transform: rotate(270deg);
   			  text-align: left;
-  			  white-space: nowrap;
+  			  white-space: break-word;
   			  padding: 10px 5px;
 			  word-break: break-word;
   			  max-width: 20px;
+			  max-height: 200px; 
 			}
 
 			#comparison-table th.row-header {
-			  writing-mode: horizontal-tb;
+			  width: 250px;      /* fixed width to contain wrapping */
 			  white-space: normal;
-			  text-align: left;
 			  word-break: break-word;
-			  min-width: 200px; /* Adjust as needed */
-			  padding: 8px;
+			  padding: 8px 12px;
 			  vertical-align: top;
+			  text-align: left;
+			  line-height: 1.3;
 			}
 
 			td.cell-1 {
