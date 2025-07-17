@@ -37,102 +37,113 @@
 				</script>
 		</div>
 
-			<!-- Main -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div id="content">
-
-							<!-- Content -->
-
-                            <h2>Comparison Matrix</h2>
-                                                    
-                            <div id="filters-container">
-                              <label>Filter Columns (prefix or full): <input type="text" id="filter-columns" placeholder="e.g. A or A1" /></label>
-                              <label>Filter Rows (prefix or full): <input type="text" id="filter-rows" placeholder="e.g. B or B2" /></label>
-                            </div>
-                            
-                            <div id="table-wrapper">
-                              <table id="comparison-table" class="comparison">
-                                <thead>
-                                  <tr id="header-row">
-                                    <th></th> <!-- empty corner cell -->
-                                  </tr>
-                                </thead>
-                                <tbody id="table-body">
-                                </tbody>
-                              </table>
-                            </div>
-                            
-                            <script>
-                              // Sample headers for demonstration
-                              const headers = ['A1', 'A2', 'A3', 'B1', 'B2', 'B3', 'C1', 'C2', 'C3'];
-                            
-                              // Generate random matrix with 0 or 1
-                              const matrixData = {};
-                              headers.forEach(row => {
-                                matrixData[row] = {};
-                                headers.forEach(col => {
-                                  matrixData[row][col] = Math.random() > 0.7 ? 1 : 0; // ~30% chance 1
-                                });
-                              });
-                          
-                              const table = document.getElementById('comparison-table');
-                              const headerRow = document.getElementById('header-row');
-                              const tbody = document.getElementById('table-body');
-                              const filterColsInput = document.getElementById('filter-columns');
-                              const filterRowsInput = document.getElementById('filter-rows');
-                          
-                              function renderTable() {
-                                const colFilter = filterColsInput.value.trim().toUpperCase();
-                                const rowFilter = filterRowsInput.value.trim().toUpperCase();
-                            
-                                // Filter columns
-                                const filteredCols = headers.filter(h => h.startsWith(colFilter));
-                            
-                                // Clear header except first empty th
-                                headerRow.innerHTML = '<th></th>';
-                                filteredCols.forEach(col => {
-                                  const th = document.createElement('th');
-                                  th.textContent = col;
-                                  headerRow.appendChild(th);
-                                });
-                            
-                                // Clear tbody
-                                tbody.innerHTML = '';
-                            
-                                // Filter rows independently
-                                const filteredRows = headers.filter(h => h.startsWith(rowFilter));
-                            
-                                filteredRows.forEach(row => {
-                                  const tr = document.createElement('tr');
-                                  // Row header (sticky)
-                                  const th = document.createElement('th');
-                                  th.textContent = row;
-                                  th.classList.add('row-header');
-                                  tr.appendChild(th);
-                                
-                                  filteredCols.forEach(col => {
-                                    const td = document.createElement('td');
-                                    const val = matrixData[row][col];
-                                    td.textContent = val;
-                                    td.className = val === 1 ? 'cell-1' : 'cell-0';
-                                    tr.appendChild(td);
-                                  });
-                              
-                                  tbody.appendChild(tr);
-                                });
-                              }
-                          
-                              filterColsInput.addEventListener('input', renderTable);
-                              filterRowsInput.addEventListener('input', renderTable);
-                          
-                              // Initial render
-                              renderTable();
-                            </script>
-
-						</div>
-					</div>
-				</section>
+            <!-- Main -->
+            <section class="wrapper style1">
+              <div class="container">
+                <div id="content">
+                
+                  <!-- Content -->
+                  <h2>Comparison Matrix</h2>
+                
+                  <div id="filters-container">
+                    <label>
+                      Filter Columns (prefix or full):
+                      <input type="text" id="filter-columns" placeholder="e.g. Aquire or Kill" />
+                    </label>
+                    <label>
+                      Filter Rows (prefix or full):
+                      <input type="text" id="filter-rows" placeholder="e.g. Aquire or Kill" />
+                    </label>
+                  </div>
+                
+                  <div id="table-wrapper">
+                    <table id="comparison-table" class="comparison">
+                      <thead>
+                        <tr id="header-row">
+                          <th></th> <!-- empty corner cell -->
+                        </tr>
+                      </thead>
+                      <tbody id="table-body">
+                      </tbody>
+                    </table>
+                  </div>
+                
+                  <script>
+                    let headers = [];
+                    let matrixData = {};
+                    const table = document.getElementById('comparison-table');
+                    const headerRow = document.getElementById('header-row');
+                    const tbody = document.getElementById('table-body');
+                    const filterColsInput = document.getElementById('filter-columns');
+                    const filterRowsInput = document.getElementById('filter-rows');
+                
+                    async function loadData() {
+                      try {
+                        const res = await fetch('../../docs/objective_list_season_1/bingo_nooords_brawlers_season1.json');
+                        const json = await res.json();
+                    
+                        headers = json.map(item => item.name);
+                    
+                        // Initialize matrix with dummy 1/0 values
+                        matrixData = {};
+                        headers.forEach(row => {
+                          matrixData[row] = {};
+                          headers.forEach(col => {
+                            matrixData[row][col] = Math.random() > 0.7 ? 1 : 0; // Placeholder logic
+                          });
+                        });
+                    
+                        renderTable();
+                      } catch (e) {
+                        console.error('Failed to load matrix data:', e);
+                      }
+                    }
+                
+                    function renderTable() {
+                      const colFilter = filterColsInput.value.trim().toUpperCase();
+                      const rowFilter = filterRowsInput.value.trim().toUpperCase();
+                    
+                      const filteredCols = headers.filter(h => h.toUpperCase().includes(colFilter));
+                      const filteredRows = headers.filter(h => h.toUpperCase().includes(rowFilter));
+                    
+                      // Build header row
+                      headerRow.innerHTML = '<th></th>';
+                      filteredCols.forEach(col => {
+                        const th = document.createElement('th');
+                        th.textContent = col;
+                        headerRow.appendChild(th);
+                      });
+                    
+                      // Build table body
+                      tbody.innerHTML = '';
+                      filteredRows.forEach(row => {
+                        const tr = document.createElement('tr');
+                        const th = document.createElement('th');
+                        th.textContent = row;
+                        th.classList.add('row-header');
+                        tr.appendChild(th);
+                    
+                        filteredCols.forEach(col => {
+                          const td = document.createElement('td');
+                          const val = matrixData[row]?.[col] ?? 0;
+                          td.textContent = val;
+                          td.className = val === 1 ? 'cell-1' : 'cell-0';
+                          tr.appendChild(td);
+                        });
+                    
+                        tbody.appendChild(tr);
+                      });
+                    }
+                
+                    filterColsInput.addEventListener('input', renderTable);
+                    filterRowsInput.addEventListener('input', renderTable);
+                
+                    document.addEventListener('DOMContentLoaded', loadData);
+                  </script>
+            
+                </div>
+              </div>
+            </section>
 
 			<!-- Footer -->
 				<div id="footer">
