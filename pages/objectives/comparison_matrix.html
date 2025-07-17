@@ -44,36 +44,91 @@
 
 							<!-- Content -->
 
-								<article>
-									<header>
-										<h2>No Sidebar</h2>
-										<p>All content, all the time.</p>
-									</header>
-
-									<span class="image featured"><img src="images/banner.jpg" alt="" /></span>
-
-									<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-									Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-									Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-									consequat etiam lorem ipsum dolor sit amet nullam.</p>
-
-									<h3>And Yet Another Subheading</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-									justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-									ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-									vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-									Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-									rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-									Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-									Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
-
-									<p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-									quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-									Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-									fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-									Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-									Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
-								</article>
+                            <h2>Comparison Matrix</h2>
+                                                    
+                            <div id="filters-container">
+                              <label>Filter Columns (prefix or full): <input type="text" id="filter-columns" placeholder="e.g. A or A1" /></label>
+                              <label>Filter Rows (prefix or full): <input type="text" id="filter-rows" placeholder="e.g. B or B2" /></label>
+                            </div>
+                            
+                            <div id="table-wrapper">
+                              <table id="comparison-table" class="comparison">
+                                <thead>
+                                  <tr id="header-row">
+                                    <th></th> <!-- empty corner cell -->
+                                  </tr>
+                                </thead>
+                                <tbody id="table-body">
+                                </tbody>
+                              </table>
+                            </div>
+                            
+                            <script>
+                              // Sample headers for demonstration
+                              const headers = ['A1', 'A2', 'A3', 'B1', 'B2', 'B3', 'C1', 'C2', 'C3'];
+                            
+                              // Generate random matrix with 0 or 1
+                              const matrixData = {};
+                              headers.forEach(row => {
+                                matrixData[row] = {};
+                                headers.forEach(col => {
+                                  matrixData[row][col] = Math.random() > 0.7 ? 1 : 0; // ~30% chance 1
+                                });
+                              });
+                          
+                              const table = document.getElementById('comparison-table');
+                              const headerRow = document.getElementById('header-row');
+                              const tbody = document.getElementById('table-body');
+                              const filterColsInput = document.getElementById('filter-columns');
+                              const filterRowsInput = document.getElementById('filter-rows');
+                          
+                              function renderTable() {
+                                const colFilter = filterColsInput.value.trim().toUpperCase();
+                                const rowFilter = filterRowsInput.value.trim().toUpperCase();
+                            
+                                // Filter columns
+                                const filteredCols = headers.filter(h => h.startsWith(colFilter));
+                            
+                                // Clear header except first empty th
+                                headerRow.innerHTML = '<th></th>';
+                                filteredCols.forEach(col => {
+                                  const th = document.createElement('th');
+                                  th.textContent = col;
+                                  headerRow.appendChild(th);
+                                });
+                            
+                                // Clear tbody
+                                tbody.innerHTML = '';
+                            
+                                // Filter rows independently
+                                const filteredRows = headers.filter(h => h.startsWith(rowFilter));
+                            
+                                filteredRows.forEach(row => {
+                                  const tr = document.createElement('tr');
+                                  // Row header (sticky)
+                                  const th = document.createElement('th');
+                                  th.textContent = row;
+                                  th.classList.add('row-header');
+                                  tr.appendChild(th);
+                                
+                                  filteredCols.forEach(col => {
+                                    const td = document.createElement('td');
+                                    const val = matrixData[row][col];
+                                    td.textContent = val;
+                                    td.className = val === 1 ? 'cell-1' : 'cell-0';
+                                    tr.appendChild(td);
+                                  });
+                              
+                                  tbody.appendChild(tr);
+                                });
+                              }
+                          
+                              filterColsInput.addEventListener('input', renderTable);
+                              filterRowsInput.addEventListener('input', renderTable);
+                          
+                              // Initial render
+                              renderTable();
+                            </script>
 
 						</div>
 					</div>

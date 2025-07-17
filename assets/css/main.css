@@ -2465,6 +2465,63 @@ input, select, textarea {
 			  color: #333333
   			}
 
+			/* Comparison Matrix styles */
+
+			table.comparison {
+			  border-collapse: collapse;
+			  width: 100%;
+			  table-layout: fixed;
+			}
+
+			table.comparison th,
+			table.comparison td {
+			  border: 1px solid #ccc;
+			  text-align: center;
+			  padding: 4px;
+			  width: 40px;
+			  height: 40px;
+			}
+
+			table.comparison .cell-1 {
+			  background-color: #4CAF50; /* green */
+			  color: white;
+			}
+
+			table.comparison .cell-0 {
+			  background-color: #ccc; /* gray */
+			  color: #666;
+			}
+
+			table.comparison thead th {
+			  position: sticky;
+			  top: 0;
+			  background: #f9f9f9;
+			  z-index: 2;
+			}
+
+			table.comparison th.row-header {
+			  position: sticky;
+			  left: 0;
+			  background: #f9f9f9;
+			  z-index: 3;
+			}
+
+			/* Scroll wrapper */
+			#table-wrapper {
+			  overflow: auto;
+			  max-height: 400px;
+			  border: 1px solid #999;
+			}
+
+			/* Filter input styling */
+			#filters-container {
+			  margin-bottom: 1em;
+			}
+
+			#filters-container label {
+			  margin-right: 10px;
+			}
+
 /* Button */
 
 	input[type="submit"],
