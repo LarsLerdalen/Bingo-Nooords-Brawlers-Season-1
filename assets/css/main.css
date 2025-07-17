@@ -2460,6 +2460,10 @@ input, select, textarea {
   			  border-bottom: 2px solid #ccc; /* You can adjust color and thickness */
   			}
 
+			#results-table th {
+    		font-weight: bold;
+  			}
+
 /* Button */
 
 	input[type="submit"],
