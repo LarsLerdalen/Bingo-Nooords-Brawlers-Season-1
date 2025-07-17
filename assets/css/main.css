@@ -2516,18 +2516,18 @@ input, select, textarea {
 			#filters-container {
 			  margin-bottom: 1em;
 			}
-			
+
 			#filters-container label {
 			  display: block;
 			  margin-bottom: 0.5em;
 			}
-			
+
 			#comparison-table {
 			  border-collapse: collapse;
 			  width: 100%;
 			  table-layout: fixed;
 			}
-			
+
 			#comparison-table th,
 			#comparison-table td {
 			  border: 1px solid #ccc;
@@ -2537,20 +2537,20 @@ input, select, textarea {
 			  text-align: center;
 			  vertical-align: middle;
 			}
-			
+
 			#comparison-table th {
 			  background-color: #f0f0f0;
 			  font-weight: bold;
 			}
-			
-			.cell-1 {
+
+			td.cell-1 {
 			  background-color: #a8e6a1;
 			}
-			
-			.cell-0 {
+
+			td.cell-0 {
 			  background-color: #e0e0e0;
 			}
-			
+
 			#table-wrapper {
 			  overflow-x: auto;
 			  max-height: 80vh;
