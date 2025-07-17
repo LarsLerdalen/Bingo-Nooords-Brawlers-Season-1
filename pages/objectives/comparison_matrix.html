@@ -79,7 +79,7 @@
                 
                     async function loadData() {
                       try {
-                        const res = await fetch('../../docs/objective_list_season_1/bingo_nooords_brawlers_season1.json');
+                        const res = await fetch('docs/objective_list_season_1/bingo_nooords_brawlers_season1.json');
                         const json = await res.json();
                     
                         headers = json.map(item => item.name);
