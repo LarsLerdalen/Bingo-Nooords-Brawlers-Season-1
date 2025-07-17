@@ -81,7 +81,7 @@
                       try {
                         const res = await fetch('docs/objective_list_season_1/bingo_nooords_brawlers_season1.json');
                         const json = await res.json();
-                        const headers = json.map(entry => entry.name).sort((a, b) => a.localeCompare(b));
+                        headers = json.map(entry => entry.name).sort((a, b) => a.localeCompare(b));
                     
                         // Initialize matrix with dummy 1/0 values
                         matrixData = {};
