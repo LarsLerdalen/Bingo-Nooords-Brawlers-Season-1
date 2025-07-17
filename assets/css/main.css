@@ -2441,6 +2441,11 @@ input, select, textarea {
 				color: #fff;
 			}
 
+			#results-table th,
+			#results-table td {
+			  text-align: center;
+			}
+
 /* Button */
 
 	input[type="submit"],
