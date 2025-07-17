@@ -2456,6 +2456,10 @@ input, select, textarea {
     		  border-left: 2px solid #ccc;
   			}
 
+  			#results-table tbody tr:last-child {
+  			  border-bottom: 2px solid #ccc; /* You can adjust color and thickness */
+  			}
+
 /* Button */
 
 	input[type="submit"],
