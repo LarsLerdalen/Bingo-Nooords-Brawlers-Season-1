@@ -105,6 +105,7 @@
   {"name": "Restore Godrick’s Great Rune"},
   {"name": "Restore Radahn’s Great Rune"},
   {"name": "Restore Rykard’s Great Rune"},
+  {"name": "Return Thop's academy key"}
   {"name": "Rune Level 40"},
   {"name": "Sacred Flask +4"},
   {"name": "Sell Bloodhound's Fang +0"},
@@ -112,6 +113,5 @@
   {"name": "Somber +6 weapon"},
   {"name": "Spirit Ash +3 summon"},
   {"name": "Take Rya's hand to Volcano Manor"},
-  {"name": "Use AoW Lightning Ram to kill 10 sheep"},
-  {"name": "Return Thop's academy key"}
+  {"name": "Use AoW Lightning Ram to kill 10 sheep"}
 ]
