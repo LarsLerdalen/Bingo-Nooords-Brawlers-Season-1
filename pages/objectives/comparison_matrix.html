@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Bingo Nøøørds Brawlers - Season 1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <base href="/Bingo-Nooords-Brawlers-Season-1/">
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+	
+		<div id="banner-placeholder"></div>
+		<script>
+		  fetch('assets/html/banner.html')
+		    .then(res => res.text())
+		    .then(html => {
+		      document.getElementById('banner-placeholder').innerHTML = html;
+		    });
+		</script>
+		
+		<!-- Page content -->
+		<div id="page-wrapper">
+
+			<!-- Nav -->
+				<div id="navbar-placeholder"></div>
+				<script>
+				  fetch('assets/html/navbar.html')
+				    .then(response => response.text())
+				    .then(data => {
+				      document.getElementById('navbar-placeholder').innerHTML = data;
+				    });
+				</script>
+		</div>
+
+            <!-- Main -->
+            <section class="wrapper style1">
+              <div class="container">
+                <div id="content">
+                
+                  <!-- Content -->
+                  <h2>Comparison Matrix</h2>
+                
+                  <div id="filters-container">
+                    <label>
+                      Filter Columns (prefix or full):
+                      <input type="text" id="filter-columns" placeholder="e.g. Aquire or Kill" />
+                    </label>
+                    <label>
+                      Filter Rows (prefix or full):
+                      <input type="text" id="filter-rows" placeholder="e.g. Aquire or Kill" />
+                    </label>
+                  </div>
+                
+                  <div id="table-wrapper">
+                    <table id="comparison-table" class="comparison">
+                      <thead>
+                        <tr id="header-row">
+                          <th></th> <!-- empty corner cell -->
+                        </tr>
+                      </thead>
+                      <tbody id="table-body">
+                      </tbody>
+                    </table>
+                  </div>
+                
+                  <script>
+                    let headers = [];
+                    let matrixData = {};
+                    const table = document.getElementById('comparison-table');
+                    const headerRow = document.getElementById('header-row');
+                    const tbody = document.getElementById('table-body');
+                    const filterColsInput = document.getElementById('filter-columns');
+                    const filterRowsInput = document.getElementById('filter-rows');
+                
+                    async function loadData() {
+                      try {
+                        const res = await fetch('docs/objective_list_season_1/bingo_nooords_brawlers_season1.json');
+                        const json = await res.json();
+                        headers = json.map(entry => entry.name).sort((a, b) => a.localeCompare(b));
+                    
+                        // Initialize matrix with dummy 1/0 values
+                        matrixData = {};
+                        headers.forEach(row => {
+                          matrixData[row] = {};
+                          headers.forEach(col => {
+                            matrixData[row][col] = Math.random() > 0.7 ? 1 : 0; // Placeholder logic
+                          });
+                        });
+                    
+                        renderTable();
+                      } catch (e) {
+                        console.error('Failed to load the matrix data:', e);
+                      }
+                    }
+                
+                    function renderTable() {
+                      const colFilter = filterColsInput.value.trim().toUpperCase();
+                      const rowFilter = filterRowsInput.value.trim().toUpperCase();
+                    
+                      const filteredCols = headers.filter(h => h.toUpperCase().includes(colFilter));
+                      const filteredRows = headers.filter(h => h.toUpperCase().includes(rowFilter));
+                    
+                      // Build header row
+                      headerRow.innerHTML = '<th></th>';
+                      filteredCols.forEach(col => {
+                        const th = document.createElement('th');
+                        th.textContent = col;
+                        headerRow.appendChild(th);
+                      });
+                    
+                      // Build table body
+                      tbody.innerHTML = '';
+                      filteredRows.forEach(row => {
+                        const tr = document.createElement('tr');
+                        const th = document.createElement('th');
+                        th.textContent = row;
+                        th.classList.add('row-header');
+                        tr.appendChild(th);
+                    
+                        filteredCols.forEach(col => {
+                          const td = document.createElement('td');
+                          const val = matrixData[row]?.[col] ?? 0;
+                          td.textContent = val;
+                          td.className = val === 1 ? 'cell-1' : 'cell-0';
+                          tr.appendChild(td);
+                        });
+                    
+                        tbody.appendChild(tr);
+                      });
+                    }
+                
+                    filterColsInput.addEventListener('input', renderTable);
+                    filterRowsInput.addEventListener('input', renderTable);
+                
+                    document.addEventListener('DOMContentLoaded', loadData);
+                  </script>
+            
+                </div>
+              </div>
+            </section>
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="copyright">
+							<ul class="menu">
+								<p>All rights reserved your almighty Gud God, LaZarus<p>
+							</ul>
+						</div>
+                    </div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

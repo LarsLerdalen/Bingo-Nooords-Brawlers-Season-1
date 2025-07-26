@@ -1971,6 +1971,30 @@ input, select, textarea {
 
 /* Section/Article */
 
+	/* Reset default margins for lists inside article */
+	article ul {
+	  margin-top: 0;
+	  margin-bottom: 0;
+	  padding-left: 1.2em; /* or adjust as needed */
+	}
+
+	/* Remove margin on nested ul */
+	article ul ul {
+	  margin-top: 0;
+	  margin-bottom: 0;
+	  padding-left: 1em;
+	}
+
+	/* Adjust list item spacing */
+	article ul li {
+	  margin-bottom: 0.5em; /* or reduce */
+	}
+
+	/* Optionally remove margin on headers */
+	article h3 {
+	  margin-bottom: 0.5em;
+	}
+
 	section.special, article.special {
 		text-align: center;
 	}
@@ -1979,8 +2003,8 @@ input, select, textarea {
 		color: #999;
 		font-size: 1.25em;
 		position: relative;
-		margin-top: -1.25em;
-		margin-bottom: 2.25em;
+		margin-top: -1em;
+		margin-bottom: 1em;
 	}
 
 	header.major {
@@ -2116,7 +2140,7 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 0.5em 0;
 		}
 
 			.image.featured img {
@@ -2201,6 +2225,10 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+		}
+
+		ul ul {
+			list-style: circle;
 		}
 
 /* Links */
@@ -2413,6 +2441,140 @@ input, select, textarea {
 				color: #fff;
 			}
 
+			#results-table th,
+			#results-table td {
+			  text-align: center;
+			}
+
+			#results-table th:first-child,
+  			#results-table td:first-child {
+    		  border-right: 2px solid #ccc; /* or any color you like */
+			}
+
+			#results-table th:last-child,
+  			#results-table td:last-child {
+    		  border-left: 2px solid #ccc;
+  			}
+
+  			#results-table tbody tr:last-child td {
+  			  border-bottom: 2px solid #ccc; /* You can adjust color and thickness */
+  			}
+
+			#results-table th {
+    		  font-weight: bold;
+			  color: #333333
+  			}
+
+			/* Comparison Matrix styles */
+
+			table.comparison {
+			  border-collapse: collapse;
+			  width: 100%;
+			  table-layout: fixed;
+			}
+
+			table.comparison th,
+			table.comparison td {
+			  border: 1px solid #ccc;
+			  text-align: center;
+			  padding: 4px;
+			  width: 40px;
+			  height: 40px;
+			}
+
+			table.comparison .cell-1 {
+			  background-color: #4CAF50; /* green */
+			  color: white;
+			}
+
+			table.comparison .cell-0 {
+			  background-color: #ccc; /* gray */
+			  color: #666;
+			}
+
+			table.comparison thead th {
+			  position: sticky;
+			  top: 0;
+			  background: #f9f9f9;
+			  z-index: 2;
+			}
+
+			table.comparison th.row-header {
+			  position: sticky;
+			  left: 0;
+			  background: #f9f9f9;
+			  z-index: 3;
+			}
+
+			/* Scroll wrapper */
+			#table-wrapper {
+			  overflow: auto;
+			  max-height: 400px;
+			  border: 1px solid #999;
+			}
+
+			#filters-container {
+			  margin-bottom: 1em;
+			}
+
+			#filters-container label {
+			  display: block;
+			  margin-bottom: 0.5em;
+			}
+
+			#comparison-table {
+			  border-collapse: collapse;
+			  width: 100%;
+			  table-layout: fixed;
+			}
+
+			#comparison-table th,
+			#comparison-table td {
+			  border: 1px solid #ccc;
+			  padding: 4px;
+			  font-size: 12px;
+			  word-wrap: break-word;
+			  text-align: center;
+			  vertical-align: middle;
+			}
+
+			#comparison-table th {
+			  background-color: #f0f0f0;
+			  font-weight: bold;
+			  writing-mode: vertical-rl;
+  			  transform: rotate(270deg);
+  			  text-align: left;
+  			  white-space: break-word;
+  			  padding: 10px 5px;
+			  word-break: break-word;
+  			  max-width: 20px;
+			  max-height: 200px; 
+			}
+
+			#comparison-table th.row-header {
+			  width: 250px;      /* fixed width to contain wrapping */
+			  white-space: normal;
+			  word-break: break-word;
+			  padding: 8px 12px;
+			  vertical-align: top;
+			  text-align: left;
+			  line-height: 1.3;
+			}
+
+			td.cell-1 {
+			  background-color: #a8e6a1;
+			}
+
+			td.cell-0 {
+			  background-color: #e0e0e0;
+			}
+
+			#table-wrapper {
+			  overflow-x: auto;
+			  max-height: 80vh;
+			  overflow-y: auto;
+			}
+
 /* Button */
 
 	input[type="submit"],
@@ -2513,6 +2675,41 @@ input, select, textarea {
 		.button.small {
 			font-size: 0.8em;
 		}
+
+	.button.external-link {
+	  background-color: #545454; /* Custom background color */
+	  color: white;              /* Text color */
+	  margin-bottom: 0.5em;      /* Adds spacing below each button */
+	  display: block;            /* Makes buttons stack vertically */
+	  text-align: center;
+	  padding: 0.75em 1em;
+	  border-radius: 6px;
+	  text-decoration: none;
+	}
+
+	.button.external-link:hover {
+	  background-color: #7a7a7a; /* Slightly lighter on hover */
+	}
+
+	.uniform-button {
+	  display: block;
+	  width: 100%;
+	  min-height: 50px;
+	  margin-bottom: 10px;           /* space between the buttons */
+	  background-color: #545454;     /* slightly lighter than #545454 */
+	  color: #ffffff;
+	  text-align: center;
+	  padding: 1em;
+	  border-radius: 5px;
+	  box-sizing: border-box;
+	  text-decoration: none;
+	  font-weight: bold;
+	  transition: background-color 0.2s;
+	}
+
+	.uniform-button:hover {
+	  background-color: #7a7a7a;     /* optional hover effect */
+	}
 
 /* Box */
 
@@ -2738,7 +2935,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/other/banner.jpg");
 		background-position: center center;
 		background-size: cover;
 		height: 28em;
@@ -2994,6 +3191,7 @@ input, select, textarea {
 
 			h1, h2, h3, h4, h5, h6 {
 				margin-bottom: 0.5em;
+				margin-top: 0.5em;
 			}
 
 			header p {
@@ -3037,6 +3235,57 @@ input, select, textarea {
 				width: 20%;
 			}
 
+		/* Vertikal lines */
+
+			/* Force row to use Flexbox to allow vertical stretching */
+			.row.gtr-200 {
+			  display: flex;
+			  align-items: stretch; /* Ensures all columns match height */
+			}
+
+			/* Sidebar 1: right border */
+			#sidebar1 {
+			  border-right: 1px solid #545454;
+			  padding-right: 1em;
+			}
+
+			/* Sidebar 2: left border */
+			#sidebar2 {
+			  border-left: 1px solid #545454;
+			  padding-left: 1em;
+			}
+
+			/* Optional for visibility */
+			#sidebar1,
+			#sidebar2,
+			#content {
+			  background-color: #1c1c1c;
+			}
+
+			/* Reduce spacing between sections in sidebar1 */
+			#sidebar1 section + section {
+			  margin-top: 1em !important;
+			}
+			
+			/* Reduce spacing footer and section */
+			#sidebar1 footer {
+			  margin-bottom: 1em;
+			}
+
+			#sidebar1 .button-group {
+  			  margin-bottom: 2em; 
+			}
+
+			#sidebar2 h3 {
+  			  margin-top: 1em;
+			  margin-bottom: 0.5em;
+			}
+
+			#sidebar2 .image.featured {
+			  margin-top: 0.5em;
+			  margin-bottom: 1.5em; /* Optional */
+			}
+
 		/* Header */
 
 			#header {
@@ -3046,7 +3295,18 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				height: 20em;
+			  height: 400px; /* Fixed height */
+			  overflow: hidden;
+			  padding: 0;
+			  margin: 0;
+			}
+
+			#banner img {
+			  width: 100%;
+			  height: 100%;
+			  object-fit: cover;
+			  object-position: center;
+			  display: block;
 			}
 
 				#banner header h2 {
