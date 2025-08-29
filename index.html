@@ -11,6 +11,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<base href="/Bingo-Nooords-Brawlers-Season-1/">
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			#results-table {
+				width: 100%;
+				border-collapse: collapse;
+				text-align: center;
+			}
+				#results-table thead {
+				background-color: #f2f2f2;
+			}
+				#results-table th, 
+				#results-table td {
+				padding: 12px;
+				border-bottom: 2px solid #ccc;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 	
@@ -60,80 +75,6 @@
 				        <h2 style="text-align: center;">Season 1 - Results</h2>
 				        <div style="overflow-x: auto;">
 				            <table id="results-table" class="default" style="width: 100%; border-collapse: collapse; text-align: center;">
-				                <thead style="background-color: #f2f2f2;">
-				                    <tr>
-				                        <th style="padding: 12px; border-bottom: 2px solid #ccc;">Player</th>
-				                        <th style="padding: 12px; border-bottom: 2px solid #ccc;">G</th>
-				                        <th style="padding: 12px; border-bottom: 2px solid #ccc;">W</th>
-				                        <th style="padding: 12px; border-bottom: 2px solid #ccc;">L</th>
-										<th style="padding: 12px; border-bottom: 2px solid #ccc;">P</th>
-										<th style="padding: 12px; border-bottom: 2px solid #ccc;">S</th>
-										<th style="padding: 12px; border-bottom: 2px solid #ccc;">Ln</th>
-										<th style="padding: 12px; border-bottom: 2px solid #ccc;">WR</th>
-				                    </tr>
-				                </thead>
-				                <tbody>
-				                    <tr>
-				                        <td style="padding: 12px;">Erik HK</td>
-				                        <td style="padding: 12px;">0</td>  <!-- Games -->
-				                        <td style="padding: 12px;">0</td>  <!-- Win -->
-										<td style="padding: 12px;">0</td>  <!-- Losses -->
-										<td style="padding: 12px;">0</td>  <!-- Points -->
-										<td style="padding: 12px;">0</td>  <!-- Squares -->
-										<td style="padding: 12px;">0</td>  <!-- Lines -->
-				                        <td style="padding: 12px;">0%</td> <!-- Winrate -->
-				                    </tr>
-				                    <tr>
-				                        <td style="padding: 12px;">Erik J</td>
-				                        <td style="padding: 12px;">0</td> <!-- Games -->
-				                        <td style="padding: 12px;">0</td> <!-- Win -->
-										<td style="padding: 12px;">0</td> <!-- Losses -->
-										<td style="padding: 12px;">0</td> <!-- Points -->
-										<td style="padding: 12px;">0</td> <!-- Squares -->
-										<td style="padding: 12px;">0</td> <!-- Lines -->
-				                        <td style="padding: 12px;">0%</td> <!-- Winrate -->
-				                    </tr>
-				                    <tr>
-				                        <td style="padding: 12px;">Lars</td>
-				                        <td style="padding: 12px;">1</td> <!-- Games -->
-				                        <td style="padding: 12px;">1</td> <!-- Win -->
-										<td style="padding: 12px;">0</td> <!-- Losses -->
-										<td style="padding: 12px;">8</td> <!-- Points -->
-										<td style="padding: 12px;">11</td> <!-- Squares -->
-										<td style="padding: 12px;">1</td> <!-- Lines -->
-				                        <td style="padding: 12px;">100%</td> <!-- Winrate -->
-				                    </tr>
-				                    <tr>
-				                        <td style="padding: 12px;">Martin</td>
-				                        <td style="padding: 12px;">0</td> <!-- Games -->
-				                        <td style="padding: 12px;">0</td> <!-- Win -->
-										<td style="padding: 12px;">0</td> <!-- Losses -->
-										<td style="padding: 12px;">0</td> <!-- Points -->
-										<td style="padding: 12px;">0</td> <!-- Squares -->
-										<td style="padding: 12px;">0</td> <!-- Lines -->
-				                        <td style="padding: 12px;">0%</td> <!-- Winrate -->
-				                    </tr>
-				                    <tr>
-				                        <td style="padding: 12px;">Ole</td>
-				                        <td style="padding: 12px;">0</td> <!-- Games -->
-				                        <td style="padding: 12px;">0</td> <!-- Win -->
-										<td style="padding: 12px;">0</td> <!-- Losses -->
-										<td style="padding: 12px;">0</td> <!-- Points -->
-										<td style="padding: 12px;">0</td> <!-- Squares -->
-										<td style="padding: 12px;">0</td> <!-- Lines -->
-				                        <td style="padding: 12px;">0%</td> <!-- Winrate -->
-				                    </tr>
-				                    <tr>
-				                        <td style="padding: 12px;">Øyvind</td>
-				                        <td style="padding: 12px;">1</td> <!-- Games -->
-				                        <td style="padding: 12px;">0</td> <!-- Win -->
-										<td style="padding: 12px;">1</td> <!-- Losses -->
-										<td style="padding: 12px;">-6</td> <!-- Points -->
-										<td style="padding: 12px;">5</td> <!-- Squares -->
-										<td style="padding: 12px;">0</td> <!-- Lines -->
-				                        <td style="padding: 12px;">0%</td> <!-- Winrate -->
-				                    </tr>
-				                </tbody>
 				            </table>
 				        </div>
 							<p class="table-legend" style="text-align: center;">
@@ -272,6 +213,61 @@
                     </div>
 				</div>
 	</div>
+
+		<!--ERIK SCIPTS-->
+
+		<script>
+			let data = [
+				{ Player: "Erik HK", G: 0, W: 0, L: 0, P: 0, S: 0, Ln: 0 },
+				{ Player: "Erik J", G: 0, W: 0, L: 0, P: 0,  S: 0, Ln: 0 },
+				{ Player: "Lars",   G: 1, W: 1, L: 0, P: 8,  S: 11,Ln: 1 },
+				{ Player: "Martin", G: 0, W: 0, L: 0, P: 0,  S: 0, Ln: 0 },
+				{ Player: "Ole",    G: 0, W: 0, L: 0, P: 0,  S: 0, Ln: 0 },
+				{ Player: "Øyvind", G: 1, W: 0, L: 1, P: -6, S: 5, Ln: 0 }
+			];
+
+			data.forEach(player => {
+			if (player.G > 0) {
+				player.WR = ((player.W / player.G) * 100).toFixed(0) + "%";
+			} else {
+				player.WR = "0%";
+			}
+			});
+
+			data.sort((a, b) => {
+				const wrA = parseInt(a.WR);
+				const wrB = parseInt(b.WR);
+
+				if (wrA !== wrB) return wrB - wrA; 
+				
+				return b.P - a.P; 
+			});
+
+			const table = document.getElementById("results-table");
+
+			
+			const thead = document.createElement("thead");
+			const headerRow = document.createElement("tr");
+			Object.keys(data[0]).forEach(key => {
+			const th = document.createElement("th");
+			th.textContent = key;
+			headerRow.appendChild(th);
+			});
+			thead.appendChild(headerRow);
+			table.appendChild(thead);
+
+			const tbody = document.createElement("tbody");
+			data.forEach(row => {
+			const tr = document.createElement("tr");
+			Object.values(row).forEach(value => {
+				const td = document.createElement("td");
+				td.textContent = value;
+				tr.appendChild(td);
+			});
+			tbody.appendChild(tr);
+			});
+			table.appendChild(tbody);
+		  </script>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
