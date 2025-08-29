@@ -65,3 +65,36 @@
 				});
 
 })(jQuery);
+
+(function() {
+	function waitForElement(selector, callback) {
+	  const el = document.getElementById(selector);
+	  if (el) return callback(el);
+  
+	  const observer = new MutationObserver((mutations, obs) => {
+		const el = document.getElementById(selector);
+		if (el) {
+		  callback(el);
+		  obs.disconnect();
+		}
+	  });
+  
+	  observer.observe(document.body, { childList: true, subtree: true });
+	}
+  
+	waitForElement("nav", () => {
+	  const route = window.location.pathname.split("/")[3] ?? "";
+	  const navIdMap = {
+		"": "home-nav",
+		"player_page": "player-page-nav",
+		"objectives": "objectives-nav",
+		"spectator_page": "spectator-nav",
+		"setup": "setup-nav"
+	  };
+	  const navId = navIdMap[route];
+	  if (navId) {
+		document.getElementById(navId)?.classList.add("current");
+		document.getElementById("home-nav")?.classList.remove("current");
+	}
+	});
+})();
