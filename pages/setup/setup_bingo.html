@@ -53,13 +53,13 @@
                                 <ol>
                                     <li>
                                         Start med å laste ned EldenBingo softwaren som du kan finne her: 
-                                        <a href="https://bingobrawlers.com/downloads" target="_blank">Bingo Brawlers</a>. 
+										<button onclick="downloadFile('https://github.com/awsker/EldenBingo/releases/download/0.16/EldenBingo_v0.16.zip', 'EldenBingo_v0.16.zip')">Last ned</button>
                                         Deretter installer softwaren på vanlig måte.
                                     </li>
                                     <li>
                                         <div>
 											<span>Last deretter ned våre egne objectives: </span>
-											<button onclick="downloadFile()">Last ned</button>
+											<button onclick="downloadFile('./docs/objective_list_season_1/bingo_nooords_brawlers_season1.json', 'bingo_nooords_brawlers_season1.json')">Last ned</button>
 										</div>
 										<div>
 											<span style="display: block">Lagre denne et sted som du enkelt kan finne den igjen og laste den opp i EldenBingo software når du trenger det.</span>
@@ -109,10 +109,10 @@
 			<script src="assets/js/main.js"></script>
 
 			<script>
-				function downloadFile() {
+				function downloadFile(href, download) {
 					const a = document.createElement("a");
-					a.href = "./docs/objective_list_season_1/bingo_nooords_brawlers_season1.json";
-					a.download = "bingo_nooords_brawlers_season1.json";
+					a.href = href;
+					a.download = download;
 					a.click();
 				}
 			</script>
