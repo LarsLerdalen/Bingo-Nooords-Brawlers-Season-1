@@ -35,8 +35,8 @@
             "id": 3,
             "player1": "Wetterstad",
             "player2": "Karlsen",
-            "player1Score": null,
-            "player2Score": null,
+            "player1Score": 2,
+            "player2Score": 2,
             "bingo": false,
             "bingoWinner": null
           }
