@@ -221,60 +221,45 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/main.js"></script>
 		<script src="assets/js/util.js"></script>
+		<script src="assets/js/match-data.js"></script>
 
 
 		<!--ERIK SCIPTS-->
 		<script>
-			let data = [
-				{ Player: "Erik HK", G: 0, W: 0, L: 0, P: 0, S: 0, Ln: 0 },
-				{ Player: "Erik J", G: 0, W: 0, L: 0, P: 0,  S: 0, Ln: 0 },
-				{ Player: "Lars",   G: 1, W: 1, L: 0, P: 8,  S: 11,Ln: 1 },
-				{ Player: "Martin", G: 0, W: 0, L: 0, P: 0,  S: 0, Ln: 0 },
-				{ Player: "Ole",    G: 0, W: 0, L: 0, P: 0,  S: 0, Ln: 0 },
-				{ Player: "Øyvind", G: 1, W: 0, L: 1, P: -6, S: 5, Ln: 0 }
-			];
+			fetch("assets/data.json").then((response => response.json().then(json => {
+				window.bingoData = {
+					data: json,
+				}
 
-			data.forEach(player => {
-			if (player.G > 0) {
-				player.WR = ((player.W / player.G) * 100).toFixed(0) + "%";
-			} else {
-				player.WR = "0%";
-			}
-			});
-
-			data.sort((a, b) => {
-				const wrA = parseInt(a.WR);
-				const wrB = parseInt(b.WR);
-
-				if (wrA !== wrB) return wrB - wrA; 
+				let scoreBoard = window.bingoFunctions.getLeaderboard(json);
 				
-				return b.P - a.P; 
-			});
+				const table = document.getElementById("results-table");
+				
+				const thead = document.createElement("thead");
+				const headerRow = document.createElement("tr");
+				
+				Object.keys(scoreBoard[0]).forEach(key => {
+					const th = document.createElement("th");
+					th.textContent = key;
+					headerRow.appendChild(th);
+				});	
 
-			const table = document.getElementById("results-table");
+				thead.appendChild(headerRow);
+				table.appendChild(thead);
 
-			
-			const thead = document.createElement("thead");
-			const headerRow = document.createElement("tr");
-			Object.keys(data[0]).forEach(key => {
-			const th = document.createElement("th");
-			th.textContent = key;
-			headerRow.appendChild(th);
-			});
-			thead.appendChild(headerRow);
-			table.appendChild(thead);
-
-			const tbody = document.createElement("tbody");
-			data.forEach(row => {
-			const tr = document.createElement("tr");
-			Object.values(row).forEach(value => {
-				const td = document.createElement("td");
-				td.textContent = value;
-				tr.appendChild(td);
-			});
-			tbody.appendChild(tr);
-			});
-			table.appendChild(tbody);
+				const tbody = document.createElement("tbody");
+				scoreBoard.forEach(row => {
+					const tr = document.createElement("tr");
+					Object.values(row).forEach(value => {
+						const td = document.createElement("td");
+						td.textContent = value;
+						tr.appendChild(td);
+					});
+					tbody.appendChild(tr);
+				});
+				
+				table.appendChild(tbody);
+			})));
 		</script>
 	</body>
 </html>
