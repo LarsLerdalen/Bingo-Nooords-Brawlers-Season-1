@@ -27,8 +27,8 @@
         leaderboard[player1].S += player1Score;
         leaderboard[player2].S += player2Score;
   
-        leaderboard[player1].P += player1Score - player2Score;
-        leaderboard[player2].P += player2Score - player1Score;
+        leaderboard[player1].P += player1Score;
+        leaderboard[player2].P += player2Score;
 
         if (player1Score > player2Score) {
           leaderboard[player1].W++;
@@ -46,7 +46,7 @@
     });
   
     Object.values(leaderboard).forEach(p => {
-      p.WR = p.games > 0 ? Math.round((p.wins / p.games) * 100) + "%" : "0%";
+      p.WR = p.G > 0 ? Math.round((p.W / p.G) * 100) + "%" : "0%";
     });
   
     return Object.values(leaderboard).sort((a, b) => {
