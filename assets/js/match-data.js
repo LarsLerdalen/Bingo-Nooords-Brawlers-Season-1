@@ -30,18 +30,30 @@
         leaderboard[player1].P += player1Score;
         leaderboard[player2].P += player2Score;
 
-        if (player1Score > player2Score) {
-          leaderboard[player1].W++;
-          leaderboard[player2].L++;
-        } else if (player2Score > player1Score) {
-          leaderboard[player2].W++;
-          leaderboard[player1].L++;
-        }  
-
-        if (bingo && bingoWinner) {
+        let winner;
+        let loser;
+        
+        if (bingo) {
+          winner = bingoWinner;
+          loser = bingoWinner === player1 ? player2 : player1;
           leaderboard[bingoWinner].Ln++;
           leaderboard[bingoWinner].P += 2;
+        } else {
+          winner = player1Score > player2Score 
+          ? player1 
+          : player1Score < player2Score 
+          ? player2 : null;
+         
+          loser = player1Score > player2Score 
+          ? player2 
+          : player1Score < player2Score 
+          ? player1 : null;
         }
+        
+        if (winner && loser) {
+          leaderboard[loser].L++;
+          leaderboard[winner].W++;
+        } 
       });
     });
   
