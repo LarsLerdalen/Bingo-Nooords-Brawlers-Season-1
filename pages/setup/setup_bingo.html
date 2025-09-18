@@ -53,16 +53,18 @@
                                 <ol>
                                     <li>
                                         Start med å laste ned EldenBingo softwaren som du kan finne her: 
-                                        <a href="https://bingobrawlers.com/downloads" target="_blank">Bingo Brawlers</a>. 
+										<button onclick="downloadFile('https://github.com/awsker/EldenBingo/releases/download/0.16/EldenBingo_v0.16.zip', 'EldenBingo_v0.16.zip')">Last ned</button>
                                         Deretter installer softwaren på vanlig måte.
                                     </li>
                                     <li>
-                                        Last deretter ned våre egne objectives (JSON fil) som du finner her på vår egen gitlab: 
-                                        <a href="https://github.com/LarsLerdalen/Bingo-Nooords-Brawlers-Season-1/blob/main/docs/objective_list_season_1/bingo_nooords_brawlers_season1.json" target="_blank">Bingo objectives season 1</a>. 
-                                        Lagre denne et sted som du enkelt kan finne den igjen og laste den opp i EldenBingo software når du trenger det.
-                                        <ol>
-                                            <li>Dette steget trenger du egentlig bare om du skal hoste en lobby selv (men fint om alle kan hoste, det gjør ting enklere).</li>
-                                        </ol>
+                                        <div>
+											<span>Last deretter ned våre egne objectives: </span>
+											<button onclick="downloadFile('./docs/objective_list_season_1/bingo_nooords_brawlers_season1.json', 'bingo_nooords_brawlers_season1.json')">Last ned</button>
+										</div>
+										<div>
+											<span style="display: block">Lagre denne et sted som du enkelt kan finne den igjen og laste den opp i EldenBingo software når du trenger det.</span>
+											<span style="display: block"><span style="font-weight: bold;">NB! </span>Dette steget trenger du egentlig bare om du skal hoste en lobby selv (men fint om alle kan hoste, det gjør ting enklere).</span>
+										</div>
                                     </li>
                                 </ol>
                             
@@ -106,5 +108,13 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script>
+				function downloadFile(href, download) {
+					const a = document.createElement("a");
+					a.href = href;
+					a.download = download;
+					a.click();
+				}
+			</script>
 	</body>
 </html>

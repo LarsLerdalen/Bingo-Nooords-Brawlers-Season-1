@@ -1,0 +1,183 @@
+{
+    "players": [
+      { "id": "Hunter", "name": "Martin Hunter Jacobsen", "displayName": "Martin" },
+      { "id": "Jarem", "name": "Erik Jarme", "displayName": "Erik J"},
+      { "id": "Lerdalen", "name": "Lars Olav Lerdalen", "displayName": "Lars" },
+      { "id": "Knapperholen", "name": "Øyvind 'Ikke-nevn-skapet' Knapperholen", "displayName": "Øyvind" },
+      { "id": "Wetterstad", "name": "Ole Christian Wetterstad", "displayName": "Olec" },
+      { "id": "Karlsen", "name": "Erik Hove Karlsen", "displayName": "MasterBeggar" }
+    ],
+    "games": [
+      {
+        "gameweek": 1,
+        "weeks": "34:36",
+        "dates": "18. aug : 7. sep",
+        "matches": [
+          {
+            "id": 1,
+            "player1": "Hunter",
+            "player2": "Jarem",
+            "player1Score": 0,
+            "player2Score": 10,
+            "bingo": true,
+            "bingoWinner": "Jarem"
+          },
+          {
+            "id": 2,
+            "player1": "Lerdalen",
+            "player2": "Knapperholen",
+            "player1Score": 11,
+            "player2Score": 5,
+            "bingo": true,
+            "bingoWinner": "Lerdalen"
+          },
+          {
+            "id": 3,
+            "player1": "Wetterstad",
+            "player2": "Karlsen",
+            "player1Score": 2,
+            "player2Score": 2,
+            "bingo": false,
+            "bingoWinner": null
+          }
+        ]
+      },
+      {
+        "gameweek": 2,
+        "weeks": "37:39",
+        "dates": "8. sep : 28. sep",
+        "matches": [
+          {
+            "id": 4,
+            "player1": "Karlsen",
+            "player2": "Jarem",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null
+          },
+          {
+            "id": 5,
+            "player1": "Hunter",
+            "player2": "Knapperholen",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null
+          },
+          {
+            "id": 6,
+            "player1": "Lerdalen",
+            "player2": "Wetterstad",
+            "player1Score": 16,
+            "player2Score": 2,
+            "bingo": true,
+            "bingoWinner": "Lerdalen"
+          }
+        ]
+      },
+      {
+        "gameweek": 3,
+        "weeks": "40:42",
+        "dates": "29. sep : 19. oct",
+        "matches": [
+          {
+            "id": 7,
+            "player1": "Knapperholen",
+            "player2": "Karlsen",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null
+          },
+          {
+            "id": 8,
+            "player1": "Jarem",
+            "player2": "Wetterstad",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null
+          },
+          {
+            "id": 9,
+            "player1": "Hunter",
+            "player2": "Lerdalen",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null
+          }
+        ]
+      },
+      {
+        "gameweek": 4,
+        "weeks": "43:45",
+        "dates": "20. oct : 9. nov",
+        "matches": [
+          {
+            "id": 10,
+            "player1": "Jarem",
+            "player2": "Lerdalen",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null
+          },
+          {
+            "id": 11,
+            "player1": "Knapperholen",
+            "player2": "Wetterstad",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null
+          },
+          {
+            "id": 12,
+            "player1": "Karlsen",
+            "player2": "Hunter",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null
+          }
+        ]
+      },
+      {
+        "gameweek": 5,
+        "weeks": "46:48",
+        "dates": "10. nov : 30. nov",
+        "matches": [
+          {
+            "id": 13,
+            "player1": "Hunter",
+            "player2": "Wetterstad",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null
+          },
+          {
+            "id": 14,
+            "player1": "Lerdalen",
+            "player2": "Karlsen",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null
+          },
+          {
+            "id": 15,
+            "player1": "Knapperholen",
+            "player2": "Jarem",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null
+          }
+        ]
+      }
+    ]
+  }
+  
