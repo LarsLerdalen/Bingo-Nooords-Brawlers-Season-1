@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Bingo Nøøørds Brawlers - Season 1</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <base href="/Bingo-Nooords-Brawlers-Season-1/">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			/* Simple two-column layout */
+			#objectives-layout {
+				display: grid;
+				grid-template-columns: 1fr 2fr;
+				gap: 2rem;
+			}
+			#objective-list {
+				border-right: 1px solid #ccc;
+				padding-right: 1rem;
+			}
+			#objective-detail {
+				padding-left: 1rem;
+			}
+			#objective-list ul {
+				list-style: none;
+				padding: 0;
+			}
+			#objective-list li {
+				margin-bottom: 0.5rem;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+	
+		<div id="banner-placeholder"></div>
+		<script>
+		  fetch('assets/html/banner.html')
+		    .then(res => res.text())
+		    .then(html => {
+		      document.getElementById('banner-placeholder').innerHTML = html;
+		    });
+		</script>
+		
+		<div id="page-wrapper">
+			<div id="navbar-placeholder"></div>
+			<script>
+			  fetch('assets/html/navbar.html')
+			    .then(response => response.text())
+			    .then(data => {
+			      document.getElementById('navbar-placeholder').innerHTML = data;
+			    });
+			</script>
+		</div>
+
+		<section class="wrapper style1">
+			<div class="container">
+				<div id="content">
+					<article>
+						<header>
+							<h2>Complete list of all objectives</h2>
+							<p>Git gud, learn the objectives</p>
+						</header>
+						<span class="image featured">
+							<img 
+								src="images/other/gitgud_new.jpg" 
+								alt="" 
+								style="width: 100%; height: 400px; object-fit: cover; object-position: center;" />
+						</span>
+						<p>Now, here's a complete list of all the objectives for season 1</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+        <!-- Sidebar + Detail Layout -->
+        <section class="wrapper style1">
+			<div class="container" id="objectives-layout">
+                <div>
+                    <h3>All Objectives</h3>
+                    <div id="objective-list"
+                        style="min-height: 800px; max-height: 1200px; overflow-y: scroll; background-color: #f7f7f7; border-radius: 2px;"
+                    ></div>
+                </div>
+				<div id="objective-detail"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <div id="footer">
+            <div class="container">
+                <div class="copyright">
+                    <ul class="menu">
+                        <p>All rights reserved your almighty Gud God, LaZarus<p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+		<!-- Dynamic Objective Script -->
+		<script>
+		const basePath = "pages/objectives/new_objective_list.html";
+		let objectives = [];
+
+		async function fetchObjectives() {
+			if (objectives.length === 0) {
+				const response = await fetch("assets/objective_details.json");
+				objectives = await response.json();
+			}
+			return objectives;
+		}
+
+		function clearElement(el) {
+			while (el.firstChild) {
+				el.removeChild(el.firstChild);
+			}
+		}
+
+		function buildObjectiveList() {
+			const listContainer = document.getElementById("objective-list");
+			clearElement(listContainer);
+
+			const ul = document.createElement("ul");
+			objectives.forEach(obj => {
+				const li = document.createElement("li");
+				const link = document.createElement("a");
+				link.href = "#";
+				link.textContent = obj.name;
+				link.addEventListener("click", (e) => {
+					e.preventDefault();
+					history.pushState({}, "", `${basePath}?id=${obj.id}`);
+					render();
+				});
+				li.appendChild(link);
+				ul.appendChild(li);
+			});
+			listContainer.appendChild(ul);
+		}
+
+		function showObjectiveDetail(obj) {
+			const container = document.getElementById("objective-detail");
+			clearElement(container);
+
+			const article = document.createElement("article");
+			const header = document.createElement("header");
+			const h2 = document.createElement("h2");
+			h2.textContent = obj.name;
+			header.appendChild(h2);
+			article.appendChild(header);
+
+			obj.type.forEach((t, i) => {
+				if (t === "headline") {
+					const h3 = document.createElement("h3");
+					h3.textContent = obj.content[i];
+					article.appendChild(h3);
+				} else if (t === "paragraph") {
+					const p = document.createElement("p");
+					p.textContent = obj.content[i];
+					article.appendChild(p);
+				} else if (t === "list") {
+					const ul = document.createElement("ul");
+					obj.content[i].forEach(item => {
+						const li = document.createElement("li");
+						li.textContent = item;
+						ul.appendChild(li);
+					});
+					article.appendChild(ul);
+				} else if (t === "image") {
+					const span = document.createElement("span");
+					span.className = "image featured";
+					const img = document.createElement("img");
+					img.src = obj.content[i];
+					img.alt = "";
+					span.appendChild(img);
+					article.appendChild(span);
+				}
+			});
+
+			container.appendChild(article);
+		}
+
+		async function render() {
+			await fetchObjectives();
+			buildObjectiveList();
+
+			const params = new URLSearchParams(window.location.search);
+			const id = params.get("id");
+
+			if (!id) {
+				// Clear detail view if none selected
+				clearElement(document.getElementById("objective-detail"));
+			} else {
+				const obj = objectives.find(o => o.id == id);
+				if (obj) {
+					showObjectiveDetail(obj);
+				} else {
+					const container = document.getElementById("objective-detail");
+					clearElement(container);
+					const p = document.createElement("p");
+					p.textContent = "Objective not found.";
+					container.appendChild(p);
+				}
+			}
+		}
+
+		// Listen to back/forward navigation
+		window.addEventListener("popstate", render);
+
+		// Initial render
+		render();
+		</script>
+	</body>
+</html>

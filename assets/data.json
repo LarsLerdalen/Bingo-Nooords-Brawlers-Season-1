@@ -69,10 +69,10 @@
             "id": 6,
             "player1": "Lerdalen",
             "player2": "Wetterstad",
-            "player1Score": null,
-            "player2Score": null,
-            "bingo": false,
-            "bingoWinner": null
+            "player1Score": 16,
+            "player2Score": 2,
+            "bingo": true,
+            "bingoWinner": "Lerdalen"
           }
         ]
       },
