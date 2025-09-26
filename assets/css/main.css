@@ -3258,8 +3258,7 @@ input, select, textarea {
 
 			/* Optional for visibility */
 			#sidebar1,
-			#sidebar2,
-			#content {
+			#sidebar2 {
 			  background-color: #1c1c1c;
 			}
 
