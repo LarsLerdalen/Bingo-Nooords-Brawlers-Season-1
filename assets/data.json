@@ -51,10 +51,10 @@
             "id": 4,
             "player1": "Karlsen",
             "player2": "Jarem",
-            "player1Score": null,
-            "player2Score": null,
-            "bingo": false,
-            "bingoWinner": null
+            "player1Score": 2,
+            "player2Score": 15,
+            "bingo": true,
+            "bingoWinner": "Jarem"
           },
           {
             "id": 5,
