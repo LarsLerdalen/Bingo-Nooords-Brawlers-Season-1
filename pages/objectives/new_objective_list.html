@@ -115,12 +115,15 @@
 		const basePath = "pages/objectives/new_objective_list.html";
 		let objectives = [];
 
+		const filters = [];
+
 		async function fetchObjectives() {
 			if (objectives.length === 0) {
 				const response = await fetch("assets/objective_details.json");
 				objectives = await response.json();
 			}
-			return objectives;
+
+			return objectives.sort((a,b) => a.name.localeCompare(b.name));
 		}
 
 		function clearElement(el) {
@@ -134,6 +137,7 @@
 			clearElement(listContainer);
 
 			const ul = document.createElement("ul");
+			let previousLetter = "?";
 			objectives.forEach(obj => {
 				const li = document.createElement("li");
 				const link = document.createElement("a");
@@ -144,6 +148,14 @@
 					history.pushState({}, "", `${basePath}?id=${obj.id}`);
 					render();
 				});
+				if (previousLetter[0] !== obj.name[0]){
+					const h4 = document.createElement("h4");
+					h4.innerText = obj.name[0];
+					h4.style.marginBlockEnd = "2px";
+					h4.style.marginInlineStart = "10px";
+					ul.appendChild(h4);
+					previousLetter = obj.name[0];
+				}
 				li.appendChild(link);
 				ul.appendChild(li);
 			});
@@ -216,6 +228,9 @@
 							link.style.padding = "2px";
 							link.style.borderRadius = "4px";
 							link.style.color = "black";
+							link.style.display = "block";
+							link.style.textAlign = "center";
+							link.style.marginBlock = "2px";
 						} else if (t === "list") {
 							const list = document.createElement("ul");
 							if (c.length > 0) {
@@ -234,6 +249,8 @@
 							const img = document.createElement("img");
 							img.src = c;
 							img.alt = "";
+							img.style.width = "450px";
+							img.style.height = "auto"
 							article.appendChild(img);
 						}
 					}
