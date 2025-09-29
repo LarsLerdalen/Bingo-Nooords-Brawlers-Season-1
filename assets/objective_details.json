@@ -24,8 +24,52 @@
       "images/objectives/aquire_both_scarseals/limegrave.png",
       "images/objectives/aquire_both_scarseals/8.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Marika's+Scarseal",
+            "text": "Marikas Scarseal"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Sorseals teller ikke mot dette objektivet, kun Scarseals."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ],
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Marika's Scarseal"
+        ],
+        [
+          "Radagon's Scarseal"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_both_scarseals.html\n"
   },
@@ -56,8 +100,47 @@
       "images/objectives/aquire_cracked_pots/4.png",
       "images/objectives/aquire_cracked_pots/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Cracked+Pot",
+            "text": "Cracked Pot"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er forskjell på Ritual pots og cracked pots. Kun cracked pots teller mot dette objektivet!",
+            "Cracked pot som keepsake teller her."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Cracked pots"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_cracked_pots.html\n"
   },
@@ -86,8 +169,36 @@
         "[5]Rykard, Lord of Blasphemy"
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Remembrance",
+            "text": "Remembrances"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det holder ikke å drepe bossen, du må passe på at du FÅR remembrancen før du claimer ruta (eller teleporter videre)!",
+            "Siden du må ha forskjellige remembrancer så vil ikke det å dupe en telle som to. Det må være forskjellige!"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_different_remem.html\n"
   },
@@ -110,8 +221,46 @@
       "Husk at du må ha drept Radahn for å komme deg ned hit.",
       "images/objectives/aquire_fingerslayer/nights_sacred_ground.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Fingerslayer+Blade",
+            "text": "Fingerslayer Blade"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen avklaringer nødvendig"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Fingerslayer blade"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_fingerslayer.html\n"
   },
@@ -138,8 +287,46 @@
       "images/objectives/aquire_dectus/2.png",
       "images/objectives/aquire_dectus/3.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Dectus+Medallion+(Right)",
+            "text": "Dectus Medallion (Right)"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du trenger ikke å ha brukt medaljongen, det holder å ha den i ditt inventory."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Both halfes"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_full_dectus_med.html\n"
   },
@@ -162,8 +349,44 @@
       "Husk at du må ha drept Radahn for å komme deg hit.",
       "images/objectives/aquire_ghost_bearing/nokron.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "paragraph"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/ghost-glovewort+picker's+bell+bearing+(1)",
+            "text": "Ghost Glovewort Picker's Bell Bearing [1]"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          "Husk at dette er GHOST-Glovewort bell bearing, IKKE Grave Glovewort bell bearing."
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Ghost Glovewort Bell Bearing [1]"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_ghost_bearing.html\n"
   },
@@ -184,8 +407,44 @@
       "Du finner den ved å drepe bossen (Erdtree Burial Watchdog) iWyndham Catacombs.",
       "images/objectives/aquire_grave_bearing/altus.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "paragraph"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Glovewort+Picker's+Bell+Bearing+(1)",
+            "text": "Glovewort Picker's Bell Bearing [1]"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          "Husk at dette er GRAVE-Glovewort bell bearing, IKKE Ghost Glovewort bell bearing."
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Grave Glovewort Bell Bearing [1]"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_grave_bearing.html\n"
   },
@@ -214,8 +473,47 @@
       "images/objectives/aquire_imbued_keys/caelid.png",
       "images/objectives/aquire_imbued_keys/liurnia.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/imbued+sword+key",
+            "text": "Imbued sword key"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Kun IMBUED sword keys teller, ikke vanlige sword keys.",
+            "Du har lov til å benytte de underveis, altså du kan hente en og benytte den før du henter den andre. Du må ikke ha to imbued sword keys samtidig i inventory, det holder at du har hentet to forskjellige."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Imbued Sword Key"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_imbued_keys.html\n"
   },
@@ -251,8 +549,24 @@
       "images/objectives/aquire_legendary_armaments/4.png",
       "images/objectives/aquire_legendary_armaments/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Viktige avklaringer",
+          [
+            "Det er kun armaments som teller mot \"Legendary armaments\" achievementen i spillet som teller her. Det er derfor 9 stk totalt, men det er flere som har attributten \"legendary\". Hvis du er i tvil er det kun de på denne siden her som teller."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_legendary_arm.html\n"
   },
@@ -276,8 +590,46 @@
         "Resten kan du finne her ved å filtrer på \"Memory Stone\" under \"Key Items\":MapGenie"
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/memory+stone",
+            "text": "Memory Stones"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen avklaringer nødvendig"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Memory Stone"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_memory_stones.html\n"
   },
@@ -296,8 +648,46 @@
       ],
       "Hvor kan du finne de?"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Crystal+Tears",
+            "text": "Crystal Tears"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen avklaringer nødvendig."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Crystal Tears"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_physick_flask.html\n"
   },
@@ -316,8 +706,46 @@
       ],
       "Hvor kan du finne de?"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Ritual+Pot",
+            "text": "Ritual pots"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er forskjell på cracked pots og ritual pots. Kun Ritual pots teller her."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Ritual pots"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_ritual_pots.html\n"
   },
@@ -353,8 +781,35 @@
       "images/objectives/aquire_sacred_seals/caelid.png",
       "images/objectives/aquire_sacred_seals/altus.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Sacred+Seals",
+            "text": "Sacred Seals"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen avklaringer nødvendig"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_seals.html\n"
   },
@@ -385,8 +840,46 @@
       ],
       "images/objectives/aquire_margit_shackle/shackle.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Margit's+Shackle",
+            "text": "Margit's Shackle"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du trenger ikke å hente denne før du dreper Margit, du kan alltids hente den etter."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Marika's Scarseal"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_shackles.html\n"
   },
@@ -411,8 +904,47 @@
       "images/objectives/aquire_smithing_bearing/4.png",
       "images/objectives/aquire_smithing_bearing/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Upgrade+Materials",
+            "text": "Upgrade materials"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du skal SPESIFIKT ha bell bearing nummer 1 og 2, ikke to stk totalt eksempelvis 1 og 3.",
+            "Husk at det er forskjell på Smithing stone bell bearing og Somber stone bell bearing."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Smithing stone bell bearing"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_smithing_bearing.html\n"
   },
@@ -437,8 +969,49 @@
       "images/objectives/aquire_somber_bearing/3.png",
       "images/objectives/aquire_somber_bearing/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Upgrade+Materials",
+            "text": "Upgrade materials"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du skal SPESIFIKT ha bell bearing nummer 1 og 2, ikke to stk totalt eksempelvis 1 og 3.",
+            "Husk at det er forskjell på Somber stone bell bearing og Smithing stone bell bearing."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Somber stone bell bearing",
+          "images/objectives/aquire_somber_bearing/somber_bearing.webp"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_somber_bearing.html\n"
   },
@@ -484,8 +1057,35 @@
         "[13]Albinauric Staff"
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Glintstone+Staffs",
+            "text": "Glintstone Staves"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen avklaringer nødvendig"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_staffs.html\n"
   },
@@ -508,8 +1108,36 @@
       "Hvor kan du finne de?",
       "Du kan finne oversikten her ved å filtrer på \"Talisman\" under \"Equipment\":MapGenie"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Talismans",
+            "text": "Talismans"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "De to talismanene du kan kjøpe i roundtable hold teller.",
+            "Du kan også starte med en talisman som starting gift, den teller også."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_talismans.html\n"
   },
@@ -528,8 +1156,46 @@
       ],
       "Hvor kan du finne de?"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Whetblades",
+            "text": "Whetblades"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen avklaringer nødvendig."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Whetblades"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "aquire/aquire_whetblades.html\n"
   },
@@ -556,10 +1222,27 @@
         "[3.1]: Løp tilbake tilCave of Knowledge(i stranded graveyard) og drep sluttbossen der som er superenkel. Dette er den safeste løsningen, men ikke nødvendigvis den raskeste.",
         "[3.2]: Løp tilGroveside cavei Limgrave og drep bossen. Dette er litt mer risikabelt med 40 throwing daggers. Du kan plukke opp noen Kukri rett ved caven som jeg har markert med blått."
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_consumable/2.png"
+      "images/objectives/kill_consumable/2.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Viktige avklaringer",
+          [
+            "Det erKUNlov å deale damage med consumables, men det er lov å blokke og å parry med skjold, da det ikke dealer damage.",
+            "Crystal tears teller som consumables, så hvis du dreper en boss med \"Explosive physics tear\" (som er en annen rute vi har) så teller det som en consumable."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_a_boss_consum.html\n"
   },
@@ -578,10 +1261,50 @@
       "Du må drepe en boss hvor du rir på Torrent hele kampen. det betyr at du ikke kan gå av Torrent, og du kan heller ikke bli slått av Torrent. Hvis du blir slått av så må du starte kampen på nytt for at det skal telle mot denne ruta.",
       "Tips til denne ruta",
       "Du kan drepe hvilken som helst boss i spillet hvor du rir på Torrent for at det skal telle mot denne ruta, men det er en boss som er absolutt raskest hvis du ønsker å rushe ruta. \n                                                Det er å løpe rett til kjelleren til Sellen og drepeMad Pumpkin HeadiWaypoint Ruins. \n                                                Når du kommer ned i kjelleren og går inn døra kan du summone Torrent og ta fighten på hesten. Dette er en veldig enkel fight, bare pass på at du ikke dealer damage eller roller angrep på bossen før du har Torrent oppe.",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_a_boss_torrent/2.png"
+      "images/objectives/kill_a_boss_torrent/2.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Torrent+(Spirit+Steed)",
+            "text": "Torrent (Spirit Steed)"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Hvis du blir slått ned av Torrent i løpet av kampen så må du begynne kampen på nytt for da har duIKKEvært på Torrent hele kampen. Det betyr at du heller ikke kans tarte kampen med å rolle unna angrep, selv om du ikke dealer damage, for da har du drevet med kampen uten Torrent."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Torrent",
+          "images/objectives/kill_a_boss_torrent/torrent.png"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_a_boss_on_torrent.html\n"
   },
@@ -600,8 +1323,48 @@
       "Hvor finner du våpenet Serpent Hunter?",
       "Våpenet finner du rett til venstre etter å ha gått inn i boss rommet tilRykard, Lord of Blasphemy, hvor et brent lik holder våpenet. Våpenet har ingen requirements, så du kan bruke våpenet uansett hvilken level du er i."
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/serpent-hunter",
+            "text": "Serpent-Hunter"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Den eneste bossen som ikke teller mot denne ruta erRykard, Lord of Blasphemy"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Serpent Hunter",
+          "images/objectives/kill_a_boss_serpent_hunter/serpent_hunter.webp"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_a_boss_serpent_hunter.html\n"
   },
@@ -623,11 +1386,39 @@
       "Tips til denne ruta",
       "Du kan drepe hvilken som helst boss i spillet med Spirit ashes for at det skal telle mot denne ruta, men det er noen metoder som er enklere enn andre for å få til dette.",
       "Det er i hovedsak to muligheter jeg tenker på som kan gjøre dette forholdsvis enkelt:[1]: Den raskeste metoden er å henteGodrick Soldier Ashes(markert med blått 1) og deretter løpe og drepeBOFA(markert med rødt 1). Det er dog verdt å merke at dette er bare suksess 80% av gangene så du kan være uheldig og spirit ashene klarer ikke å drepe han.[2]: En annen god metode er å henteRotten Stray Ashes(markert med blått 2) og deretter løpe og drepeBOFA(markert med rødt 1). Hvis bossen dør av Scarlet Rot påført av spirit ashen så teller dette. Jeg har selv brukt denne metoden til å drepe Dualist bossen som er markert med rødt 2, hvor spirit ashen kun tok ca 30% av livet til bossen men Scarlet rot tok resten.",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_boss_spirit_ash/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_boss_spirit_ash/3.png"
+      "images/objectives/kill_boss_spirit_ash/2.png",
+      "images/objectives/kill_boss_spirit_ash/3.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Spirit+Ashes",
+            "text": "Spirit Ashes"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ikke damage actions som blokking og parrying er lov.",
+            "Hvis spirit ashen setter en status på bossen som dreper bossen så teller dette."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_a_boss_spirit_ash.html\n"
   },
@@ -661,13 +1452,51 @@
         "[4]: Du finner en bell bearing hunter på natterstid vedHermit Merchant's Shack",
         "[5]:Elemer of the Briarfinner du som sluttbossen iThe Shaded Castle"
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_bell_bearing/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_bell_bearing/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_bell_bearing/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_bell_bearing/5.png"
+      "images/objectives/kill_bell_bearing/2.png",
+      "images/objectives/kill_bell_bearing/3.png",
+      "images/objectives/kill_bell_bearing/4.png",
+      "images/objectives/kill_bell_bearing/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Bell+Bearing+Hunter",
+            "text": "Bell Bearing Hunter"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Elemer of the Briarteller som en Bell Bearing Hunter!"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Bell Bearing Hunters"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_bell_bearing.html\n"
   },
@@ -686,10 +1515,50 @@
       "Du må drepe en black blade kindred (bbk som de kalles).",
       "Hvor kan du finne a Black Blade Kindred?",
       "Det finnes kun en black blade kindred i spillet (førVEEELDIGlategame) og det er den som står utenfor bygningen til Gurranq. \n                                                Raskeste måten å komme seg dit på er å ta teleporteren (som er markert med blått) for å bli fraktet rett til bbk som er markert med rødt:",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_black_blade_kindred/3.png"
+      "images/objectives/kill_black_blade_kindred/3.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/black+blade+kindred",
+            "text": "Black Blade Kindred"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Black Blade Kindred",
+          "images/objectives/kill_black_blade_kindred/black_blade_kindred.jpg"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_black_blade_kindred.html\n"
   },
@@ -717,12 +1586,52 @@
         "[3]: Du finner en black knife assassin som sluttbossen iSage's Cave",
         "[4]: Du finner en black knife assassin sittendeutenforHermit Merchant's Shack"
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_bell_bearing/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_bell_bearing/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_bell_bearing/5.png"
+      "images/objectives/kill_bell_bearing/2.png",
+      "images/objectives/kill_bell_bearing/4.png",
+      "images/objectives/kill_bell_bearing/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Black+Knife+Assassin",
+            "text": "Black Knife Assassin"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Black Knife Assassin",
+          "images/objectives/kill_black_knife/black_knife_assassin.webp"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_black_knife_ass.html\n"
   },
@@ -749,8 +1658,36 @@
       ],
       "Jeg har valgt å ikke legge med et kart for disse da dette mest sannsynlig ikke er beste måten å løse ruta på, men i det minste en tanke jeg hadde gjort meg om jeg skulle gjort den."
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Status+Effects",
+            "text": "Status Effects"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du har lov til å deale damage fra andre kilder enn status effects også, det eneste kravet for denne ruta er at bossen i løpet av kampen må ha hatt minst 3 forskjellige status effects. Merk dere at blood loss er en status effect.",
+            "Det spiller ingen rolle hvor kilden til status effekten kommer fra, det kan være consumables, våpen, spirit ashes eller andre."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_boss_different_status_effects.html\n"
   },
@@ -774,7 +1711,7 @@
       "Tips",
       "JegTRORat de letteste her er følgende: 1, 2, 5, 7, 9, 11, 14, 19, 20, 22, 23, 25, 26 og 33",
       "Hvor kan du finne de?",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_bosses_altus/altus_2.png",
+      "images/objectives/kill_bosses_altus/altus_2.png",
       [
         "[1]Godefroy the Grafted",
         "Husk at du trenger en Stonesword key for å åpne evergaolen.",
@@ -814,8 +1751,26 @@
         "[34]Ulcerated Tree Spirit"
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Viktige avklaringer",
+          [
+            "Leyndell teller ikke med i Altus.",
+            "Duo/trio bosser teller som 1 bossfight,IKKE2/3 bossfights",
+            "Bosser som er på kart under bakken tellerIKKE(da sikter jeg til Siofra river, Deeprooth Depths og Ainsel River)"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_bosses_altus.html\n"
   },
@@ -837,7 +1792,7 @@
       "Tips",
       "JegTRORat de letteste her er følgende (generelt sett hold deg unna Dragonbarrow): 6, 8, 9, 10, 14, 16, 17",
       "Hvor kan du finne de?",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_bosses_caelid/caelid.png",
+      "images/objectives/kill_bosses_caelid/caelid.png",
       [
         "[1]Cemetary shade",
         "[2]Commander O'Neil",
@@ -869,8 +1824,25 @@
         "[24]Putrid Tree Spirit"
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Viktige avklaringer",
+          [
+            "Duo/trio bosser teller som 1 bossfight,IKKE2/3 bossfights",
+            "Bosser som er på kart under bakken tellerIKKE(da sikter jeg til Siofra river, Deeprooth Depths og Ainsel River)"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_bosses_caelid.html\n"
   },
@@ -892,7 +1864,7 @@
       "Tips",
       "JegTRORat de letteste her er følgende: 1, 3, 4, 8, 9, 10, 13, 14, 15, 19, 20, 21, 22, 28",
       "Hvor kan du finne de?",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_bosses_limgrave/limgrave_bosses.png",
+      "images/objectives/kill_bosses_limgrave/limgrave_bosses.png",
       [
         "[1]Beastman of Farum Azula",
         "[2]Bell Bearing Hunter",
@@ -929,8 +1901,26 @@
         "[31]Grafted Scion"
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Viktige avklaringer",
+          [
+            "Duo/trio bosser teller som 1 bossfight,IKKE2/3 bossfights",
+            "Bosser som er på kart under bakken tellerIKKE(da sikter jeg til Siofra river, Deeprooth Depths og Ainsel River)",
+            "Grafted Scioni Chapel of Anticipation (startområdet) teller som Limgrave boss"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_bosses_limegrave.html\n"
   },
@@ -952,7 +1942,7 @@
       "Tips",
       "JegTRORat de letteste her er følgende: 1, 3, 4, 5, 7, 8, 9, 12, 13, 14, 26",
       "Hvor kan du finne de?",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_bosses_liurnia/liurnia.png",
+      "images/objectives/kill_bosses_liurnia/liurnia.png",
       [
         "[1]Adan, Thief of Fire",
         "[2]Bell Bearing Hunter",
@@ -986,8 +1976,27 @@
         "[26]Tibia Mariner"
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Viktige avklaringer",
+          [
+            "Duo/trio bosser teller som 1 bossfight,IKKE2/3 bossfights",
+            "Bosser som er på kart under bakken tellerIKKE(da sikter jeg til Siofra river, Deeprooth Depths og Ainsel River)",
+            "Magma Wyrm Makarteller som Liurnia boss",
+            "Glintstone Dragon AdulaTELLER IKKEsom Liurnia boss fordi når du slår den oppe ved \"The Three sisters\" så vil den bare flytte seg til Moonlight Altar, og du har derfor aldri drept den."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_bosses_liurnia.html\n"
   },
@@ -1040,13 +2049,40 @@
         "[11]: Radahn rir på stakkars Leonard, så Radahn teller!",
         "[12]:Royal Knight Lorettafinner du i toppen av Caria Manor"
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_horse_bosses/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_horse_bosses/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_horse_bosses/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_horse_bosses/5.png"
+      "images/objectives/kill_horse_bosses/2.png",
+      "images/objectives/kill_horse_bosses/3.png",
+      "images/objectives/kill_horse_bosses/4.png",
+      "images/objectives/kill_horse_bosses/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
+            "text": "Night's Cavalry"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Duo bosser på hest teller som 2 (eksempelvis Tree Sentinal duo på Altus)."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_bosses_ride_horse.html\n"
   },
@@ -1111,14 +2147,41 @@
         "[15]: Det er en ved minor erdtree nord-øst i Liurnia",
         "[16]: Det er en ved minor erdtree iDeeproot Depths"
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_tree_bosses/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_tree_bosses/caelid.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_tree_bosses/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_tree_bosses/5.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_tree_bosses/10.png"
+      "images/objectives/kill_tree_bosses/2.png",
+      "images/objectives/kill_tree_bosses/caelid.png",
+      "images/objectives/kill_tree_bosses/4.png",
+      "images/objectives/kill_tree_bosses/5.png",
+      "images/objectives/kill_tree_bosses/10.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Tree+Sentinel",
+            "text": "Tree Sentinel"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Pass på at putrid avatars ikke har \"tree\" i navnet."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_bosses_tree_name.html\n"
   },
@@ -1145,12 +2208,52 @@
         "[2]: Du finner en cemetery shade som sluttbossen iBlack Knife Catacombs",
         "[3]: Du finner en cemetery shade som sluttbossen iCaelid Catacombs"
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_cemetary_shade/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_cemetary_shade/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_cemetary_shade/4.png"
+      "images/objectives/kill_cemetary_shade/2.png",
+      "images/objectives/kill_cemetary_shade/3.png",
+      "images/objectives/kill_cemetary_shade/4.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/cemetery+shade",
+            "text": "Cemetery Shade"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Cemetary Shade",
+          "images/objectives/kill_cemetary_shade/cemetary_shade.jpg"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_cemetary_shades.html\n"
   },
@@ -1187,14 +2290,55 @@
         "[7]: Du finner to stk crucible knight som en duo fight som sluttboss iAzuriza Hero's Grave. Klarer du denne så teller det som \"kill 2 crucible knights\", men fighten er veldig tøff.",
         "[8]: Du finner en crucible knight iDeeproot Depths"
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_crucible_knight/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_crucible_knight/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_crucible_knight/5.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_crucible_knight/8.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_crucible_knight/10.png"
+      "images/objectives/kill_crucible_knight/2.png",
+      "images/objectives/kill_crucible_knight/3.png",
+      "images/objectives/kill_crucible_knight/5.png",
+      "images/objectives/kill_crucible_knight/8.png",
+      "images/objectives/kill_crucible_knight/10.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/crucible+knight",
+            "text": "Crucible Knight"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Alle bossfights som har andre fiender enn kun Crucible Knights må også fullføres for at boss fighten (og dermed crucible knight kill) skal telles.",
+            "En crucible duo fight (punkt 7 på lista) teller som 2 stk Crucible knights! Dette er fordi det står \"kill 2 crucible knights\" og ikke \"complete 2 crucible knight bossfights\"."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Crucible Knight",
+          "images/objectives/kill_crucible_knight/crucible_knight.webp"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_crucible_knights.html\n"
   },
@@ -1216,13 +2360,53 @@
       "Du må drepe 1 Deathbird og 1 Death Rite Bird. Det er viktig at det er en av hver type.",
       "Hvor kan du finne Deathbird og Death Rite Bird?",
       "Jeg har markert på kartene under medrødthvor du kan finne Deathbirds og medblåtthvor du kan finne Death Rite Birds. Husk at disse kun kommer frem på natta, så du må sette deg ved et grace og \"pass time\" till natterstid.",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_deathbird/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_deathbird/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_deathbird/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_deathbird/5.png"
+      "images/objectives/kill_deathbird/2.png",
+      "images/objectives/kill_deathbird/3.png",
+      "images/objectives/kill_deathbird/4.png",
+      "images/objectives/kill_deathbird/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/deathbird",
+            "text": "Deathbird"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du trenger en av hver type!"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Deathbird",
+          "Death Rite Bird"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_death_bird_rite_bird.html\n"
   },
@@ -1256,13 +2440,53 @@
         "[7]: Du finner en Magma wyrm i lavasjøen vedFort Laiedd. Se her for mer info:MW Fort Laiedd",
         "[8]: Du finner en Magma wyrm iVolcano Manor. Se her for mer info:MW Volcano Manor"
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_dragon_heart/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_dragon_heart/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_dragon_heart/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_dragon_heart/5.png"
+      "images/objectives/kill_dragon_heart/2.png",
+      "images/objectives/kill_dragon_heart/3.png",
+      "images/objectives/kill_dragon_heart/4.png",
+      "images/objectives/kill_dragon_heart/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/dragon+heart",
+            "text": "Dragon Heart"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Greyollog hennes barn (dragene rundt henne) teller ikke som bosser og teller derfor heller ikke mot denne ruta."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Dragon Heart",
+          "images/objectives/kill_dragon_heart/dragon_heart.png"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_dragon_heart_bosses.html\n"
   },
@@ -1283,12 +2507,52 @@
       "Du må drepe en Dragonkin soldier.",
       "Hvor kan du finne en Dragonkin Soldier?",
       "I praksis finnes det kun to stk Dragonkin soldiers som er aktuelle for et bingo run og det er de to følgende:[1]: (Denne er markert med rødt på kartet) Den ene er i Siofra river. Da må du ta teleporteren markert med rød 1 for å komme opp til bossen som er ved rød 2.[2]: (Denne er markert med blått på kartet) Den andre er i Nokstella. Du må ta heisen markert med blå 1 og løpe helt til bossen som er ved blå 2.",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_dragonkin_soldier/7.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_dragonkin_soldier/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_dragonkin_soldier/9.png"
+      "images/objectives/kill_dragonkin_soldier/7.png",
+      "images/objectives/kill_dragonkin_soldier/4.png",
+      "images/objectives/kill_dragonkin_soldier/9.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/dragonkin+soldier",
+            "text": "Dragonkin Soldier"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Dragonkin Soldier",
+          "images/objectives/kill_dragonkin_soldier/dragonkin.jpg"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_dragon_kin_soldier.html\n"
   },
@@ -1317,12 +2581,53 @@
         "[3]: Den siste er en frenzied versjon som er sluttbossen iGaol Cavei Caelid.",
         "OBS: Du trenger to stk Stonesword keys for å åpne caven!"
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_duelists/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_duelists/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_duelists/5.png"
+      "images/objectives/kill_duelists/2.png",
+      "images/objectives/kill_duelists/3.png",
+      "images/objectives/kill_duelists/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Duelist",
+            "text": "Duelist"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du trenger ikke å drepe to forskjellige typer duelister, bare to forskjellige duellist bosser.",
+            "Duo bossen i Auriza Side Tomb teller som to stk Duelist bosser og det å ta denne bossfighten vil derfor alene telle for hele ruten. Den er dog en tøff fight og langt inne på Altus."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Duelist",
+          "images/objectives/kill_duelists/duelist.jpg"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_duelist_bosses.html\n"
   },
@@ -1372,14 +2677,30 @@
         "[17]:Nox Swordtress and Priestduo som du finner i Sellia",
         "OBS: Bossfighten er bak en magisk barriere. For å fjerne denne må du tenne et av de tre tårnene i Sellia, nemlig den mest nord-vestlige."
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_duo_trio/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_duo_trio/caelid_2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_duo_trio/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_duo_trio/5.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_duo_trio/8.png"
+      "images/objectives/kill_duo_trio/2.png",
+      "images/objectives/kill_duo_trio/caelid_2.png",
+      "images/objectives/kill_duo_trio/4.png",
+      "images/objectives/kill_duo_trio/5.png",
+      "images/objectives/kill_duo_trio/8.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Viktige avklaringer",
+          [
+            "Du må klare HELE boss fighten for at du skal kunne telle den mot denne ruta."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_duo_trio.html\n"
   },
@@ -1412,13 +2733,53 @@
         "[5]: Det er en ved minor erdtree nord-vest i Caelid",
         "[6]: Det er en ved minor erdtree i Dragonbarrow"
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_erdtree_avatars/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_erdtree_avatars/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_erdtree_avatars/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_erdtree_avatars/10.png"
+      "images/objectives/kill_erdtree_avatars/2.png",
+      "images/objectives/kill_erdtree_avatars/3.png",
+      "images/objectives/kill_erdtree_avatars/4.png",
+      "images/objectives/kill_erdtree_avatars/10.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Erdtree+Avatar",
+            "text": "Erdtree Avatar"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du trenger ikke å drepe to forskjellige typer, kun å drepe to stk."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Erdtree Avatar",
+          "images/objectives/kill_erdtree_avatars/erdtree_avatar.webp"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_erdtree_avatars.html\n"
   },
@@ -1438,11 +2799,51 @@
       "Du må drepe en Fallingstar Beast.",
       "Hvor kan du finne Fallingstar Beast?",
       "[1]: Det er en som er sluttbossen i Sellia Crystal Tunnel.[2]: Det er en i krateret på Altus.[3]: Det er en i krateret på toppen av Mount Gelmir, men dette er en fullgrown versjon og derfor tøffere.",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_fallingstar_beast/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_fallingstar_beast/5.png"
+      "images/objectives/kill_fallingstar_beast/3.png",
+      "images/objectives/kill_fallingstar_beast/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/fallingstar+beast",
+            "text": "Fallingstar Beast"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Fallingstar Beast",
+          "images/objectives/kill_fallingstar_beast/fallingstar_beast.jpg"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_fallingstar.html\n"
   },
@@ -1502,12 +2903,41 @@
         "[23]:Blackguard Big Boggart",
         "[24]:Jar Bairn"
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_npc/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_npc/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_npc/4.png"
+      "images/objectives/kill_npc/2.png",
+      "images/objectives/kill_npc/3.png",
+      "images/objectives/kill_npc/4.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/NPCs",
+            "text": "NPC's"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Travelling merchant tellerIKKE. Dette er da både Nomadic merchants og Kalè.",
+            "Patches teller kun som en NPC hvis du sparer livet hans i første duell og reiser tilbake slik at han fungerer som en merchant.",
+            "invaders tellerIKKE"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_friendly_npc.html\n"
   },
@@ -1546,14 +2976,54 @@
         "[4]: Nå kan du reise tilbake til Varre ved punkt [1] som nå vil gi deg medaljongen \"Pureblood Knights medal\" som vil teleportere deg til Mohgwyns Palace."
       ],
       "Når du har kommet deg til Mohgwyns Palace så kan du finne Nameless White Mask invaders ved disse tre punktene (markert med rødt):",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_nameless_mask/7.png",
+      "images/objectives/kill_nameless_mask/7.png",
       "Kartene til Varre sin questline (markert med blått):",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_nameless_mask/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_nameless_mask/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_nameless_mask/5.png"
+      "images/objectives/kill_nameless_mask/2.png",
+      "images/objectives/kill_nameless_mask/4.png",
+      "images/objectives/kill_nameless_mask/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/nameless+white+mask",
+            "text": "Nameless White Mask"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "White Mask Varreteller ikke, siden han ikke er Nameless"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Nameless White Mask",
+          "images/objectives/kill_nameless_mask/nameless_mask.webp"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_nameless_white_mask.html\n"
   },
@@ -1585,13 +3055,53 @@
         "[6]: En rett ved starten av veien på Altus etter å ha tatt Grand lift of Dectus heisen opp til Altus",
         "[7]: En på brua i Dragonbarrow (den brua som IKKE har en drage). Denne er veldig tøff."
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_night_cav/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_night_cav/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_night_cav/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_night_cav/5.png"
+      "images/objectives/kill_night_cav/2.png",
+      "images/objectives/kill_night_cav/3.png",
+      "images/objectives/kill_night_cav/4.png",
+      "images/objectives/kill_night_cav/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
+            "text": "Night's Cavalry"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Night's Cavalry",
+          "images/objectives/kill_night_cav/nights_cavalry.webp"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_nights_cavalry.html\n"
   },
@@ -1631,13 +3141,42 @@
         "[9]:Tanith's Knight",
         "Du må først drepe Rykard, og deretter drepe Talith mens hun spiser på Rykard sitt lik. Da invades du rett etter."
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_npc_invader/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_npc_invader/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_npc_invader/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_npc_invader/5.png"
+      "images/objectives/kill_npc_invader/2.png",
+      "images/objectives/kill_npc_invader/3.png",
+      "images/objectives/kill_npc_invader/4.png",
+      "images/objectives/kill_npc_invader/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/NPC+Invaders",
+            "text": "NPC invaders"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "DEmå invadeDEG. Ergo teller ikke fiender som Magnus, fordi det er du som invaderer han!",
+            "Du må få teksten \"Invaded by ...\" for at den skal telle",
+            "Great Jar Warrior adversaries i Caelid tellerIKKEda det er du som akller de inn og de kalles adversaries og ikke invaders."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_npc_invaders.html\n"
   },
@@ -1652,8 +3191,35 @@
       "Hva skal til for å kunne claime ruten?",
       "Du må ha drept en rememberance boss med buer only. Buer inkluderer light bows, bows, great bows og crossbows menIKKEballistas.\n                                                Jeg har valgt å ikke sette opp et kart med beste buer her, siden jeg mener at Samurai klassen starter med den beste bua du kan få tak i før late game. Det er ikkenoe galt med å hente en annen bue dog."
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Light+Bows",
+            "text": "Light Bows"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du kan kun deale damage med light bows, bows, great bows og crossbows. Ballistas erIKKEtillatt."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_remem_bow.html\n"
   },
@@ -1675,13 +3241,40 @@
       "Du må ha drept en rememberance boss med et colossal armament (enten colossal sword eller colossal weapon).",
       "Hvor kan du finne colossal armaments?",
       "Jeg har valgt å liste opp her kun de armaments som jeg mener er aktuelle for et bingo run (altså fjerner lategame armaments og de som har latterlig høye krav). Jeg har heller ikke nevnt det der fiender kan droppe et armament med en x prosent sjanse.\n                                                De som er markert med rødt har kun strength og/eller dexterity krav, de som er markert blått har i tillegg et intelligence krav og de som er markert med gult har også et faith krav. Her er listen:[1]:Great Clubfår du ved å drepe sluttbossen iOld Altus TunnelOBS:Du trenger 2 stk Stonesword keys for å åpne tunellen.[2]:Trolls hammerfinnes i en \"storage shed\" inne iOld Altus TunnelOBS:Du trenger 2 stk Stonesword keys for å åpne tunellen.[3]:Dragon Greatclawdroppes av Draconic Tree Sentinal på vei inn til Leyndell[4]:Watchdog Stafffinnes bak en hemmelig vegg iRoad's End Catacombs[5]:Ghiza's WheelFår du ved å drepe Inquisitor Ghiza i Volcano ManorKombinerer veldig godt med ruta vi har som er å drepe Inquisitor Ghiza[6]:Sweihanderkan kjøpes av merchanten i Weeping for kun 3.500 runes![7]:Greatswordfinnes i en kiste i en vogn omringet av giant dogs i Caelid.[8]:Troll's Golden Swordfinnes i en kiste i en vogn i den store campen på Altus.[9]:Troll Knight's Sworddroppes av Troll Knight i trappene rett før Loretta i Caria Manor.[10]:Grafted Blade Greatswordfås ved å drepe Leonine Misbegotten i Weeping.Kombinerer veldig godt med ruta vi har som er å drepe Leonine Misbegotten, men den krever 40 strength. Kan løses med 2 stk talismaner og two handing.[11]:Ruins Greatswordfås ved å drepe Misbegotten and Crucible duo i Redmane Castle i Caelid.Kombinerer veldig godt med ruta vi har som er å drepe Misbegotten and crucible duo, men den krever 50 strength. Kan løses med 2 stk talismaner og two handing.[12]:Starscourge Greatswordfås ved å drepe Starscourge Radahn i Caelid.Litt ugreie stats, men kombinerer både med rutene om å drepe Radahn, men er også et rememberance våpen.[13]:Godslayer's Greatswordfinnes i en kiste etter du har drept Godskin Apostle i bunnen av Divine tower of Caelid.",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_remem_colossal/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_remem_colossal/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_remem_colossal/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_remem_colossal/5.png"
+      "images/objectives/kill_remem_colossal/2.png",
+      "images/objectives/kill_remem_colossal/3.png",
+      "images/objectives/kill_remem_colossal/4.png",
+      "images/objectives/kill_remem_colossal/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Colossal+Swords",
+            "text": "Colossal Swords"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Både Colossal Swords og Colossal Weapons faller innunder kategorien Colossal armaments og er derfor ok."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_remem_colossal.html\n"
   },
@@ -1700,12 +3293,52 @@
       "Hva skal til for å kunne claime ruten?",
       "Du må drepe 2 forskjellige Tibia Mariners.",
       "Hvor kan du finne de ulike Tibia Mariners?",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_tibia/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_tibia/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_tibia/5.png"
+      "images/objectives/kill_tibia/2.png",
+      "images/objectives/kill_tibia/4.png",
+      "images/objectives/kill_tibia/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
+            "text": "Night's Cavalry"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Night's Cavalry",
+          "images/objectives/kill_tibia/tibia_mariner.webp"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_tibia_mariners.html\n"
   },
@@ -1741,12 +3374,52 @@
         "[3]: Det er en hvis du fortsetter veien ned forbi Volcano Manor ved Minor Erdtree i Mount Gelmir",
         "[4]:Putrid Tree Spiritfinnes iThe War-Dead Catacombs. Du må drepe Radahn for å komme deg hit."
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_tree_spirits/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_tree_spirits/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_tree_spirits/5.png"
+      "images/objectives/kill_tree_spirits/2.png",
+      "images/objectives/kill_tree_spirits/3.png",
+      "images/objectives/kill_tree_spirits/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
+            "text": "Night's Cavalry"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det trengerikkeå være en boss."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Tree spirit",
+          "images/objectives/kill_tree_spirits/tree_spirit.jpg"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_tree_spirits.html\n"
   },
@@ -1780,13 +3453,53 @@
         "[4]: Det er en duo boss som sluttboss iMinor Erdtree Catacombs",
         "[5]: Det finnes en som sluttboss iWyndham Catacombs"
       ],
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_watchdogs/2.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_watchdogs/3.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_watchdogs/4.png",
-      "https://larslerdalen.github.io/Bingo-Nooords-Brawlers-Season-1/pages/objectives/kill/images/objectives/kill_watchdogs/5.png"
+      "images/objectives/kill_watchdogs/2.png",
+      "images/objectives/kill_watchdogs/3.png",
+      "images/objectives/kill_watchdogs/4.png",
+      "images/objectives/kill_watchdogs/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/erdtree+burial+watchdog",
+            "text": "Erdtree Burial Watchdog"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Duo bossen teller som 2 mot denne ruta!"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Erdtree Burial Watchdog",
+          "images/objectives/kill_watchdogs/watchdog.jpg"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "kill/kill_watchdogs.html\n"
   },
@@ -1818,8 +3531,46 @@
       "images/objectives/clear_crystal/4.png",
       "images/objectives/clear_crystal/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Crystalians",
+            "text": "Crystallians"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Husk at det her er snakk om bosses (boss fights). Det betyr at hvis du beseirer en duo boss fight, så teller denne kun som 1, selv om den har 2 separate health bars. Hadde det stått \"Kill 2 Crystallians\" så hadde det holdt med en duo fight, men det gjør det ikke her."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Crystallians"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/clear_crystallian_bosses.html\n"
   },
@@ -1846,8 +3597,46 @@
       "images/objectives/collect_painting/4.png",
       "images/objectives/collect_painting/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Paintings",
+            "text": "Paintings"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er viktig her at man collecter REWARDEN til bildet og ikke kun bildet selv. Det vil ikke telle mot målet om du bare plukker opp bildet."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Resurrection Painting"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/collect_painting_rew.html\n"
   },
@@ -1866,8 +3655,46 @@
       "Hvor kan du finne de?",
       "Du kan finne oversikten her ved å filtrer på \"Perfume bottle\" under \"Key Items\":MapGenie"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+            "text": "Perfume bottles"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du kan benytte de underveis."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Perfume bottle"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/collect_perfume_bottles.html\n"
   },
@@ -1917,8 +3744,46 @@
       "images/objectives/complete_catacombs/liurnia.png",
       "images/objectives/complete_catacombs/altus.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Minor+Dungeons",
+            "text": "Minor dungeons"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er forskjell på Hero graves, tunnels, caves og catacombs. Det er kun Hero graves som teller her."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Hero grave icon"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/complete_altus_hero_grave.html\n"
   },
@@ -1979,8 +3844,46 @@
       "images/objectives/complete_catacombs/liurnia.png",
       "images/objectives/complete_catacombs/altus.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Minor+Dungeons",
+            "text": "Minor dungeons"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er forskjell på catacombs, caves, tunnels og hero graves. Det er kun catacombs som teller her."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Catacomb icon"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/complete_catacomb.html\n"
   },
@@ -2048,8 +3951,47 @@
       "images/objectives/complete_catacombs/liurnia.png",
       "images/objectives/complete_catacombs/altus.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Minor+Dungeons",
+            "text": "Minor dungeons"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er forskjell på caves, catacombs, tunnels og hero graves. Det er kun caves og grottos som teller her.",
+            "Cave of Knowledge(som er tutorial caven) teller som en cave!"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Cave/grotto icon"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/complete_cave_grotto.html\n"
   },
@@ -2068,8 +4010,46 @@
       ],
       "Hvor kan du finne de?"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fandom",
+          {
+            "href": "https://eldenring.fandom.com/wiki/Evergaols",
+            "text": "Evergaols"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen avklaringer nødvendig."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Evergaol"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/complete_evergaols.html\n"
   },
@@ -2099,8 +4079,46 @@
       "images/objectives/complete_letter/2.png",
       "images/objectives/complete_letter/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Letter+from+Volcano+Manor",
+            "text": "Letter from Volcano Manor"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er viktig å forstå her at det er DU som invader targetene fra brevene. Det betyr at disse IKKE teller mot andre objectives som \"Kill NPC invaders\", siden du ikke blir invadert."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Volcano Manor letter"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/complete_letters.html\n"
   },
@@ -2156,8 +4174,46 @@
       "images/objectives/complete_catacombs/liurnia.png",
       "images/objectives/complete_catacombs/altus.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Minor+Dungeons",
+            "text": "Minor dungeons"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er forskjell på tunnels, caves, catacombs og hero graves. Det er kun tunnels som teller her."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Tunnel icon"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/complete_tunnel.html\n"
   },
@@ -2178,8 +4234,46 @@
       "Du kan finne oversikten her ved å filtrer på \"Wandering Mausoleum\" under \"Locations\":MapGenie",
       "De forskjellige mausoleumene har noe forskjellige krav til hvordan du skal entre den. Noen krever at du fjerner mesteparten av \"dødningshodene\" på føttene demmes, mens andre er rene puzzles, som at du må vente på at et mausoleum kommer i en viss posisjon også kan du hoppe opp på den ved å bruke en spiritspring."
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fandom",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Walking+Mausoleum",
+            "text": "Walking Mausoleum"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen avklaringer nødvendig."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Wandering Mausoleum"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/dupe_remem.html\n"
   },
@@ -2196,8 +4290,36 @@
         "Du må ha 25 faith i REN level. Det betyr at du må oppnå 25 i base stat, uten buffs fra spells, armor, talismaner eller lignende. Du har ikke lov til å utføre rebirth hverken før eller etter du har claimet ruta."
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Faith",
+            "text": "Faith"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er kun REN faith level som teller. Du har ikke lov til å oppnå 25 i faith ved å benytte talismaner, buffs, våpen, armor eller annet.",
+            "Du har ikke lov til å kjøre rebirth hverken før eller etter du har claimet ruta. Med andre ord hindrer denne ruta deg fra å kjøre rebirth"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/faith_levels.html\n"
   },
@@ -2216,8 +4338,48 @@
       "Hvor kan du finne deathroots?",
       "Du kan finne oversikten her ved å filtrer på \"Deathroot\" under \"Items\":MapGenie"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fandom",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Deathroot",
+            "text": "Deathroot"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Dere må ha gitt Gurranq 3 stk deathroot slik at dere har fått belønningen \"Bestial Vitality\" (incantation)\" og har den i deres inventory."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Deathroot",
+          "Gurranq"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/feed_gurranq.html\n"
   },
@@ -2242,8 +4404,44 @@
       "images/objectives/finish_explosive/2.png",
       "images/objectives/finish_explosive/4.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Ruptured+Crystal+Tear",
+            "text": "Ruptured Crystal Tear"
+          }
+        ],
+        [
+          "Viktige avklaringer"
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Ruptured Crystal Tear",
+          "Erdtree Avatar"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/finish_boss_explosive.html\n"
   },
@@ -2264,8 +4462,48 @@
       "Hvor kan du finne de?",
       "Du finner full oversikt her ved å filtrere på \"Golden seed\" under \"Items\":MapGenie"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Flask+of+Crimson+Tears",
+            "text": "Crimson Flask"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er totalen av de to flaskene som teller"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Crimson Flask",
+          "Cerulean Flask"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/flask_charges.html\n"
   },
@@ -2291,8 +4529,48 @@
       ],
       "images/objectives/give_boc_needle/limegrave.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Boc+the+Seamster",
+            "text": "Boc the Seamster"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det holder ikke å ha fått tak i \"needle\", du må ha gitt den tilbake til Boc."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Boc the Seamster",
+          "Sewing needle"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/give_bock_needle.html\n"
   },
@@ -2309,8 +4587,36 @@
         "Du må ha 25 intelligence i REN level. Det betyr at du må oppnå 25 i base stat, uten buffs fra spells, armor, talismaner eller lignende. Du har ikke lov til å utføre rebirth hverken før eller etter du har claimet ruta."
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Intelligence",
+            "text": "Intelligence"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er kun REN intelligence level som teller. Du har ikke lov til å oppnå 25 i intelligence ved å benytte talismaner, buffs, våpen, armor eller annet.",
+            "Du har ikke lov til å kjøre rebirth hverken før eller etter du har claimet ruta. Med andre ord hindrer denne ruta deg fra å kjøre rebirth"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/int_levels.html\n"
   },
@@ -2333,8 +4639,46 @@
       "Du må ha 1 stk Festering Bloody Finger for hvert forsøk du invader Magnus. Hvor du kan få tak i disse kan du lese om ved å trykke på lenken på venstre side. Deretter må du gå til punktet på kartet under og invade Magnus ved å interagere med rød tekst på bakken.",
       "images/objectives/invade_magnus/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Magnus+the+Beast+Claw",
+            "text": "Magnus the Beast Claw"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Ingen avklaringer nødvendig."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Magnus the Beast Claw"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/invade_magnus.html\n"
   },
@@ -2365,8 +4709,35 @@
         "Merk dog her at når du filtrerer på \"Spellbooks\" under \"Key Items\" så får du både prayerbooks og spellcasting scrolls på karter."
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Incantations",
+            "text": "Incantations"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Hvis du starter med en class som starter med incantations så teller disse!"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/learn_incant.html\n"
   },
@@ -2391,8 +4762,35 @@
         "Merk dog her at når du filtrerer på \"Spellbooks\" under \"Key Items\" så får du både prayerbooks og spellcasting scrolls på karter."
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Magic+Spells",
+            "text": "Sorceries"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Hvis du starter med en class som starter med sorceries så teller disse!"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/learn_sorc.html\n"
   },
@@ -2415,8 +4813,46 @@
       "Tips",
       "Dette oppdraget betyr at du mister minst 40K runes, som kan gå utover levelingen din og gjøre resten av runnet vanskeligere. Derfor kan det være lurt med en god tilgang på runes. Hvis du drar og dreperElder Dragon Greyollså får du 75.000 runes. Hun kan drepes forholdsvis raskt med et bleed våpen som Uchigatana (isj 4-5 min) og gjør ikke motstand hvis du står ved låret hennes. Dette blir enda lettere hvis du kan hive på littBlood Greasepå våpenet som kan craftes forholdsvis enkelt."
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fandom",
+          {
+            "href": "https://eldenring.fandom.com/wiki/Memory_of_Grace",
+            "text": "Memory of Grace"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du må miste runsene."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Memory of Grace"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/memory_of_grace.html\n"
   },
@@ -2447,8 +4883,46 @@
       "images/objectives/restore_runes/3.png",
       "images/objectives/restore_runes/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/godrick's+great+rune",
+            "text": "Godrick's Great Rune"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det holder ikke å ha den, du må restore den på toppen av et divine tower!"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Godrick's Great Rune"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/restore_godrick_rune.html\n"
   },
@@ -2479,8 +4953,46 @@
       "images/objectives/restore_runes/3.png",
       "images/objectives/restore_runes/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/radahn's+great+rune",
+            "text": "Radahn's Great Rune"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det holder ikke å ha den, du må restore den på toppen av et divine tower!"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Radahn's Great Rune"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/restore_radahn_rune.html\n"
   },
@@ -2511,8 +5023,46 @@
       "images/objectives/restore_runes/3.png",
       "images/objectives/restore_runes/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/rykard's+great+rune",
+            "text": "Rykard's Great Rune"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det holder ikke å ha den, du må restore den på toppen av et divine tower!"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Rykard's Great Rune"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/restore_rykard_rune.html\n"
   },
@@ -2533,8 +5083,48 @@
       "Thops finner du på rød markør i bildet under. Nøkkelen finner du på blå markør i bildet under, men her er også en video over hvor den nøyaktig ligger:Thops Academy Key.",
       "images/objectives/return_key/4.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Thops",
+            "text": "Thops"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du må fullføre dialogen hvor du gir tilbake hans key. Husk at han ikke tar i mot nøkkel nummer en, du må samle to stk (den andre er inne i Raya Lucaria Academy)."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Thops",
+          "Glinstone Academy Key"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/return_thops_key.html\n"
   },
@@ -2555,8 +5145,35 @@
       "For å komme til level 40 må du bruke totalt 140.712 runes på å levle fra level 1 hvis du starter som Wretch (you crazy bitch) eller 133.216 hvis du starter som Samurai i level 11.",
       "Derfor kan det være lurt med en god tilgang på runes. Hvis du drar og dreperElder Dragon Greyollså får du 75.000 runes. Hun kan drepes forholdsvis raskt med et bleed våpen som Uchigatana (isj 4-5 min) og gjør ikke motstand hvis du står ved låret hennes. Dette blir enda lettere hvis du kan hive på littBlood Greasepå våpenet som kan craftes forholdsvis enkelt."
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Level",
+            "text": "Levels"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Buffs som talismaner, great runes og annet teller ikke!"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/rune_level.html\n"
   },
@@ -2590,8 +5207,46 @@
       "images/objectives/take_rya/4.png",
       "images/objectives/take_rya/5.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/rya",
+            "text": "Rya"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du må bli transportert av Rya til Volcano Manor. Dette er ikke det samme som å få brevet."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Rya"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/rya_hand.html\n"
   },
@@ -2612,8 +5267,46 @@
       "Hvor kan du finne Sacred Tears?",
       "Du finner full oversikt her ved å filtrere på \"Sacred Tear\" under \"Items\":MapGenie"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Sacred+Tear",
+            "text": "Sacred Tear"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er IKKE antallet flasker som teller, men hva flasken er i \"+\" hver gang du bruker flaskene."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Sacread Tear"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/sacred_flask_pluss.html\n"
   },
@@ -2640,8 +5333,49 @@
       "Du får Bloodhounds Fang ved å drepe bossenBloodhound Knight Darriwili en evergaol i Limegrave. Du ser hvor evergaolen er på kartet under. Du trenger ikke en stonesword key hit.",
       "images/objectives/sell_blood_fang/limegrave.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/bloodhound's+fang",
+            "text": "Bloodhound's Fang"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det holder ikke å ha våpenet, eller å discarde det, du må SELGE det.",
+            "Du KAN bruke våpenet før du selger det, men pass på at hvis du oppgraderer våpenet så teller ikke denne ruten lenger da det ikke lenger er et +0 våpen."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Bloodhounds Fang",
+          "Bloodhound Knight Darriwil"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/sell_bloodhounds_fang.html\n"
   },
@@ -2662,8 +5396,46 @@
       "Det aller letteste vil være å få tak i Smithing-Stone Miner's Bell Bearing [1] og [2], da du trenger Smithing stone [3] for å få våpenet til level 9. Du kan lese om hvor du finner disse i linken til venstre.",
       "Du kan selvfølgelig finne smithing stones \"in the wild\" også. Du finner full oversikt her ved å filtrere på \"Smithing Stone\" under \"Materials\":MapGenie"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Upgrades",
+            "text": "Upgrades"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du må ikke bruke våpenet, du trenger bare å ha et +9 smithing våpen i ditt inventory. Men du kan selvfælgelig bruke det også."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Smithing Stone [3]"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/smithing_weapon_level.html\n"
   },
@@ -2688,8 +5460,46 @@
       "Det aller letteste vil være å få tak i Somberstone Miner's Bell Bearing [1] og [2], da du trenger Somberstone [4] for å få våpenet til level 6. Du kan lese om hvor du finner disse i linken til venstre.",
       "Du kan selvfølgelig finne somberstones \"in the wild\" også. Du finner full oversikt her ved å filtrere på \"Smithing Stone\" under \"Materials\":MapGenie"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Upgrades",
+            "text": "Upgrades"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du må ikke bruke våpenet, du trenger bare å ha et +6 somber våpen i ditt inventory. Men du kan selvfælgelig bruke det også."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Somberstone [4]"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/somber_weapon_level.html\n"
   },
@@ -2713,8 +5523,46 @@
         "Eller ved å finne gloveworth \"in the wild\". Du finner full oversikt her ved å filtrere på \"Gloveworth\" under \"Materials\":MapGenie"
       ]
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Spirit+Ashes",
+            "text": "Spirit Ashes"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Du trenger ikke å bruke den, men du må ha en spirit ash +3 i inventoriet ditt."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "Glovewort [3]"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/spirit_ash_level.html\n"
   },
@@ -2735,8 +5583,46 @@
       "Den dropper av enTeardrop Scarabsom er lokalisert ca på rødt merke på kartet.",
       "images/objectives/lightning_ram/altus.png"
     ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/ash+of+war:+lightning+ram",
+            "text": "Lightning Ram"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Det er kun sauer du dreper med AoW UTELUKKENDE som teller."
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline"
+        ]
+      ],
+      "content": [
+        [
+          "AoW Lightning Ram"
+        ]
+      ]
+    },
     "tags": [],
-    "images": [],
     "difficulty": "medium",
     "path": "other/use_aow_lightning_ram.html\n"
   }

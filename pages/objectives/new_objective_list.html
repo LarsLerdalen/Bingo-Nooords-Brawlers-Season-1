@@ -18,6 +18,9 @@
 			}
 			#objective-detail {
 				padding-left: 1rem;
+				display: grid;
+				grid-template-columns: 2fr 1fr;
+				gap: 2rem;
 			}
 			#objective-list ul {
 				list-style: none;
@@ -25,6 +28,12 @@
 			}
 			#objective-list li {
 				margin-bottom: 0.5rem;
+			}
+			#side-bar {
+				background-color: #ccc;
+				padding: 10px;
+				border-radius: 4px;
+				height: fit-content;
 			}
 		</style>
 	</head>
@@ -70,7 +79,6 @@
 			</div>
 		</section>
 
-        <!-- Sidebar + Detail Layout -->
         <section class="wrapper style1">
 			<div class="container" id="objectives-layout">
                 <div>
@@ -107,12 +115,15 @@
 		const basePath = "pages/objectives/new_objective_list.html";
 		let objectives = [];
 
+		const filters = [];
+
 		async function fetchObjectives() {
 			if (objectives.length === 0) {
 				const response = await fetch("assets/objective_details.json");
 				objectives = await response.json();
 			}
-			return objectives;
+
+			return objectives.sort((a,b) => a.name.localeCompare(b.name));
 		}
 
 		function clearElement(el) {
@@ -126,6 +137,7 @@
 			clearElement(listContainer);
 
 			const ul = document.createElement("ul");
+			let previousLetter = "?";
 			objectives.forEach(obj => {
 				const li = document.createElement("li");
 				const link = document.createElement("a");
@@ -136,6 +148,14 @@
 					history.pushState({}, "", `${basePath}?id=${obj.id}`);
 					render();
 				});
+				if (previousLetter[0] !== obj.name[0]){
+					const h4 = document.createElement("h4");
+					h4.innerText = obj.name[0];
+					h4.style.marginBlockEnd = "2px";
+					h4.style.marginInlineStart = "10px";
+					ul.appendChild(h4);
+					previousLetter = obj.name[0];
+				}
 				li.appendChild(link);
 				ul.appendChild(li);
 			});
@@ -181,7 +201,80 @@
 				}
 			});
 
+			const handleSidebar = (sidebar, parentElement) => {
+				const sidebarElement = document.createElement("section");
+				for (let i = 0; i < sidebar.type.length; i++) {
+					const article = document.createElement("article");
+					article.style.paddingBlockEnd = "10px";
+					for (let j = 0; j < sidebar.type[i].length; j++) {
+						const t = sidebar.type[i][j];
+						const c = sidebar.content[i][j];
+
+						if (!t || !c) 					
+							continue;
+
+						if (t === "headline") {
+							const header = document.createElement("h4");
+							header.style.marginBlockEnd = "2px";
+							header.textContent = c;
+							article.appendChild(header);
+						} else if (t === "link") {
+							const link = document.createElement("a");
+							link.textContent = c.text;
+							link.href = c.href;
+							link.target = "_blank";
+							article.appendChild(link);
+							link.style.backgroundColor = "white";
+							link.style.padding = "2px";
+							link.style.borderRadius = "4px";
+							link.style.color = "black";
+							link.style.display = "block";
+							link.style.textAlign = "center";
+							link.style.marginBlock = "2px";
+						} else if (t === "list") {
+							const list = document.createElement("ul");
+							if (c.length > 0) {
+								for (let a = 0; a < c.length; a++) {
+									const li = document.createElement("li");
+									li.textContent = c[a];
+									list.appendChild(li);
+								}
+							}
+							article.appendChild(list);
+						} else if (t === "paragraph") {
+							const p = document.createElement("p");
+							p.textContent = c;
+							article.appendChild(p);
+						} else if (t === "image") {
+							const img = document.createElement("img");
+							img.src = c;
+							img.alt = "";
+							img.style.width = "450px";
+							img.style.height = "auto"
+							article.appendChild(img);
+						}
+					}
+
+					sidebarElement.appendChild(article);
+				}
+				parentElement.appendChild(sidebarElement);
+			}
+
+			const side = document.createElement("section");
+			side.style.display = "flex";
+			side.style.flexDirection = "column";
+			side.id = "side-bar"
+			if (obj.sidebar1?.type) {
+				handleSidebar(obj.sidebar1, side);
+			}
+			
+			if (obj.sidebar2?.type) {
+				handleSidebar(obj.sidebar2, side);
+			}
+
+
 			container.appendChild(article);
+			container.appendChild(side);
 		}
 
 		async function render() {
