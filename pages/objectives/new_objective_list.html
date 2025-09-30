@@ -196,6 +196,7 @@
 					const img = document.createElement("img");
 					img.src = obj.content[i];
 					img.alt = "";
+					img.style.maxWidth = "450px";
 					span.appendChild(img);
 					article.appendChild(span);
 				}
@@ -249,7 +250,7 @@
 							const img = document.createElement("img");
 							img.src = c;
 							img.alt = "";
-							img.style.width = "450px";
+							img.style.maxWidth = "250px";
 							img.style.height = "auto"
 							article.appendChild(img);
 						}

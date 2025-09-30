@@ -28,6 +28,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -41,6 +42,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Marika's+Scarseal",
             "text": "Marikas Scarseal"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Radagon's+Scarseal",
+            "text": "Radagons Scarseal"
           }
         ],
         [
@@ -54,18 +59,22 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ],
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Marika's Scarseal"
+          "Marika's Scarseal",
+          "images/objectives/aquire_both_scarseals/marikas_scarseal.webp"
         ],
         [
-          "Radagon's Scarseal"
+          "Radagon's Scarseal",
+          "images/objectives/aquire_both_scarseals/radagons_scarseal.webp"
         ]
       ]
     },
@@ -131,12 +140,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Cracked pots"
+          "Cracked pots",
+          "images/objectives/aquire_cracked_pots/cracked_pot.webp"
         ]
       ]
     },
@@ -251,12 +262,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Fingerslayer blade"
+          "Fingerslayer blade",
+          "images/objectives/aquire_fingerslayer/fingerslayer_blade.webp"
         ]
       ]
     },
@@ -291,6 +304,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -304,6 +318,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Dectus+Medallion+(Right)",
             "text": "Dectus Medallion (Right)"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Dectus+Medallion+(Left)",
+            "text": "Dectus Medallion (Left)"
           }
         ],
         [
@@ -317,12 +335,16 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image",
+          "image"
         ]
       ],
       "content": [
         [
-          "Both halfes"
+          "Both halfes",
+          "images/objectives/aquire_dectus/right.webp",
+          "images/objectives/aquire_dectus/left.webp"
         ]
       ]
     },
@@ -377,12 +399,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Ghost Glovewort Bell Bearing [1]"
+          "Ghost Glovewort Bell Bearing [1]",
+          "images/objectives/aquire_ghost_bearing/ghost.webp"
         ]
       ]
     },
@@ -435,12 +459,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Grave Glovewort Bell Bearing [1]"
+          "Grave Glovewort Bell Bearing [1]",
+          "images/objectives/aquire_grave_bearing/grave_bearing.webp"
         ]
       ]
     },
@@ -504,12 +530,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Imbued Sword Key"
+          "Imbued Sword Key",
+          "images/objectives/aquire_imbued_keys/imbued_key.webp"
         ]
       ]
     },
@@ -620,12 +648,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Memory Stone"
+          "Memory Stone",
+          "images/objectives/aquire_mem_stones/mem_stone.webp"
         ]
       ]
     },
@@ -678,12 +708,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Crystal Tears"
+          "Crystal Tears",
+          "images/objectives/aquire_crystal_tears/flask_of_physics.webp"
         ]
       ]
     },
@@ -736,12 +768,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Ritual pots"
+          "Ritual pots",
+          "images/objectives/aquire_ritual_pots/ritual_pot.png"
         ]
       ]
     },
@@ -870,12 +904,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Marika's Scarseal"
+          "Marika's Scarseal",
+          "images/objectives/aquire_margit_shackle/shackle.webp"
         ]
       ]
     },
@@ -935,12 +971,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Smithing stone bell bearing"
+          "Smithing stone bell bearing",
+          "images/objectives/aquire_smithing_bearing/smithing_bearing.webp"
         ]
       ]
     },
@@ -1186,12 +1224,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Whetblades"
+          "Whetblades",
+          "images/objectives/aquire_whetblades/whetblade.webp"
         ]
       ]
     },
@@ -1487,12 +1527,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Bell Bearing Hunters"
+          "Bell Bearing Hunters",
+          "images/objectives/kill_bell_bearing/bellbearinghunter.webp"
         ]
       ]
     },
@@ -2007,13 +2049,10 @@
       "headline",
       "paragraph",
       "headline",
-      "headline",
       "paragraph",
       "list",
-      "headline",
       "paragraph",
       "list",
-      "headline",
       "paragraph",
       "list",
       "image",
@@ -2025,7 +2064,6 @@
       "Hva skal til for å kunne claime ruten?",
       "Du må ha drept 3 bosser som rir på hest i løpet av fighten.",
       "Hvor kan du finne bosser på hest?",
-      "Nights Cavalry",
       "Markert med rødt. Husk at disse kun dukker opp på natta.",
       [
         "[1]: En er på brua i Limgrave",
@@ -2036,14 +2074,12 @@
         "[6]: En rett ved starten av veien på Altus etter å ha tatt Grand lift of Dectus heisen opp til Altus",
         "[7]: En på brua i Dragonbarrow (den brua som IKKE har en drage). Denne er veldig tøff."
       ],
-      "Tree sentinals",
       "Markert med blått.",
       [
         "[8]: En er rett etter du kommer ut i Limgrave når du starter spillet",
         "[9]: Det er to stk (en duo fight) på Altus.Denne teller som 2 mot denne ruta!Men husk at du må klare begge i samme fight for at bossfighten regnes som \"over\".",
         "[10]: Det er en Draconic Tree Sentinal der du går inn til Leyndell"
       ],
-      "Andre bosser",
       "Markert med gult.",
       [
         "[11]: Radahn rir på stakkars Leonard, så Radahn teller!",
@@ -2058,6 +2094,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -2071,6 +2108,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Night's+Cavalry",
             "text": "Night's Cavalry"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Tree+Sentinel",
+            "text": "Tree Sentinel"
           }
         ],
         [
@@ -2093,16 +2134,12 @@
       "headline",
       "paragraph",
       "headline",
-      "headline",
       "paragraph",
       "list",
-      "headline",
       "paragraph",
       "list",
-      "headline",
       "paragraph",
       "list",
-      "headline",
       "paragraph",
       "list",
       "image",
@@ -2115,14 +2152,12 @@
       "Hva skal til for å kunne claime ruten?",
       "Du må ha drept 3 bosser som har \"tree\" i navnet.",
       "Hvor kan du finne bosser med \"tree\" i navnet?",
-      "Tree sentinals",
       "Markert med blått.",
       [
         "[1]: En er rett etter du kommer ut i Limgrave når du starter spillet",
         "[2]: Det er to stk (en duo fight) på Altus.Denne teller som 1 mot denne ruta!",
         "[3]: Det er en Draconic Tree Sentinal der du går inn til Leyndell"
       ],
-      "Erdtree burial Watchdogs",
       "Markert med gult.",
       [
         "[4]: En er i Stormfoot catacombs",
@@ -2131,7 +2166,6 @@
         "[7]: Det er to stk (en duo fight) i Minor Erdtree catacombs i Caelid.Denne teller som 1 mot denne ruta!",
         "[8]: En er i Wyndham catacombs"
       ],
-      "Tree spirits",
       "Markert med rødt.",
       [
         "[9]:Lesser Ulcerated Tree Spiritfinnes langt ned i Stormveil Castle, nordvest.",
@@ -2139,7 +2173,6 @@
         "[11]: Det er en hvis du fortsetter veien ned forbi Volcano Manor ved Minor Erdtree i Mount Gelmir",
         "[12]:Putrid Tree Spiritfinnes iThe War-Dead Catacombs. Du må drepe Radahn for å komme deg hit."
       ],
-      "Erdtree avatars",
       "Markert med grønt.",
       [
         "[13]: Det er en ved minor erdtree i Weeping Peninsula",
@@ -2157,6 +2190,9 @@
       "type": [
         [
           "headline",
+          "link",
+          "link",
+          "link",
           "link"
         ],
         [
@@ -2170,6 +2206,18 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Tree+Sentinel",
             "text": "Tree Sentinel"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Erdtree+Burial+Watchdog",
+            "text": "Erdtree Burial Watchdog"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Ulcerated+Tree+Spirit",
+            "text": "Ulcerated Tree Spirit"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Erdtree+Avatar",
+            "text": "Erdtree Avatar"
           }
         ],
         [
@@ -2369,6 +2417,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -2382,6 +2431,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/deathbird",
             "text": "Deathbird"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Death+Rite+Bird",
+            "text": "Death Rite Bird"
           }
         ],
         [
@@ -2396,13 +2449,17 @@
       "type": [
         [
           "headline",
-          "headline"
+          "image",
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
           "Deathbird",
-          "Death Rite Bird"
+          "images/objectives/kill_deathbird/deathbird.png",
+          "Death Rite Bird",
+          "images/objectives/kill_deathbird/deathrite_bird.webp"
         ]
       ]
     },
@@ -2515,6 +2572,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -2528,6 +2586,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/dragonkin+soldier",
             "text": "Dragonkin Soldier"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Dragonkin+Soldier+of+Nokstella",
+            "text": "Dragonkin Soldier of Nokstella"
           }
         ],
         [
@@ -3195,6 +3257,9 @@
       "type": [
         [
           "headline",
+          "link",
+          "link",
+          "link",
           "link"
         ],
         [
@@ -3208,6 +3273,18 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Light+Bows",
             "text": "Light Bows"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Bows",
+            "text": "Bows"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Greatbows",
+            "text": "Great Bows"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Crossbows",
+            "text": "Crossbows"
           }
         ],
         [
@@ -3250,6 +3327,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -3263,6 +3341,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Colossal+Swords",
             "text": "Colossal Swords"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Colossal+Weapons",
+            "text": "Colossal Weapons"
           }
         ],
         [
@@ -3561,12 +3643,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Crystallians"
+          "Crystallians",
+          "images/objectives/clear_crystal/Crystalians.png"
         ]
       ]
     },
@@ -3627,12 +3711,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Resurrection Painting"
+          "Resurrection Painting",
+          "images/objectives/collect_painting/paint.webp"
         ]
       ]
     },
@@ -3685,12 +3771,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Perfume bottle"
+          "Perfume bottle",
+          "images/objectives/collect_perfume_bottles/perfume.png"
         ]
       ]
     },
@@ -3774,12 +3862,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Hero grave icon"
+          "Hero grave icon",
+          "images/objectives/complete_hero_grave/hero_grave.webp"
         ]
       ]
     },
@@ -3874,12 +3964,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Catacomb icon"
+          "Catacomb icon",
+          "images/objectives/complete_catacombs/catacomb.webp"
         ]
       ]
     },
@@ -3982,12 +4074,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Cave/grotto icon"
+          "Cave/grotto icon",
+          "images/objectives/complete_caves/cave.webp"
         ]
       ]
     },
@@ -4040,12 +4134,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Evergaol"
+          "Evergaol",
+          "images/objectives/complete_evergaol/evergaol.webp"
         ]
       ]
     },
@@ -4109,12 +4205,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Volcano Manor letter"
+          "Volcano Manor letter",
+          "images/objectives/complete_letter/letter.png"
         ]
       ]
     },
@@ -4204,12 +4302,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Tunnel icon"
+          "Tunnel icon",
+          "images/objectives/complete_tunnel/tunnel.webp"
         ]
       ]
     },
@@ -4264,12 +4364,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Wandering Mausoleum"
+          "Wandering Mausoleum",
+          "images/objectives/dupe_remem/wandering_maus.webp"
         ]
       ]
     },
@@ -4294,6 +4396,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -4307,6 +4410,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Faith",
             "text": "Faith"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Rebirth",
+            "text": "Rebirth"
           }
         ],
         [
@@ -4342,6 +4449,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -4355,6 +4463,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Deathroot",
             "text": "Deathroot"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman",
+            "text": "Gurranq"
           }
         ],
         [
@@ -4369,13 +4481,17 @@
       "type": [
         [
           "headline",
-          "headline"
+          "image",
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
           "Deathroot",
-          "Gurranq"
+          "images/objectives/feed_gurranq/deathroot.webp",
+          "Gurranq",
+          "images/objectives/feed_gurranq/gurranqbeast.jpg"
         ]
       ]
     },
@@ -4431,13 +4547,17 @@
       "type": [
         [
           "headline",
-          "headline"
+          "image",
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
           "Ruptured Crystal Tear",
-          "Erdtree Avatar"
+          "images/objectives/finish_explosive/ruptured_crystal_tear.png",
+          "Erdtree Avatar",
+          "images/objectives/finish_explosive/erdtree_avatar.webp"
         ]
       ]
     },
@@ -4466,6 +4586,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -4479,6 +4600,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Flask+of+Crimson+Tears",
             "text": "Crimson Flask"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Flask+of+Cerulean+Tears",
+            "text": "Cerulean Flask"
           }
         ],
         [
@@ -4493,13 +4618,17 @@
       "type": [
         [
           "headline",
-          "headline"
+          "image",
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
           "Crimson Flask",
-          "Cerulean Flask"
+          "images/objectives/flask_charges/crimson.webp",
+          "Cerulean Flask",
+          "images/objectives/flask_charges/cerulean.webp"
         ]
       ]
     },
@@ -4560,13 +4689,17 @@
       "type": [
         [
           "headline",
-          "headline"
+          "image",
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
           "Boc the Seamster",
-          "Sewing needle"
+          "images/objectives/give_boc_needle/boc.jpg",
+          "Sewing needle",
+          "images/objectives/give_boc_needle/sewing_needle.webp"
         ]
       ]
     },
@@ -4591,6 +4724,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -4604,6 +4738,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Intelligence",
             "text": "Intelligence"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Rebirth",
+            "text": "Rebirth"
           }
         ],
         [
@@ -4643,6 +4781,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -4656,6 +4795,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Magnus+the+Beast+Claw",
             "text": "Magnus the Beast Claw"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Festering+Bloody+Finger",
+            "text": "Festering Bloody Finger"
           }
         ],
         [
@@ -4669,12 +4812,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Magnus the Beast Claw"
+          "Magnus the Beast Claw",
+          "images/objectives/invade_magnus/magnus.png"
         ]
       ]
     },
@@ -4766,6 +4911,7 @@
       "type": [
         [
           "headline",
+          "link",
           "link"
         ],
         [
@@ -4779,6 +4925,10 @@
           {
             "href": "https://eldenring.wiki.fextralife.com/Magic+Spells",
             "text": "Sorceries"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Sorceress+Sellen",
+            "text": "Sorceress Sellen"
           }
         ],
         [
@@ -4843,12 +4993,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Memory of Grace"
+          "Memory of Grace",
+          "images/objectives/memory_of_grace/memory_of_grace.webp"
         ]
       ]
     },
@@ -4913,12 +5065,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Godrick's Great Rune"
+          "Godrick's Great Rune",
+          "images/objectives/restore_runes/godrick_rune.png"
         ]
       ]
     },
@@ -4983,12 +5137,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Radahn's Great Rune"
+          "Radahn's Great Rune",
+          "images/objectives/restore_runes/radahn_rune.png"
         ]
       ]
     },
@@ -5053,12 +5209,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Rykard's Great Rune"
+          "Rykard's Great Rune",
+          "images/objectives/restore_runes/rykard_rune.png"
         ]
       ]
     },
@@ -5114,13 +5272,17 @@
       "type": [
         [
           "headline",
-          "headline"
+          "image",
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
           "Thops",
-          "Glinstone Academy Key"
+          "images/objectives/return_key/thops.webp",
+          "Glinstone Academy Key",
+          "images/objectives/return_key/key.png"
         ]
       ]
     },
@@ -5237,12 +5399,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Rya"
+          "Rya",
+          "images/objectives/take_rya/rya.webp"
         ]
       ]
     },
@@ -5297,12 +5461,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Sacread Tear"
+          "Sacread Tear",
+          "images/objectives/sacred_tear/sacred_tear.webp"
         ]
       ]
     },
@@ -5365,13 +5531,17 @@
       "type": [
         [
           "headline",
-          "headline"
+          "image",
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
           "Bloodhounds Fang",
-          "Bloodhound Knight Darriwil"
+          "images/objectives/sell_blood_fang/blood_fang.jpg",
+          "Bloodhound Knight Darriwil",
+          "images/objectives/sell_blood_fang/darriwil.webp"
         ]
       ]
     },
@@ -5426,12 +5596,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Smithing Stone [3]"
+          "Smithing Stone [3]",
+          "images/objectives/smithing_stone_weapon/smithing_stone.webp"
         ]
       ]
     },
@@ -5490,12 +5662,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Somberstone [4]"
+          "Somberstone [4]",
+          "images/objectives/somberstone_weapon/somber_4.png"
         ]
       ]
     },
@@ -5553,12 +5727,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "Glovewort [3]"
+          "Glovewort [3]",
+          "images/objectives/spirit_ash/glovewort.webp"
         ]
       ]
     },
@@ -5613,12 +5789,14 @@
     "sidebar2": {
       "type": [
         [
-          "headline"
+          "headline",
+          "image"
         ]
       ],
       "content": [
         [
-          "AoW Lightning Ram"
+          "AoW Lightning Ram",
+          "images/objectives/lightning_ram/lig_ram.png"
         ]
       ]
     },

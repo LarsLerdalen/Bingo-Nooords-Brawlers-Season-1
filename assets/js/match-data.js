@@ -1,4 +1,9 @@
 (function() {
+  function convertTime(timeString) {
+    const n = timeString.split(":").map(Number);
+    return n[0] * 3600 + n[1] * 60 + n[2];
+  }
+
   function getLeaderboard(data) {
     const leaderboard = {};
 
@@ -8,16 +13,19 @@
         G: 0,
         W: 0,
         L: 0,
+        D: 0,
         P: 0,
         S: 0,
         Ln: 0,
-        WR: "0%"
+        T: "2:00:00",
+        WR: "0%",
+        Victims: []
       };
     });
   
     data.games.forEach(gw => {
       gw.matches.forEach(match => {
-        const { player1, player2,  player1Score, player2Score, bingo, bingoWinner } = match;
+        const { player1, player2,  player1Score, player2Score, bingo, bingoWinner, time } = match;
 
         if (player1Score === null || player2Score === null) return; 
   
@@ -26,18 +34,30 @@
   
         leaderboard[player1].S += player1Score;
         leaderboard[player2].S += player2Score;
-  
-        leaderboard[player1].P += player1Score;
-        leaderboard[player2].P += player2Score;
 
         let winner;
         let loser;
+
+        const addWindLose = (winner, loser) => {
+          leaderboard[loser].L++;
+          leaderboard[winner].W++;
+          leaderboard[winner].P += 3;
+          leaderboard[winner].Victims.push(loser);
+          if (time && convertTime(time) < convertTime(leaderboard[winner].T)) {
+            leaderboard[winner].T = time
+          }
+        }
         
         if (bingo) {
           winner = bingoWinner;
           loser = bingoWinner === player1 ? player2 : player1;
           leaderboard[bingoWinner].Ln++;
-          leaderboard[bingoWinner].P += 2;
+          addWindLose(winner,loser);
+        } else if (player1Score === player2Score) {
+          leaderboard[player1].P +=1;
+          leaderboard[player2].P +=1;
+          leaderboard[player1].D +=1;
+          leaderboard[player2].D +=1;
         } else {
           winner = player1Score > player2Score 
           ? player1 
@@ -48,12 +68,8 @@
           ? player2 
           : player1Score < player2Score 
           ? player1 : null;
+          addWindLose(winner,loser);
         }
-        
-        if (winner && loser) {
-          leaderboard[loser].L++;
-          leaderboard[winner].W++;
-        } 
       });
     });
   
@@ -62,10 +78,16 @@
     });
   
     return Object.values(leaderboard).sort((a, b) => {
-      const wrA = parseInt(a.WR);
-      const wrB = parseInt(b.WR);
-      if (wrA !== wrB) return wrB - wrA; 
-      return b.P - a.P; 
+      const first = b.P - a.P; 
+      if (first !== 0) return first;
+
+      if (a.Victims.includes(b.id)) return -1;
+      if (b.Victims.includes(a.id)) return 1;
+
+      const third = b.Ln - a.Ln;
+      if (third) return third;
+
+      return b.T - a.T;
     });
   }
   
@@ -79,10 +101,22 @@
       }))
     );
   }
+  
+  function formatTime(ms) {
+    let totalSeconds = Math.floor(ms / 1000);
+    let hours = Math.floor(totalSeconds / 3600);
+    let minutes = Math.floor((totalSeconds % 3600) / 60);
+    let seconds = totalSeconds % 60;
+  
+    return [hours, minutes, seconds]
+      .map(v => String(v).padStart(2, "0"))
+      .join(":");
+  }
 
   window.bingoFunctions = {
     getLeaderboard,
-    getAllMatches  
+    getAllMatches,
+    formatTime
   }
 })()
   
