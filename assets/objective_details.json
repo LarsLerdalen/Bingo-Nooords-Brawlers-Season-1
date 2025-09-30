@@ -5803,5 +5803,74 @@
     "tags": [],
     "difficulty": "medium",
     "path": "other/use_aow_lightning_ram.html\n"
+  },
+  {
+    "id": 84,
+    "name": "Aquire repaired unalloyed gold needle",
+    "type": [
+      "headline",
+      "paragraph"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      "Du må drepe O'Neil, og gi nåla til han snåle mannen i hytta utenfor downtown Sellia "
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Unalloyed+Gold+Needle",
+            "text": "Unalloyed Gold Needle"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            "Nei"
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [],
+      "content": []
+    },
+    "tags": ["sellia", "late", "Swamp of Aeonia", "caelid"],
+    "difficulty": "hard",
+    "path": ""
+  },
+  {
+    "id": 85,
+    "name": "Kill Eleonora invader",
+    "type": [
+      "headline",
+      "paragraph"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      "Drep a Elenora"
+    ],
+    "sidebar1": {
+      "type": [],
+      "content": []
+    },
+    "sidebar2": {
+      "type": [],
+      "content": []
+    },
+    "tags": [],
+    "difficulty": "medium",
+    "path": ""
   }
 ]
