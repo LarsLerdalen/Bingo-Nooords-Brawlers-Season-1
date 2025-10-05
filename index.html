@@ -78,8 +78,9 @@
 				            </table>
 				        </div>
 							<p class="table-legend" style="text-align: center;">
-							  <strong>G</strong> - Games | <strong>W</strong> - Wins | <strong>L</strong> - Losses |
-							  <strong>P</strong> - Points | <strong>S</strong> - Squares | <strong>Ln</strong> - Lines |
+							  <strong>G</strong> - Games | <strong>W</strong> - Wins | <strong>L</strong> - Losses | <strong>D</strong> - Draws |
+							  <strong>P</strong> - Points | <strong>S</strong> - Squares | <strong>Ln</strong> - Lines | 
+							  <strong>T</strong> - Best Time |
 							  <strong>WR</strong> - Win Rate
 							</p>	
 					</div>
@@ -178,9 +179,11 @@
 				const tbody = document.createElement("tbody");
 				scoreBoard.forEach(row => {
 					const tr = document.createElement("tr");
-					Object.values(row).forEach(value => {
+					Object.keys(row).forEach(key => {
 						const td = document.createElement("td");
-						td.textContent = value;
+						// if (key === "P") td.style.backgroundColor = "rgba(173, 216, 230, 0.3)";
+						if (key === "P") td.style.backgroundColor = "rgba(173, 216, 230, 0.3)";
+						td.textContent = row[key];
 						tr.appendChild(td);
 					});
 					tbody.appendChild(tr);
