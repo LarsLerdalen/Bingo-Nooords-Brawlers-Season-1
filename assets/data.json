@@ -21,7 +21,7 @@
             "player2Score": 10,
             "bingo": true,
             "bingoWinner": "Jarem",
-            "time": "2:00:00"
+            "time": "1:55:58"
           },
           {
             "id": 2,
@@ -31,7 +31,7 @@
             "player2Score": 5,
             "bingo": true,
             "bingoWinner": "Lerdalen",
-            "time": "2:00:00"
+            "time": "1:45:27"
           },
           {
             "id": 3,
@@ -58,7 +58,7 @@
             "player2Score": 15,
             "bingo": true,
             "bingoWinner": "Jarem",
-            "time": "2:00:00"
+            "time": "1:49:38"
           },
           {
             "id": 5,
@@ -78,7 +78,7 @@
             "player2Score": 2,
             "bingo": true,
             "bingoWinner": "Lerdalen",
-            "time": "2:00:00"
+            "time": "1:56:10"
           }
         ]
       },
