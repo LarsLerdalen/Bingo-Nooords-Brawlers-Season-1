@@ -1,5 +1,5 @@
 (function() {
-  function convertTime(timeString) {
+  function convertTimeStringToSeconds(timeString) {
     const n = timeString.split(":").map(Number);
     return n[0] * 3600 + n[1] * 60 + n[2];
   }
@@ -43,7 +43,7 @@
           leaderboard[winner].W++;
           leaderboard[winner].P += 3;
           leaderboard[winner].Victims.push(loser);
-          if (time && convertTime(time) < convertTime(leaderboard[winner].T)) {
+          if (time && convertTimeStringToSeconds(time) < convertTimeStringToSeconds(leaderboard[winner].T)) {
             leaderboard[winner].T = time
           }
         }
@@ -87,7 +87,7 @@
       const third = b.Ln - a.Ln;
       if (third) return third;
 
-      return b.T - a.T;
+      return convertTimeStringToSeconds(b.T) - convertTimeStringToSeconds(a.T);
     });
   }
   
@@ -101,22 +101,10 @@
       }))
     );
   }
-  
-  function formatTime(ms) {
-    let totalSeconds = Math.floor(ms / 1000);
-    let hours = Math.floor(totalSeconds / 3600);
-    let minutes = Math.floor((totalSeconds % 3600) / 60);
-    let seconds = totalSeconds % 60;
-  
-    return [hours, minutes, seconds]
-      .map(v => String(v).padStart(2, "0"))
-      .join(":");
-  }
 
   window.bingoFunctions = {
     getLeaderboard,
     getAllMatches,
-    formatTime
   }
 })()
   
