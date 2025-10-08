@@ -15,16 +15,6 @@
         "matches": [
           {
             "id": 1,
-            "player1": "Hunter",
-            "player2": "Jarem",
-            "player1Score": 0,
-            "player2Score": 10,
-            "bingo": true,
-            "bingoWinner": "Jarem",
-            "time": "1:55:58"
-          },
-          {
-            "id": 2,
             "player1": "Lerdalen",
             "player2": "Knapperholen",
             "player1Score": 11,
@@ -34,7 +24,7 @@
             "time": "1:45:27"
           },
           {
-            "id": 3,
+            "id": 2,
             "player1": "Wetterstad",
             "player2": "Karlsen",
             "player1Score": 2,
@@ -51,7 +41,7 @@
         "dates": "8. sep : 28. sep",
         "matches": [
           {
-            "id": 4,
+            "id": 3,
             "player1": "Karlsen",
             "player2": "Jarem",
             "player1Score": 2,
@@ -61,17 +51,7 @@
             "time": "1:49:38"
           },
           {
-            "id": 5,
-            "player1": "Hunter",
-            "player2": "Knapperholen",
-            "player1Score": null,
-            "player2Score": null,
-            "bingo": false,
-            "bingoWinner": null,
-            "time": null
-          },
-          {
-            "id": 6,
+            "id": 4,
             "player1": "Lerdalen",
             "player2": "Wetterstad",
             "player1Score": 16,
@@ -88,7 +68,7 @@
         "dates": "29. sep : 19. oct",
         "matches": [
           {
-            "id": 7,
+            "id": 5,
             "player1": "Knapperholen",
             "player2": "Karlsen",
             "player1Score": null,
@@ -98,18 +78,8 @@
             "time": null
           },
           {
-            "id": 8,
+            "id": 6,
             "player1": "Jarem",
-            "player2": "Wetterstad",
-            "player1Score": null,
-            "player2Score": null,
-            "bingo": false,
-            "bingoWinner": null,
-            "time": null
-          },
-          {
-            "id": 9,
-            "player1": "Hunter",
             "player2": "Lerdalen",
             "player1Score": null,
             "player2Score": null,
@@ -125,18 +95,8 @@
         "dates": "20. oct : 9. nov",
         "matches": [
           {
-            "id": 10,
+            "id": 7,
             "player1": "Jarem",
-            "player2": "Lerdalen",
-            "player1Score": null,
-            "player2Score": null,
-            "bingo": false,
-            "bingoWinner": null,
-            "time": null
-          },
-          {
-            "id": 11,
-            "player1": "Knapperholen",
             "player2": "Wetterstad",
             "player1Score": null,
             "player2Score": null,
@@ -145,9 +105,19 @@
             "time": null
           },
           {
-            "id": 12,
-            "player1": "Karlsen",
-            "player2": "Hunter",
+            "id": 8,
+            "player1": "Knapperholen",
+            "player2": "Jarem",
+            "player1Score": null,
+            "player2Score": null,
+            "bingo": false,
+            "bingoWinner": null,
+            "time": null
+          },
+          {
+            "id": 9,
+            "player1": "Lerdalen",
+            "player2": "Karlsen",
             "player1Score": null,
             "player2Score": null,
             "bingo": false,
@@ -162,29 +132,9 @@
         "dates": "10. nov : 30. nov",
         "matches": [
           {
-            "id": 13,
-            "player1": "Hunter",
-            "player2": "Wetterstad",
-            "player1Score": null,
-            "player2Score": null,
-            "bingo": false,
-            "bingoWinner": null,
-            "time": null
-          },
-          {
-            "id": 14,
-            "player1": "Lerdalen",
-            "player2": "Karlsen",
-            "player1Score": null,
-            "player2Score": null,
-            "bingo": false,
-            "bingoWinner": null,
-            "time": null
-          },
-          {
-            "id": 15,
+            "id": 10,
             "player1": "Knapperholen",
-            "player2": "Jarem",
+            "player2": "Wetterstad",
             "player1Score": null,
             "player2Score": null,
             "bingo": false,
