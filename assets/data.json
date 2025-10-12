@@ -81,11 +81,11 @@
             "id": 6,
             "player1": "Jarem",
             "player2": "Lerdalen",
-            "player1Score": null,
-            "player2Score": null,
+            "player1Score": 9,
+            "player2Score": 11,
             "bingo": false,
             "bingoWinner": null,
-            "time": null
+            "time": "2:00:00"
           }
         ]
       },
