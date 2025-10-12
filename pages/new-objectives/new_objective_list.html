@@ -115,6 +115,11 @@
 			if (objectives.length === 0) {
 				const response = await fetch("assets/objective_details.json");
 				objectives = await response.json();
+				
+				const handicapResponse = await fetch("assets/hand_objectives.json");
+				const handicapList = await handicapResponse.json();
+
+				objectives = [...objectives, ...handicapList];
 			}
 
 			return objectives.sort((a,b) => a.name.toLocaleLowerCase().localeCompare(b.name.toLocaleLowerCase()));
