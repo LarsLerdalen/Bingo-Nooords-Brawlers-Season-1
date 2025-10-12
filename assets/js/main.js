@@ -87,6 +87,7 @@
 	  const navIdMap = {
 		"": "home-nav",
 		"player_page": "player-page-nav",
+		"new-objectives": "new-objectives-nav",
 		"objectives": "objectives-nav",
 		"spectator_page": "spectator-nav",
 		"setup": "setup-nav"
