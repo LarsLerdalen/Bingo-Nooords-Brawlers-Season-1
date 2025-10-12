@@ -126,6 +126,28 @@
 			}
 		}
 
+		function generateListFromJSON(data) {
+			const ul = document.createElement("ul");
+
+			data.forEach((item) => {
+				const li = document.createElement("li");
+
+				if (item.text) {
+					li.innerHTML = item.text;
+				}
+
+				if (item.children && item.children.length > 0) {
+					const childUl = generateListFromJSON(item.children);
+					li.appendChild(childUl);
+				}
+
+				ul.appendChild(li);
+			});
+
+			return ul;
+		}
+
+
 		function buildObjectiveList() {
 			const listContainer = document.getElementById("objective-list");
 			clearElement(listContainer);
@@ -176,19 +198,20 @@
 			obj.type.forEach((t, i) => {
 				if (t === "headline") {
 					const h3 = document.createElement("h3");
-					h3.textContent = obj.content[i];
+					h3.innerHTML = obj.content[i];
 					article.appendChild(h3);
 				} else if (t === "paragraph") {
 					const p = document.createElement("p");
-					p.textContent = obj.content[i];
+					p.innerHTML = obj.content[i];
 					article.appendChild(p);
 				} else if (t === "list") {
-					const ul = document.createElement("ul");
-					obj.content[i].forEach(item => {
-						const li = document.createElement("li");
-						li.textContent = item;
-						ul.appendChild(li);
-					});
+					// const ul = document.createElement("ul");
+					// obj.content[i].forEach(item => {
+					// 	const li = document.createElement("li");
+					// 	li.textContent = item;
+					// 	ul.appendChild(li);
+					// });
+					const ul = generateListFromJSON(obj.content[i])
 					article.appendChild(ul);
 				} else if (t === "image") {
 					const span = document.createElement("span");
@@ -233,15 +256,8 @@
 							link.style.textAlign = "center";
 							link.style.marginBlock = "2px";
 						} else if (t === "list") {
-							const list = document.createElement("ul");
-							if (c.length > 0) {
-								for (let a = 0; a < c.length; a++) {
-									const li = document.createElement("li");
-									li.textContent = c[a];
-									list.appendChild(li);
-								}
-							}
-							article.appendChild(list);
+							const ul = generateListFromJSON(c)
+							article.appendChild(ul);
 						} else if (t === "paragraph") {
 							const p = document.createElement("p");
 							p.textContent = c;
