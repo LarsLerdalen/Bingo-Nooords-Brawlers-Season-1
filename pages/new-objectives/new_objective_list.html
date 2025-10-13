@@ -76,6 +76,15 @@
         <section class="wrapper style1">
 			<div class="container" id="objectives-layout">
                 <div>
+					<div>
+						<label for="category">Kategori:</label>
+						<select id="category" name="category">
+							<option value="all" selected>Alle oppdrag</option>
+							<option value="handicap">Retard oppdrag</option>
+							<option value="base">Kule oppdrag</option>
+						</select>
+					</div>
+
                     <h3>All Objectives</h3>
                     <div id="objective-list"
                         style="min-height: 800px; max-height: 1200px; overflow-y: scroll; background-color: #f7f7f7; border-radius: 2px;"
@@ -111,19 +120,30 @@
 
 		const filters = [];
 
-		async function fetchObjectives() {
-			if (objectives.length === 0) {
-				const response = await fetch("assets/objective_details.json");
-				objectives = await response.json();
-				
-				const handicapResponse = await fetch("assets/hand_objectives.json");
-				const handicapList = await handicapResponse.json();
+		async function fetchObjectives(sources) {
+			objectives = []
 
-				objectives = [...objectives, ...handicapList];
+			if (sources.length) {
+				for (const src of sources) {
+					const response = await fetch(src);
+					const list = await response.json();
+					objectives = [...objectives, ...list];
+				}
 			}
 
 			return objectives.sort((a,b) => a.name.toLocaleLowerCase().localeCompare(b.name.toLocaleLowerCase()));
 		}
+
+		const select = document.querySelector('select');
+		select.addEventListener('change', (e) => {
+			console.log(e.target.value)
+			switch (e.target.value) {
+				case "all": render(); break;
+				case "handicap": render(["assets/hand_objectives.json"]); break;
+				case "base": render(["assets/objective_details.json"]); break;
+				default: console.warn("Hva faen?!")
+			}
+		});
 
 		function clearElement(el) {
 			while (el.firstChild) {
@@ -299,8 +319,10 @@
 			container.appendChild(side);
 		}
 
-		async function render() {
-			await fetchObjectives();
+		async function render(sources) {
+			if (!sources?.length) sources = ["assets/objective_details.json", "assets/hand_objectives.json"];
+
+			await fetchObjectives(sources);
 			buildObjectiveList();
 
 			const params = new URLSearchParams(window.location.search);
