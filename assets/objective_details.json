@@ -185,6 +185,7 @@
       "headline",
       "list",
       "headline",
+      "list",
       "list"
     ],
     "content": [
@@ -196,6 +197,12 @@
         }
       ],
       "Hvor kan du finne de?",
+      [
+        {
+          "text": "Du kan finne oversikten her ved å filtrer på \"Remembrance\" under \"Key Items\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>",
+          "level": 0
+        }
+      ],
       [
         {
           "text": "Legger også ved en liste her med link til de forskjellige bossene som gir remembrances, men kun for de jeg anser som \"reelle kandidater\":",
@@ -791,7 +798,8 @@
     "type": [
       "headline",
       "list",
-      "headline"
+      "headline",
+      "list"
     ],
     "content": [
       "Hva skal til for å kunne claime ruten?",
@@ -801,7 +809,13 @@
           "level": 0
         }
       ],
-      "Hvor kan du finne de?"
+      "Hvor kan du finne de?",
+      [
+        {
+          "text": "Du kan finne oversikten her ved å filtrer på \"Crystal Tear\" under \"Items\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>",
+          "level": 0
+        }
+      ]
     ],
     "sidebar1": {
       "type": [
@@ -857,7 +871,8 @@
     "type": [
       "headline",
       "list",
-      "headline"
+      "headline",
+      "list"
     ],
     "content": [
       "Hva skal til for å kunne claime ruten?",
@@ -867,7 +882,13 @@
           "level": 0
         }
       ],
-      "Hvor kan du finne de?"
+      "Hvor kan du finne de?",
+      [
+        {
+          "text": "Du kan finne oversikten her ved å filtrer på \"Ritual pot\" under \"Key Items\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>",
+          "level": 0
+        }
+      ]
     ],
     "sidebar1": {
       "type": [
@@ -1441,7 +1462,8 @@
     "type": [
       "headline",
       "list",
-      "headline"
+      "headline",
+      "list"
     ],
     "content": [
       "Hva skal til for å kunne claime ruten?",
@@ -1451,7 +1473,13 @@
           "level": 0
         }
       ],
-      "Hvor kan du finne de?"
+      "Hvor kan du finne de?",
+      [
+        {
+          "text": "Du kan finne oversikten her ved å filtrer på \"Whetblade\" under \"Key Items\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>",
+          "level": 0
+        }
+      ]
     ],
     "sidebar1": {
       "type": [
@@ -3978,7 +4006,7 @@
       "headline",
       "paragraph",
       "headline",
-      "paragraph",
+      "list",
       "image",
       "image"
     ],
@@ -3986,7 +4014,20 @@
       "Hva skal til for å kunne claime ruten?",
       "Du må drepe en Fallingstar Beast.",
       "Hvor kan du finne Fallingstar Beast?",
-      "\n<li>[1]: Det er en som er sluttbossen i Sellia Crystal Tunnel.</li>\n<li>[2]: Det er en i krateret på Altus.</li>\n<li>[3]: Det er en i krateret på toppen av Mount Gelmir, men dette er en fullgrown versjon og derfor tøffere.</li>\n",
+      [
+        {
+          "text": "[1]: Det er en som er sluttbossen i Sellia Crystal Tunnel.",
+          "level": 0
+        },
+        {
+          "text": "[2]: Det er en i krateret på Altus.",
+          "level": 0
+        },
+        {
+          "text": "[3]: Det er en i krateret på toppen av Mount Gelmir, men dette er en fullgrown versjon og derfor tøffere.",
+          "level": 0
+        }
+      ],
       "images/objectives/kill_fallingstar_beast/3.png",
       "images/objectives/kill_fallingstar_beast/5.png"
     ],
@@ -5376,6 +5417,7 @@
     "type": [
       "headline",
       "paragraph",
+      "list",
       "headline",
       "paragraph",
       "list",
@@ -5391,6 +5433,12 @@
     "content": [
       "Hva skal til for å kunne claime ruten?",
       "Du må ha fullført 2 stk catacomb dungeons. Fullført betyr at du må ha drept sluttbossen i catacomben. ",
+      [
+        {
+          "text": "Pass på at noen catacombs kan ha secret bosser og sidebosser. Det er kun sluttbossen som telles mot å ha fullført catcomben. Disse bossene vil alltid være bak døra du åpner ved å bruke en leaver.",
+          "level": 0
+        }
+      ],
       "Hvor kan du finne de?",
       "Under har jeg lagt ved en oversikt over alle catacombs, caves, tunnels og graves. Det er kun catacombs som jeg går inn i detalj på denne siden, så hvis du vil lese mer om de andre kan du finne de her:",
       [
@@ -6264,7 +6312,8 @@
           "link"
         ],
         [
-          "headline"
+          "headline",
+          "list"
         ]
       ],
       "content": [
@@ -6276,7 +6325,17 @@
           }
         ],
         [
-          "Viktige avklaringer"
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Du må drepe bossen MED physics flasken, du kan ikke bare bruke den for å deale litt damage også drepe bossen på vanlig måte etter. Physics flasken må være \"the killing blow\".",
+              "level": 0
+            },
+            {
+              "text": "Husk også definisjonen på boss, den må ha en healthbar!",
+              "level": 0
+            }
+          ]
         ]
       ]
     },
