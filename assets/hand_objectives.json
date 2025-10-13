@@ -1965,15 +1965,29 @@
     "name": "Kill Festering Fingerprint Vyke",
     "type": [
       "headline",
+      "list",
+      "headline",
       "list"
     ],
     "content": [
       "Hva skal til for å kunne claime ruten?",
       [
         {
-          "text": "Info her.",
+          "text": "Drep <a href=\"https://eldenring.wiki.fextralife.com/Festering+Fingerprint+Vyke\">Festering Fingerprint Vyke</a>",
           "level": 0
         }
+      ],
+      "Hvor finner jeg han?",
+      [
+        {
+          "text": "Han spawner like ved <a href=\"https://eldenring.wiki.fextralife.com/Church+of+Inhibition\">Church of Inhibition</a>",
+          "children": [
+            {
+              "text": "Denne kirken er nord i Liurnia."
+            }
+          ]
+        }
+        
       ]
     ],
     "sidebar1": {
@@ -1991,8 +2005,8 @@
         [
           "Les mer på Fextralife",
           {
-            "href": "",
-            "text": ""
+            "href": "https://eldenring.wiki.fextralife.com/Festering+Fingerprint+Vyke",
+            "text": "Festering fingerprint Vyke"
           }
         ],
         [
