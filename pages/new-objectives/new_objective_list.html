@@ -13,6 +13,7 @@
 				gap: 2rem;
 			}
 			#objective-list {
+				width: 350px;
 				border-right: 1px solid #ccc;
 				padding-right: 1rem;
 			}
@@ -35,6 +36,37 @@
 				border-radius: 4px;
 				height: fit-content;
 			}
+			.styled-select {
+				appearance: none;              /* Remove default arrow (Chrome, Safari) */
+				-moz-appearance: none;         /* Remove default arrow (Firefox) */
+				-webkit-appearance: none;
+
+				background-color: #fff;
+				border: 1px solid #ccc;
+				border-radius: 0.5rem;
+				padding: 0.5rem 2.5rem 0.5rem 0.75rem;
+				font-size: 1rem;
+				font-family: inherit;
+				color: #333;
+				cursor: pointer;
+				transition: border-color 0.2s ease, box-shadow 0.2s ease;
+				background-image: url("data:image/svg+xml;charset=UTF-8,<svg xmlns='http://www.w3.org/2000/svg' fill='%23333' viewBox='0 0 20 20'><path d='M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.27a.75.75 0 01.02-1.06z'/></svg>");
+				background-repeat: no-repeat;
+				background-position: right 0.75rem center;
+				background-size: 1rem;
+				margin-bottom: 1rem;
+				}
+
+				.styled-select:hover {
+				border-color: #888;
+				}
+
+				.styled-select:focus {
+				outline: none;
+				border-color: #2563eb;
+				box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3); /* blue focus ring */
+				}
+
 		</style>
 	</head>
 	<body class="is-preload">
@@ -78,10 +110,10 @@
                 <div>
 					<div>
 						<label for="category">Kategori:</label>
-						<select id="category" name="category">
+						<select class="styled-select" id="category" name="category">
 							<option value="all" selected>Alle oppdrag</option>
-							<option value="handicap">Retard oppdrag</option>
-							<option value="base">Kule oppdrag</option>
+							<option value="handicap">Forenkla oppdrag</option>
+							<option value="base">Orginale oppdrag</option>
 						</select>
 					</div>
 
@@ -115,35 +147,43 @@
 
 		<!-- Dynamic Objective Script -->
 		<script>
-		const basePath = "pages/objectives/new_objective_list.html";
+		const basePath = "pages/new-objectives/new_objective_list.html";
 		let objectives = [];
-
+		let needToUpdate = true;
 		const filters = [];
 
-		async function fetchObjectives(sources) {
-			objectives = []
+		const select = document.querySelector('select');
+		select.value = window.localStorage.getItem("category") ?? "all";
 
-			if (sources.length) {
+		select.addEventListener('change', (e) => {
+			needToUpdate = true;
+			window.localStorage.setItem("category", e.target.value)
+			render()
+		});
+
+		async function fetchObjectives(sources) {
+			if (needToUpdate) {
+				objectives = [];
 				for (const src of sources) {
 					const response = await fetch(src);
 					const list = await response.json();
 					objectives = [...objectives, ...list];
 				}
+				needToUpdate = false;
 			}
 
 			return objectives.sort((a,b) => a.name.toLocaleLowerCase().localeCompare(b.name.toLocaleLowerCase()));
 		}
 
-		const select = document.querySelector('select');
-		select.addEventListener('change', (e) => {
-			console.log(e.target.value)
-			switch (e.target.value) {
-				case "all": render(); break;
-				case "handicap": render(["assets/hand_objectives.json"]); break;
-				case "base": render(["assets/objective_details.json"]); break;
+		function getSources() {
+			category = window.localStorage.getItem("category") ?? "all";
+			switch (category) {
+				case "all": return ["assets/objective_details.json", "assets/hand_objectives.json"];
+				case "handicap": return ["assets/hand_objectives.json"];
+				case "base": return ["assets/objective_details.json"];
 				default: console.warn("Hva faen?!")
 			}
-		});
+		}
 
 		function clearElement(el) {
 			while (el.firstChild) {
@@ -186,7 +226,7 @@
 				link.textContent = obj.name;
 				link.addEventListener("click", (e) => {
 					e.preventDefault();
-					history.pushState({}, "", `${basePath}?id=${obj.id}`);
+					history.pushState({}, "", `${basePath}#id=${obj.id}`);
 					render();
 				});
 				if (previousLetter[0] !== obj.name[0]){
@@ -201,12 +241,6 @@
 				ul.appendChild(li);
 			});
 			listContainer.appendChild(ul);
-		}
-
-		function handeList(listContent, parent) {
-			for (const c of listContent) {
-				
-			}
 		}
 
 		function showObjectiveDetail(obj) {
@@ -319,14 +353,18 @@
 			container.appendChild(side);
 		}
 
-		async function render(sources) {
+		async function render() {
+			const sources = getSources();
 			if (!sources?.length) sources = ["assets/objective_details.json", "assets/hand_objectives.json"];
 
 			await fetchObjectives(sources);
 			buildObjectiveList();
 
-			const params = new URLSearchParams(window.location.search);
+			const hash = window.location.hash.substring(1); 
+			const params = new URLSearchParams(hash);
 			const id = params.get("id");
+			// const params = new URLSearchParams(window.location.search);
+			// const id = params.get("id");
 
 			if (!id) {
 				// Clear detail view if none selected
