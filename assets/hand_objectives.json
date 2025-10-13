@@ -1,19 +1,30 @@
 [
   {
     "id": 200,
-    "name": "Acquire a",
+    "name": "Acquire 7 Cracked Pots",
     "type": [
       "headline",
-      "list"
+      "paragraph",
+      "headline",
+      "paragraph",
+      "paragraph",
+      "paragraph",
+      "image",
+      "image",
+      "image",
+      "image"
     ],
     "content": [
       "Hva skal til for å kunne claime ruten?",
-      [
-        {
-          "text": "Info her.",
-          "level": 0
-        }
-      ]
+      "Du må ha 7 stk cracked pots i ditt inventory. Du kan benytte disse underveis.",
+      "Hvor kan du finne de?",
+      "Merk her at de blå markerne er merchants, mens de røde er locations hvor du kan finne cracked pots \"in the wild\". Tallet på markøren viser hvor mange du kan finne/kjøpe.",
+      "Husk at du også kan starte runnet med en cracked pot som keepsake!",
+      "Du kan også finne mer info per cracked pot her ved å filtrere på \"Key Items\" og \"Cracked pot\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>",
+      "images/objectives/aquire_cracked_pots/2.png",
+      "images/objectives/aquire_cracked_pots/3.png",
+      "images/objectives/aquire_cracked_pots/4.png",
+      "images/objectives/aquire_cracked_pots/5.png"
     ],
     "sidebar1": {
       "type": [
@@ -30,15 +41,19 @@
         [
           "Les mer på Fextralife",
           {
-            "href": "",
-            "text": ""
+            "href": "https://eldenring.wiki.fextralife.com/Cracked+Pot",
+            "text": "Cracked Pot"
           }
         ],
         [
           "Viktige avklaringer",
           [
             {
-              "text": "Viktige avklaringer her",
+              "text": "Det er forskjell på Ritual pots og cracked pots. Kun cracked pots teller mot dette objektivet!",
+              "level": 0
+            },
+            {
+              "text": "Cracked pot som keepsake teller her.",
               "level": 0
             }
           ]
@@ -54,27 +69,39 @@
       ],
       "content": [
         [
-          "Placeholder overskift",
-          "images/placeholder.webp"
+          "Cracked pots",
+          "images/objectives/aquire_cracked_pots/cracked_pot.webp"
         ]
       ]
     },
     "tags": [],
     "difficulty": "medium",
-    "path": ""
+    "path": "aquire/aquire_cracked_pots.html\n"
   },
   {
     "id": 201,
     "name": "Acquire repaired unalloyed gold needle",
     "type": [
       "headline",
+      "paragraph",
+      "headline",
       "list"
     ],
     "content": [
       "Hva skal til for å kunne claime ruten?",
+      "Du må ha fått \"Repaired unalloyed gold needle\" i ditt inventory. Det holder ikke med kun \"Unalloyed gold needle\".",
+      "Hvordan får du tak i \"Repaired unalloyed gold needle\"?",
       [
         {
-          "text": "Info her.",
+          "text": "Først må du snakke med <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Gowry\" target=\"_blank\">Gowry</a> som ber deg om en tjeneste.",
+          "level": 0
+        },
+        {
+          "text": "Drep <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Commander+O'Neil\" target=\"_blank\">Commander O'Neil</a> for å få tak i \"Unalloyed gold needle\".",
+          "level": 0
+        },
+        {
+          "text": "Reis tilbake til Gowry og gi han \"Unalloyed gold needle\". Rest ved et grace, gå tilbake, snakk med han igjen og du vil få \"Repaired unalloyed gold needle\".",
           "level": 0
         }
       ]
@@ -94,15 +121,15 @@
         [
           "Les mer på Fextralife",
           {
-            "href": "",
-            "text": ""
+            "href": "https://eldenring.wiki.fextralife.com/millicent",
+            "text": "Milicent."
           }
         ],
         [
           "Viktige avklaringer",
           [
             {
-              "text": "Viktige avklaringer her",
+              "text": "Det holder IKKE med \"Unalloyed gold needle\", du må ha \"Repaired unalloyed gold needle\" for å claime denne ruten.",
               "level": 0
             }
           ]
@@ -132,13 +159,17 @@
     "name": "Acquire an Amber Starlight",
     "type": [
       "headline",
+      "paragraph",
+      "headline",
       "list"
     ],
     "content": [
       "Hva skal til for å kunne claime ruten?",
+      "Du må ha en Amber starlight i ditt inventory.",
+      "Hvor kan du finne Amber starlight?",
       [
         {
-          "text": "Info her.",
+          "text": "Du finner Amber starlight kun et sted, og det er på Altus. Les <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/amber+starlight\" target=\"_blank\">her</a> for å få mer info.",
           "level": 0
         }
       ]
@@ -158,15 +189,15 @@
         [
           "Les mer på Fextralife",
           {
-            "href": "",
-            "text": ""
+            "href": "https://eldenring.wiki.fextralife.com/amber+starlight",
+            "text": "Amber Starlight"
           }
         ],
         [
           "Viktige avklaringer",
           [
             {
-              "text": "Viktige avklaringer her",
+              "text": "Ingen",
               "level": 0
             }
           ]
@@ -196,13 +227,17 @@
     "name": "Acquire a Red-Hot Whetblade",
     "type": [
       "headline",
+      "paragraph",
+      "headline",
       "list"
     ],
     "content": [
       "Hva skal til for å kunne claime ruten?",
+      "Du må ha Red-Hot Whetblade i ditt inventory.",
+      "Hvor kan du finne Red-Hot Whetblade?",
       [
         {
-          "text": "Info her.",
+          "text": "Du finner Red-Hot Whetblade kun et sted, og det er i <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/redmane+castle\" target=\"_blank\">Redmane Castle</a> (Radahn Castle). Husk at Radahn sin festival IKKE kan være aktiv for at du skal ha tilgang til itemet. Les her: <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/red-hot+whetblade\" target=\"_blank\">Red-Hot Whetblade</a> for å få mer info om nøyaktig hvor den ligger.",
           "level": 0
         }
       ]
@@ -222,32 +257,18 @@
         [
           "Les mer på Fextralife",
           {
-            "href": "",
-            "text": ""
+            "href": "https://eldenring.wiki.fextralife.com/red-hot+whetblade",
+            "text": "Red-Hot Whetblade"
           }
         ],
         [
           "Viktige avklaringer",
           [
             {
-              "text": "Viktige avklaringer her",
+              "text": "Red-Hot Whetblade er en Whetblade og teller derfor også mot Whetblade ruta.",
               "level": 0
             }
           ]
-        ]
-      ]
-    },
-    "sidebar2": {
-      "type": [
-        [
-          "headline",
-          "image"
-        ]
-      ],
-      "content": [
-        [
-          "Placeholder overskift",
-          "images/placeholder.webp"
         ]
       ]
     },
@@ -2068,5 +2089,1149 @@
     "tags": [],
     "difficulty": "medium",
     "path": ""
+  },
+    {
+    "id": 236,
+    "name": "25 Faith",
+    "type": [
+      "headline",
+      "paragraph",
+      "headline",
+      "list", 
+      "paragraph"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      "Når du går inn på \"Status\" i menyen din for å se dine levels, så må Faith være 25 eller høyere. Dette betyr at du kan benytte alle buffs tilgjengelig som talismaner, physick flask tears og annet for å oppnå 25 faith, selv om det kun er midlertidig.",
+      "Tips",
+      [
+        {
+          "text": "Her finner du faith talisman som gir +5 faith: <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/two+fingers+heirloom\" target=\"_blank\">Two Fingers Heirloom</a>",
+          "level": 0
+        },
+        {
+          "text": "Her finner du faith crystal tear som gir +10 faith: <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/faith-knot+crystal+tear\" target=\"_blank\">Two Fingers Heirloom</a>",
+          "level": 0
+        }
+      ]
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Faith",
+            "text": "Faith"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Du kan bruke midlertidige og permanente buffs!",
+              "level": 0
+            },
+            {
+              "text": "Du kan gjøre rebirth både før og etter (rebirth er når du endrer stats på characteren din hos Rennala).",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "tags": [],
+    "difficulty": "medium",
+    "path": ""
+  },
+    {
+    "id": 237,
+    "name": "25 Intelligence",
+    "type": [
+      "headline",
+      "paragraph",
+      "headline",
+      "list", 
+      "paragraph"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      "Når du går inn på \"Status\" i menyen din for å se dine levels, så må Intelligence være 25 eller høyere. Dette betyr at du kan benytte alle buffs tilgjengelig som talismaner, physick flask tears og annet for å oppnå 25 intelligence, selv om det kun er midlertidig.",
+      "Tips",
+      [
+        {
+          "text": "Her finner du intelligence crystal tear som gir +10 intelligence: <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/intelligence-knot+crystal+tear\" target=\"_blank\">Intelligence Knot Crystal Tear</a>",
+          "level": 0
+        }
+      ]
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Intelligence",
+            "text": "Intelligence"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Du kan bruke midlertidige og permanente buffs!",
+              "level": 0
+            },
+            {
+              "text": "Du kan gjøre rebirth både før og etter (rebirth er når du endrer stats på characteren din hos Rennala).",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "tags": [],
+    "difficulty": "medium",
+    "path": ""
+  },
+  {
+    "id": 238,
+    "name": "Acquire 1 Imbued Sword Key",
+    "type": [
+      "headline",
+      "list",
+      "headline",
+      "list",
+      "image",
+      "image"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      [
+        {
+          "text": "Du skal ha hentet 1 Imbued Sword key.",
+          "level": 0
+        }
+      ],
+      "Hvor kan du finne de?",
+      [
+        {
+          "text": "En er på toppen av The four Belfries i Liurnia",
+          "level": 0
+        },
+        {
+          "text": "Den andre er på toppen av et tårn i Academy of Raya Lucaria",
+          "level": 0
+        },
+        {
+          "text": "Den tredje er i Sellia Town of Sorcery. Her må du tenne de 3 flammene i Sellia for å få tilgang",
+          "level": 0
+        }
+      ],
+      "images/objectives/aquire_imbued_keys/caelid.png",
+      "images/objectives/aquire_imbued_keys/liurnia.png"
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/imbued+sword+key",
+            "text": "Imbued sword key"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Kun IMBUED sword keys teller, ikke vanlige sword keys.",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Imbued Sword Key",
+          "images/objectives/aquire_imbued_keys/imbued_key.webp"
+        ]
+      ]
+    },
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_imbued_keys.html\n"
+  },
+  {
+    "id": 239,
+    "name": "Acquire 1 legendary armament",
+    "type": [
+      "headline",
+      "list",
+      "headline",
+      "list",
+      "image",
+      "image",
+      "image",
+      "image"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      [
+        {
+          "text": "Du må ha plukket opp 1 legendarisk armament. Merk dere at det finnes 9 totalt men jeg har kun listet opp de 5 her som er \"reelle kandidater\" i et game.",
+          "level": 0
+        }
+      ],
+      "Hvor kan du finne de?",
+      [
+        {
+          "text": "[1] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Ruins+Greatsword\" target=\"_blank\">Ruins Greatsword</a> får du ved å drepe bossen <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Crucible+Knight+and+Misbegotten+Warrior\" target=\"_blank\">Curcible Knight and Leonine Misbegotten</a>.",
+          "children": [
+            {
+              "text": "Obs, bossfighten er kun tilgjengelig FØR festivalen og ETTER du har drept Radahn!",
+              "level": 1
+            }
+          ],
+          "level": 0
+        },
+        {
+          "text": "[2] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Grafted+Blade+Greatsword\" target=\"_blank\">Grafted Blade Greatsword</a> får du ved å drepe bossen <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Leonine+Misbegotten\" target=\"_blank\">Leonine Misbegotten</a>.",
+          "level": 0
+        },
+        {
+          "text": "[3] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Sword+of+Night+and+Flame\" target=\"_blank\">Sword of Night and Flame</a> finner du i en kiste i Caria Manor.",
+          "level": 0
+        },
+        {
+          "text": "[4] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Marais+Executioner's+Sword\" target=\"_blank\">Marais Executioner's Sword</a> får du ved å drepe bossen <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Elemer+of+the+Briar\" target=\"_blank\">Elemer of the Briar</a>.",
+          "level": 0
+        },
+        {
+          "text": "[5] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Devourer's+Scepter\" target=\"_blank\">Devourer's Scepter</a> får du ved å enten drepe eller fullføre questlinen til <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Knight+Bernahl\" target=\"_blank\">Knight Bernahl</a>.",
+          "level": 0
+        }
+      ],
+      "images/objectives/aquire_legendary_armaments/2.png",
+      "images/objectives/aquire_legendary_armaments/3.png",
+      "images/objectives/aquire_legendary_armaments/4.png",
+      "images/objectives/aquire_legendary_armaments/5.png"
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Det er kun armaments som teller mot \"Legendary armaments\" achievementen i spillet som teller her. Det er derfor 9 stk totalt, men det er flere som har attributten \"legendary\". Hvis du er i tvil er det kun de på denne siden her som teller.",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_legendary_arm.html\n"
+  },
+  {
+    "id": 240,
+    "name": "Acquire 2 Memory Stones",
+    "type": [
+      "headline",
+      "list",
+      "headline",
+      "list"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      [
+        {
+          "text": "Du skal ha 2 Memory Stones i ditt inventory.",
+          "level": 0
+        }
+      ],
+      "Hvor kan du finne de?",
+      [
+        {
+          "text": "Husk at du kan kjøpe en i Roundtable hold!",
+          "level": 0
+        },
+        {
+          "text": "Resten kan du finne her ved å filtrer på \"Memory Stone\" under \"Key Items\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>",
+          "level": 0
+        }
+      ]
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/memory+stone",
+            "text": "Memory Stones"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Ingen avklaringer nødvendig",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Memory Stone",
+          "images/objectives/aquire_mem_stones/mem_stone.webp"
+        ]
+      ]
+    },
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_memory_stones.html\n"
+  },
+  {
+    "id": 241,
+    "name": "Acquire 2 Whetblades",
+    "type": [
+      "headline",
+      "list",
+      "headline",
+      "list"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      [
+        {
+          "text": "Du skal ha 2 stk Whetblades i ditt inventory.",
+          "level": 0
+        }
+      ],
+      "Hvor kan du finne de?",
+      [
+        {
+          "text": "Du kan finne oversikten her ved å filtrer på \"Whetblade\" under \"Key Items\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>",
+          "level": 0
+        }
+      ]
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Whetblades",
+            "text": "Whetblades"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Ingen avklaringer nødvendig.",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Whetblades",
+          "images/objectives/aquire_whetblades/whetblade.webp"
+        ]
+      ]
+    },
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_whetblades.html\n"
+  },
+  {
+    "id": 242,
+    "name": "Acquire 2 different Remembrances",
+    "type": [
+      "headline",
+      "list",
+      "headline",
+      "list",
+      "list"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      [
+        {
+          "text": "Du må ha fått 2 stk forskjellige remembrances. Det er viktig her at du må ha selve itemet, det holder ikke å drepe bossen! Dupe en remembrance for en ekstra teller heller ikke da det må være forskjellige remembrancer!",
+          "level": 0
+        }
+      ],
+      "Hvor kan du finne de?",
+      [
+        {
+          "text": "Du kan finne oversikten her ved å filtrer på \"Remembrance\" under \"Key Items\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>",
+          "level": 0
+        }
+      ],
+      [
+        {
+          "text": "Legger også ved en liste her med link til de forskjellige bossene som gir remembrances, men kun for de jeg anser som \"reelle kandidater\":",
+          "children": [
+            {
+              "text": "[1] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Godrick+the+Grafted\" target=\"_blank\">Godrick the Grafted</a>",
+              "level": 1
+            },
+            {
+              "text": "[2] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Rennala+Queen+of+the+Full+Moon\" target=\"_blank\">Rennala, Queen of the full Moon</a>",
+              "level": 1
+            },
+            {
+              "text": "[3] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Starscourge+Radahn\" target=\"_blank\">Starscourge Radahn</a>",
+              "level": 1
+            },
+            {
+              "text": "[4] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Regal+Ancestor+Spirit\" target=\"_blank\">Regal Ancestor Spirit</a>",
+              "children": [
+                {
+                  "text": "Obs, husk at dette er den versjonen som du får tilgang til ETTER du har drept Radahn, IKKE den som er ved å ta heisen ned til Siofra River",
+                  "level": 2
+                }
+              ],
+              "level": 1
+            },
+            {
+              "text": "[5] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Rykard,+Lord+of+Blasphemy\" target=\"_blank\">Rykard, Lord of Blasphemy</a>",
+              "level": 1
+            }
+          ],
+          "level": 0
+        }
+      ]
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Remembrance",
+            "text": "Remembrances"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Det holder ikke å drepe bossen, du må passe på at du FÅR remembrancen før du claimer ruta (eller teleporter videre)!",
+              "level": 0
+            },
+            {
+              "text": "Siden du må ha forskjellige remembrancer så vil ikke det å dupe en telle som to. Det må være forskjellige!",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_different_remem.html\n"
+  },
+  {
+    "id": 243,
+    "name": "Acquire 2 different Sacred Seals",
+    "type": [
+      "headline",
+      "paragraph",
+      "headline",
+      "paragraph",
+      "list",
+      "image",
+      "image",
+      "image"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      "Du må ha 2 forskjellige Sacred Seals i inventaret ditt. Sacread Seals er våpen som kan caste incantations.",
+      "Hvor kan du finne de?",
+      "Her kommer bilder og lister av de 6 Sacread Seals som jeg mener er relevante i et run.",
+      [
+        {
+          "text": "[1] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Finger+Seal\" target=\"_blank\">Finger Seal</a> kan du kjøpe i Roundtable hold",
+          "level": 0
+        },
+        {
+          "text": "[2] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Dragon+Communion+Seal\" target=\"_blank\">Dragon Communion Seal</a> finner du i <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Fringefolk+Hero's+Grave\" target=\"_blank\">Fringefolk Hero's Grave</a>.",
+          "children": [
+            {
+              "text": "Obs, du trenger 2 stk Stonesword keys her for å komme inn i rommet!",
+              "level": 1
+            }
+          ],
+          "level": 0
+        },
+        {
+          "text": "[3] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Godslayer's+Seal\" target=\"_blank\">Godslayer's Seal</a> finner du i Stormveil Castle",
+          "children": [
+            {
+              "text": "Obs, du trenger 1 stk Stonesword keys her for å komme inn i rommet!",
+              "level": 1
+            }
+          ],
+          "level": 0
+        },
+        {
+          "text": "[4] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Clawmark+Seal\" target=\"_blank\">Clawmark Seal</a> får du av <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Gurranq+Beast+Clergyman\" target=\"_blank\">Gurranq</a> etter å ha gitt ham en deathroot.",
+          "level": 0
+        },
+        {
+          "text": "[5] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Erdtree+Seal\" target=\"_blank\">Erdtree Seal</a> finner du på et lik i Volcano Manor i nærheten av en Omenkiller fiende.",
+          "level": 0
+        },
+        {
+          "text": "[6] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Golden+Order+Seal\" target=\"_blank\">Golden Order Seal</a> finner du i Minor Erdtree Church på Altus Plateau.",
+          "level": 0
+        }
+      ],
+      "images/objectives/aquire_sacred_seals/limegrave.png",
+      "images/objectives/aquire_sacred_seals/caelid.png",
+      "images/objectives/aquire_sacred_seals/altus.png"
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Sacred+Seals",
+            "text": "Sacred Seals"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Ingen avklaringer nødvendig",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_seals.html\n"
+  },
+  {
+    "id": 244,
+    "name": "Acquire 2 Ritual pots",
+    "type": [
+      "headline",
+      "list",
+      "headline",
+      "list"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      [
+        {
+          "text": "Du skal ha 2 stk Ritual pots i ditt inventory. Du har lov til å bruke de underveis.",
+          "level": 0
+        }
+      ],
+      "Hvor kan du finne de?",
+      [
+        {
+          "text": "Du kan finne oversikten her ved å filtrer på \"Ritual pot\" under \"Key Items\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>",
+          "level": 0
+        }
+      ]
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Ritual+Pot",
+            "text": "Ritual pots"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Det er forskjell på cracked pots og ritual pots. Kun Ritual pots teller her.",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Ritual pots",
+          "images/objectives/aquire_ritual_pots/ritual_pot.png"
+        ]
+      ]
+    },
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_ritual_pots.html\n"
+  },
+  {
+    "id": 245,
+    "name": "Acquire 3 different Glintstone Staves",
+    "type": [
+      "headline",
+      "paragraph",
+      "headline",
+      "paragraph",
+      "paragraph",
+      "image",
+      "image",
+      "image",
+      "image",
+      "list"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      "Du må ha 3 forskjellige Glintstone Staves i inventaret ditt. Glintstone Staves er våpen som kan caste sorceries.",
+      "Hvor kan du finne de?",
+      "Her kommer bilder og lister av de Glintstone Staves som jeg mener er relevante i et run. Jeg har ikke tatt med staves som er random drops fra fiender, da det er ren rng.",
+      "Du kan også finne mer info per staff her ved å søke på \"Glinstone Staff\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>",
+      "images/objectives/aquire_staves/2.png",
+      "images/objectives/aquire_staves/3.png",
+      "images/objectives/aquire_staves/4.png",
+      "images/objectives/aquire_staves/5.png",
+      [
+        {
+          "text": "[1] Obs, ingen staff på nummer 1, glemte det tallet",
+          "level": 0
+        },
+        {
+          "text": "[2] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Demi-Human+Queen's+Staff\" target=\"_blank\">Demi-Human Queen's staff</a>",
+          "level": 0
+        },
+        {
+          "text": "[3] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Glintstone+Staff\" target=\"_blank\">Glintstone Staff</a>",
+          "level": 0
+        },
+        {
+          "text": "[4] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Meteorite+Staff\" target=\"_blank\">Meteorite Staff</a>",
+          "level": 0
+        },
+        {
+          "text": "[5] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Staff+of+Loss\" target=\"_blank\">Staff of Loss</a>",
+          "level": 0
+        },
+        {
+          "text": "[6] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Lusat's+Glintstone+Staff\" target=\"_blank\">Lusat's Glintstone Staff</a>",
+          "level": 0
+        },
+        {
+          "text": "[7] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Astrologer's+Staff\" target=\"_blank\">Astrologer's Staff</a>",
+          "level": 0
+        },
+        {
+          "text": "[8] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Carian+Glintblade+Staff\" target=\"_blank\">Carian Glintblade Staff</a>",
+          "level": 0
+        },
+        {
+          "text": "[9] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Carian+Glintstone+Staff\" target=\"_blank\">Carian Glintstone Staff</a>",
+          "level": 0
+        },
+        {
+          "text": "[10] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Crystal+Staff\" target=\"_blank\">Crystal Staff</a>",
+          "level": 0
+        },
+        {
+          "text": "[11] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Academy+Glintstone+Staff\" target=\"_blank\">Academy Glintstone Staff</a>",
+          "children": [
+            {
+              "text": "Du må drepe Thops for å få denne (eller fullføre questlinen hans)",
+              "level": 1
+            }
+          ],
+          "level": 0
+        },
+        {
+          "text": "[12] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Azur's+Glintstone+Staff\" target=\"_blank\">Azur's Glinstone Staff</a>",
+          "level": 0
+        },
+        {
+          "text": "[13] <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Albinauric+Staff\" target=\"_blank\">Albinauric Staff</a>",
+          "level": 0
+        }
+      ]
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Glintstone+Staffs",
+            "text": "Glintstone Staves"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Ingen avklaringer nødvendig",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_staffs.html\n"
+  },
+  {
+    "id": 246,
+    "name": "Acquire 4 Talismans",
+    "type": [
+      "headline",
+      "paragraph",
+      "list",
+      "headline",
+      "paragraph"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      "Du skal ha 4 stk Talismans i ditt inventory. Du har lov til å bruke de underveis. ",
+      [
+        {
+          "text": "Du kan starte med en talisman som starting gift og du kan kjøpe 2 stk talismaner i Roundtable hold. Alle disse teller mot ruta.",
+          "level": 0
+        }
+      ],
+      "Hvor kan du finne de?",
+      "Du kan finne oversikten her ved å filtrer på \"Talisman\" under \"Equipment\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>"
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Talismans",
+            "text": "Talismans"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "De to talismanene du kan kjøpe i roundtable hold teller.",
+              "level": 0
+            },
+            {
+              "text": "Du kan også starte med en talisman som starting gift, den teller også.",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {},
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_talismans.html\n"
+  },
+  {
+    "id": 247,
+    "name": "Acquire 5 Physick Flask tears",
+    "type": [
+      "headline",
+      "list",
+      "headline",
+      "list"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      [
+        {
+          "text": "Du skal ha 5 stk Physick Flask tears i ditt inventory. Du har lov til å bruke de underveis.",
+          "level": 0
+        }
+      ],
+      "Hvor kan du finne de?",
+      [
+        {
+          "text": "Du kan finne oversikten her ved å filtrer på \"Crystal Tear\" under \"Items\": <a class=\"\" href=\"https://mapgenie.io/elden-ring/maps/the-lands-between\" target=\"_blank\">MapGenie</a>",
+          "level": 0
+        }
+      ]
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Crystal+Tears",
+            "text": "Crystal Tears"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Ingen avklaringer nødvendig.",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Crystal Tears",
+          "images/objectives/aquire_crystal_tears/flask_of_physics.webp"
+        ]
+      ]
+    },
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_physick_flask.html\n"
+  },
+  {
+    "id": 248,
+    "name": "Aquire a Scarseal talisman",
+    "type": [
+      "headline",
+      "list",
+      "headline",
+      "list",
+      "image",
+      "image"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      [
+        {
+          "text": "Du skal ha enten Marika's eller Radagon's Scarseal i ditt inventory.",
+          "level": 0
+        }
+      ],
+      "Hvor kan du finne de?",
+      [
+        {
+          "text": "Radagon's Scarseal får du ved å beseire evergaolen i Weeping Peninsula med Ancient Hero of Zamor bossen (rødt merke på kartet)",
+          "children": [
+            {
+              "text": "Husk at du trenger en Stonesword key for å åpne evergaolen.",
+              "level": 1
+            }
+          ],
+          "level": 0
+        },
+        {
+          "text": "Marika's Scarseal finner du bak Dragonkin Soldier i Siofra River (blått merke på kartet)",
+          "level": 0
+        }
+      ],
+      "images/objectives/aquire_both_scarseals/limegrave.png",
+      "images/objectives/aquire_both_scarseals/8.png"
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Marika's+Scarseal",
+            "text": "Marikas Scarseal"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Radagon's+Scarseal",
+            "text": "Radagons Scarseal"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Sorseals teller ikke mot dette objektivet, kun Scarseals.",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image"
+        ],
+        [
+          "headline",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Marika's Scarseal",
+          "images/objectives/aquire_both_scarseals/marikas_scarseal.webp"
+        ],
+        [
+          "Radagon's Scarseal",
+          "images/objectives/aquire_both_scarseals/radagons_scarseal.webp"
+        ]
+      ]
+    },
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_both_scarseals.html\n"
+  },
+  {
+    "id": 249,
+    "name": "Aquire full Dectus Medallion",
+    "type": [
+      "headline",
+      "list",
+      "headline",
+      "paragraph",
+      "paragraph",
+      "image",
+      "image"
+    ],
+    "content": [
+      "Hva skal til for å kunne claime ruten?",
+      [
+        {
+          "text": "Du må ha både right og left side av Dectus Medallion i ditt inventory. Du trenger ikke å ha brukt den.",
+          "level": 0
+        }
+      ],
+      "Hvor kan du finne de?",
+      "Den venstre medaljongen finner du i Mistwood, og da spesifikt i en kiste i det høyeste tårnet i <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Fort+Haight\" target=\"_blank\">Fort Haight</a>.",
+      "Den høyre medaljongen finner du i Caelid, og da spesifikt i en kiste rett opp den første stigen i <a class=\"\" href=\"https://eldenring.wiki.fextralife.com/Fort+Faroth\" target=\"_blank\">Fort Faroth i Dragonbarrow</a>.",
+      "images/objectives/aquire_dectus/2.png",
+      "images/objectives/aquire_dectus/3.png"
+    ],
+    "sidebar1": {
+      "type": [
+        [
+          "headline",
+          "link",
+          "link"
+        ],
+        [
+          "headline",
+          "list"
+        ]
+      ],
+      "content": [
+        [
+          "Les mer på Fextralife",
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Dectus+Medallion+(Right)",
+            "text": "Dectus Medallion (Right)"
+          },
+          {
+            "href": "https://eldenring.wiki.fextralife.com/Dectus+Medallion+(Left)",
+            "text": "Dectus Medallion (Left)"
+          }
+        ],
+        [
+          "Viktige avklaringer",
+          [
+            {
+              "text": "Denne er identisk til original ruta.",
+              "level": 0
+            },
+            {
+              "text": "Du trenger ikke å ha brukt medaljongen, det holder å ha den i ditt inventory.",
+              "level": 0
+            }
+          ]
+        ]
+      ]
+    },
+    "sidebar2": {
+      "type": [
+        [
+          "headline",
+          "image",
+          "image"
+        ]
+      ],
+      "content": [
+        [
+          "Both halfes",
+          "images/objectives/aquire_dectus/right.webp",
+          "images/objectives/aquire_dectus/left.webp"
+        ]
+      ]
+    },
+    "tags": [],
+    "difficulty": "medium",
+    "path": "aquire/aquire_full_dectus_med.html\n"
   }
+  
 ]
