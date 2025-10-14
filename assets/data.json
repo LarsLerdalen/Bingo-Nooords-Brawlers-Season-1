@@ -71,11 +71,11 @@
             "id": 5,
             "player1": "Knapperholen",
             "player2": "Karlsen",
-            "player1Score": null,
-            "player2Score": null,
-            "bingo": false,
-            "bingoWinner": null,
-            "time": null
+            "player1Score": 3,
+            "player2Score": 6,
+            "bingo": true,
+            "bingoWinner": "Karlsen",
+            "time": "01:05:14"
           },
           {
             "id": 6,
