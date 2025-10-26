@@ -108,11 +108,11 @@
             "id": 8,
             "player1": "Knapperholen",
             "player2": "Jarem",
-            "player1Score": null,
-            "player2Score": null,
-            "bingo": false,
-            "bingoWinner": null,
-            "time": null
+            "player1Score": 6,
+            "player2Score": 11,
+            "bingo": true,
+            "bingoWinner": "Jarem",
+            "time": "1:39:25"
           },
           {
             "id": 9,
