@@ -325,20 +325,6 @@
         ]
       ]
     },
-    "sidebar2": {
-      "type": [
-        [
-          "headline",
-          "image"
-        ]
-      ],
-      "content": [
-        [
-          "Placeholder overskift",
-          "images/placeholder.webp"
-        ]
-      ]
-    },
     "tags": [],
     "difficulty": "medium",
     "path": ""
