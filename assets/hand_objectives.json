@@ -278,19 +278,22 @@
   },
   {
     "id": 204,
-    "name": "Finish off a boss having used Exposive Physic",
+    "name": "Finish off a boss having used Explosive Physic",
     "type": [
       "headline",
-      "list"
+      "paragraph",
+      "headline",
+      "paragraph",
+      "image",
+      "image"
     ],
     "content": [
       "Hva skal til for å kunne claime ruten?",
-      [
-        {
-          "text": "Info her.",
-          "level": 0
-        }
-      ]
+      "Physic flasken trenger IKKE å være the killing blow, du trenger bare å ha brukt den i løpet av fighten. Du gjør dette ved å equippe en Ruptured Crystal Tear. Flaska dealer 800 holy damage etter 3.2 sekunder med en radius på 2m (aka du må stå helt intill). Husk at du også dealer 300 damage til deg selv. Tips her er å bruke denne på en av bossene i de første cavene/catacombsene du kommer til i Limegrave, men den kan brukes på hvilken som helst boss.",
+      "Hvor kan du finne physics flask og Ruptured Crystal Tear?",
+      "Ruptured Crystal Tear får dere ved å drepe en Erdtree Avatar i Liurnia, og er merket med rødt på kartet. Physicks flasken finner dere i en kirke i Limegrave, markert med oransje på kartet.",
+      "images/objectives/finish_explosive/2.png",
+      "images/objectives/finish_explosive/4.png"
     ],
     "sidebar1": {
       "type": [
@@ -307,15 +310,15 @@
         [
           "Les mer på Fextralife",
           {
-            "href": "",
-            "text": ""
+            "href": "https://eldenring.wiki.fextralife.com/Ruptured+Crystal+Tear",
+            "text": "Ruptured Crystal Tear"
           }
         ],
         [
           "Viktige avklaringer",
           [
             {
-              "text": "Viktige avklaringer her",
+              "text": "Physic flasken trenger IKKE å være the killing blow, du trenger bare å ha brukt den i løpet av fighten. Husk også definisjonen på boss, den må ha en healthbar!",
               "level": 0
             }
           ]
