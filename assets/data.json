@@ -118,11 +118,11 @@
             "id": 9,
             "player1": "Lerdalen",
             "player2": "Karlsen",
-            "player1Score": null,
-            "player2Score": null,
-            "bingo": false,
-            "bingoWinner": null,
-            "time": null
+            "player1Score": 10,
+            "player2Score": 7,
+            "bingo": true,
+            "bingoWinner": "Lerdalen",
+            "time": "1:21:17"
           }
         ]
       },
